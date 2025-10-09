@@ -138,6 +138,22 @@
             box-shadow: 0 4px 12px rgba(0,0,0,0.3);
         }
 
+        /* Custom tooltip styling */
+        .vis-tooltip {
+            background: white !important;
+            border: 2px solid #2d5016 !important;
+            border-radius: 8px !important;
+            padding: 12px 16px !important;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2) !important;
+            max-width: 400px !important;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+            color: #495057 !important;
+            line-height: 1.5 !important;
+            white-space: normal !important;
+            word-wrap: break-word !important;
+            font-size: 0.95em !important;
+        }
+
         .event-details {
             margin-top: 20px;
             padding: 20px;
@@ -200,7 +216,7 @@
         <div class="info-panel">
             <h3>About This Timeline</h3>
             <p>This interactive timeline showcases significant events in McCreary family history and the broader Scotch-Irish experience, from medieval Scotland through the Ulster Plantation to American settlement.</p>
-            <p><strong>Instructions:</strong> Click and drag to pan, scroll to zoom, click on events for details.</p>
+            <p><strong>Instructions:</strong> Hover over events to see historical context notes. Click and drag to pan, scroll to zoom, click on events for full details.</p>
             
             <div class="legend">
                 <div class="legend-item">
@@ -258,11 +274,12 @@
                         id: id,
                         content: event.text.headline,
                         start: startDate,
-                        title: event.text.headline,
+                        title: event.notes || event.text.headline, // Use notes for tooltip
                         className: group.replace(/\s+/g, '-').toLowerCase(),
                         style: `background-color: ${categoryColors[group]}; color: white; border-color: ${categoryColors[group]};`,
                         category: group,
-                        eventData: event
+                        eventData: event,
+                        notes: event.notes || ''
                     };
                 });
 
@@ -290,8 +307,23 @@
                 zoomMin: 1000 * 60 * 60 * 24 * 365 * 10, // 10 years
                 zoomMax: 1000 * 60 * 60 * 24 * 365 * 1200, // 1200 years
                 tooltip: {
-                    followMouse: false,
-                    overflowMethod: 'cap'
+                    followMouse: true,
+                    overflowMethod: 'cap',
+                    delay: 300,
+                    template: function(item) {
+                        // Get the item data
+                        const itemData = timelineData.get(item.id);
+                        if (!itemData) return item.content;
+
+                        const notes = itemData.notes || '';
+
+                        // Only show notes, not the headline (which is already visible on the timeline item)
+                        if (notes) {
+                            return notes;
+                        } else {
+                            return ''; // Return empty if no notes
+                        }
+                    }
                 },
                 stack: true,
                 maxHeight: 600,
