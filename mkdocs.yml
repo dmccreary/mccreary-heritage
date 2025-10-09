@@ -8,13 +8,30 @@ edit_uri: 'blob/master/docs'
 
 nav:
   - Home: index.md
-  - Checklist: checklist.md
-  - Code Highlight Test: code-highlight-test.md
+  - Chapters:
+    - Introduction: content/01-introduction/index.md
+    - content/02-family-history-and-genealogy/index.md
+    - content/03-timeline/index.md
+    - content/04-geography/index.md
+    - content/05-education/index.md
+    - content/06-heritage-tourism/index.md
+    - content/07-culture-and-traditions/index.md
+    - content/08-research/index.md
+    - content/09-stories/index.md
+  - Applications & Tools:
+    - List of Applications & Tools: sims/index.md
+    - Timeline Viewer: sims/timeline/index.md
   - Glossary: glossary.md
   - How We Built This Site: how-we-built-this-site.md
   - References: references.md
   - Contact: contact.md
- 
+  - License: license.md
+  - Prompts:
+    - prompts/index.md
+    - prompts/personas.md
+    - prompts/readme.md
+    - prompts/site-layout.md
+
 # CoderDojo Microsite Standards from here down
 
 theme:
