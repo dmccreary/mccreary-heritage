@@ -1,4 +1,4 @@
-# Glossary of Terms
+# Glossary of Terms for the McCreary Family Heritage
 
 This glossary provides definitions for historical, cultural, and genealogical terms used throughout the McCreary family heritage site.
 
