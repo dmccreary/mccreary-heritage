@@ -1,6 +1,8 @@
 # References
 
-1. [McCreary on Wikipedia](https://en.wikipedia.org/wiki/McCreary)
+1. [MacCreary Tartan at tartanregister.gov.uk](https://www.tartanregister.gov.uk/tartanDetails?ref=4881) - note the spelling is different.
+
+1. [McCreary Page on Wikipedia](https://en.wikipedia.org/wiki/McCreary) - this shows links to various people with the surname "McCreary".
 
 Site References
 

@@ -9,15 +9,16 @@ edit_uri: 'blob/master/docs'
 nav:
   - Home: index.md
   - Chapters:
+    - Table of Contents: content/index.md
     - Introduction: content/01-introduction/index.md
-    - content/02-family-history-and-genealogy/index.md
-    - content/03-timeline/index.md
-    - content/04-geography/index.md
-    - content/05-education/index.md
-    - content/06-heritage-tourism/index.md
-    - content/07-culture-and-traditions/index.md
-    - content/08-research/index.md
-    - content/09-stories/index.md
+    - Family History and Genealogy: content/02-family-history-and-genealogy/index.md
+    - Timeline: content/03-timeline/index.md
+    - Geography: content/04-geography/index.md
+    - Education: content/05-education/index.md
+    - Heritage Tourism: content/06-heritage-tourism/index.md
+    - Culture and Traditions: content/07-culture-and-traditions/index.md
+    - Research: content/08-research/index.md
+    - Stories: content/09-stories/index.md
   - Applications & Tools:
     - List of Applications & Tools: sims/index.md
     - Timeline Viewer: sims/timeline/index.md

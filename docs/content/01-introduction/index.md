@@ -6,7 +6,7 @@ If you're reading this, you might be researching your own family history, comple
 
 ## Who Were the McCrearys?
 
-The McCreary surname has its roots in Scotland, though you might see it spelled in different ways: MacCreary, McCreery, McCrory, MacRory, or even Magrory. In Scottish [Gaelic](../glossary.md#gaelic), the name Mac Ruairidh means "son of Rory," with Rory itself meaning "red king." Like many Scottish surnames, it identifies a family's ancestral line and connects them to a particular clan or region.
+The McCreary surname has its roots in Scotland, though you might see it spelled in different ways: MacCreary, McCreery, McCrory, MacRory, or even Magrory. In Scottish [Gaelic](../../glossary#gaelic), the name Mac Ruairidh means "son of Rory," with Rory itself meaning "red king." Like many Scottish surnames, it identifies a family's ancestral line and connects them to a particular clan or region.
 
 The McCrearys were part of Scotland's complex clan system, where extended families lived together, shared resources, and defended common territory. Understanding where your ancestors came from—and why they left—requires looking beyond individual family trees to see the bigger picture of Scottish and Irish history.
 
@@ -22,15 +22,15 @@ The McCreary families originated in Scotland, particularly in the western region
 
 ### 2. Ireland: The Ulster Plantation (1600s-1700s)
 
-Beginning in the early 1600s, the British government implemented a plan called the [Ulster Plantation](../glossary.md#ulster-plantation)—a organized settlement scheme designed to establish Protestant communities in northern Ireland (Ulster). Thousands of Scottish families, including many McCrearys, were offered land and incentives to relocate across the narrow sea to Ireland.
+Beginning in the early 1600s, the British government implemented a plan called the [Ulster Plantation](../../glossary#ulster-plantation)—a organized settlement scheme designed to establish Protestant communities in northern Ireland (Ulster). Thousands of Scottish families, including many McCrearys, were offered land and incentives to relocate across the narrow sea to Ireland.
 
-This migration wasn't simply about seeking better farmland. It was part of a larger political strategy to control Ireland by transplanting loyal Protestant settlers into a predominantly Catholic region. The Scottish settlers who accepted this opportunity—who would become known as the [Scotch-Irish](../glossary.md#scotch-irish) or Ulster Scots—found themselves in a complicated position. They were newcomers in a land where they weren't entirely welcome, caught between their Scottish heritage and their new Irish home.
+This migration wasn't simply about seeking better farmland. It was part of a larger political strategy to control Ireland by transplanting loyal Protestant settlers into a predominantly Catholic region. The Scottish settlers who accepted this opportunity—who would become known as the [Scotch-Irish](../../glossary#scotch-irish) or Ulster Scots—found themselves in a complicated position. They were newcomers in a land where they weren't entirely welcome, caught between their Scottish heritage and their new Irish home.
 
 **[Suggested Image: Illustration or period map of the Ulster Plantation showing townlands and settlements]**
 
 ### 3. North America: The Great Migration (1700s-1800s)
 
-By the early 1700s, life in Ulster had become difficult for many Scotch-Irish families. They faced high rents imposed by English landlords, restrictions on their [Presbyterian](../glossary.md#presbyterian) religious practices, and limited economic opportunities. When they heard about available land in the American colonies, many McCreary families made the momentous decision to cross the Atlantic Ocean—a dangerous journey that typically took six to eight weeks.
+By the early 1700s, life in Ulster had become difficult for many Scotch-Irish families. They faced high rents imposed by English landlords, restrictions on their [Presbyterian](../../glossary#presbyterian) religious practices, and limited economic opportunities. When they heard about available land in the American colonies, many McCreary families made the momentous decision to cross the Atlantic Ocean—a dangerous journey that typically took six to eight weeks.
 
 In North America, McCreary families primarily settled in Pennsylvania, Virginia, North Carolina, South Carolina, and later pushed westward into Tennessee, Kentucky, and beyond. They brought with them their Presbyterian faith, their farming skills, their traditions, and their fierce independence. These qualities would help shape the character of the American frontier.
 
