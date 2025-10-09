@@ -6,7 +6,7 @@ If you're reading this, you might be researching your own family history, comple
 
 ## Who Were the McCrearys?
 
-The McCreary surname has its roots in Scotland, though you might see it spelled in different ways: MacCreary, McCreery, McCrory, MacRory, or even Magrory. In Scottish [Gaelic](../../glossary#gaelic), the name Mac Ruairidh means "son of Rory," with Rory itself meaning "red king." Like many Scottish surnames, it identifies a family's ancestral line and connects them to a particular clan or region.
+The McCreary surname has its roots in Scotland, though you might see it spelled in different ways: MacCreary, McCreery, McCrory, MacRory, or even Magrory. In Scottish [Gaelic](../../glossary/#gaelic), the name Mac Ruairidh means "son of Rory," with Rory itself meaning "red king." Like many Scottish surnames, it identifies a family's ancestral line and connects them to a particular clan or region.
 
 The McCrearys were part of Scotland's complex clan system, where extended families lived together, shared resources, and defended common territory. Understanding where your ancestors came from—and why they left—requires looking beyond individual family trees to see the bigger picture of Scottish and Irish history.
 
