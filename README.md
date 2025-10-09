@@ -7,11 +7,11 @@
 
 A comprehensive website documenting the history, heritage, and genealogy of the McCreary family—from their origins in Scotland, through the Ulster Plantation in Ireland, to their migration and settlement across North America.
 
-## 🌐 Live Site
+## Live Site
 
-Visit the website: **[https://dmccreary.github.io/mccreary-heitage/](https://dmccreary.github.io/mccreary-heitage/)**
+Visit the website: **[https://dmccreary.github.io/mccreary-heritage/](https://dmccreary.github.io/mccreary-heritage/)**
 
-## 📖 About
+## About
 
 This site tells the story of the Scotch-Irish McCreary families spanning over 400 years (1500s-1900s). It serves multiple audiences:
 
@@ -21,7 +21,7 @@ This site tells the story of the Scotch-Irish McCreary families spanning over 40
 - **Academic Researchers** accessing documented sources and scholarly materials
 - **Local Historians** exploring regional settlement patterns
 
-## 🗺️ Content Overview
+## Content Overview
 
 The site covers:
 
@@ -34,7 +34,7 @@ The site covers:
 - **Research & Scholarship** - Academic resources and methodologies
 - **Stories & Biographies** - Personal narratives bringing history to life
 
-## 🚀 Development
+## Development
 
 ### Prerequisites
 
@@ -46,7 +46,7 @@ The site covers:
 
 1. **Clone the repository**
    ```sh
-   git clone https://github.com/dmccreary/mccreary-heitage.git
+   git clone https://github.com/dmccreary/mccreary-heritage.git
    cd mccreary-heitage
    ```
 
@@ -76,10 +76,10 @@ mkdocs gh-deploy
 ```
 Note: This deploys the site but does not commit source code changes. Remember to commit and push your changes separately.
 
-## 📂 Project Structure
+## Project Structure
 
 ```
-mccreary-heitage/
+mccreary-heritage/
 ├── docs/                          # All site content
 │   ├── content/                   # Main content organized in 9 sections
 │   │   ├── 01-introduction/
@@ -103,7 +103,7 @@ mccreary-heitage/
 └── README.md                      # This file
 ```
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! If you have:
 
@@ -114,13 +114,13 @@ Contributions are welcome! If you have:
 
 Please contact Dan McCreary via [LinkedIn](https://www.linkedin.com/in/danmccreary/) or open an issue on GitHub.
 
-## 📜 License
+## License
 
 All content is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)](docs/license.md).
 
 You are free to share and adapt the material for non-commercial purposes, as long as you provide attribution and distribute under the same license.
 
-## 🙏 Acknowledgements
+## Acknowledgements
 
 This site was built using the following excellent open source projects:
 
@@ -146,11 +146,7 @@ This site was built using the following excellent open source projects:
 
 We're grateful to the maintainers and contributors of these projects for making tools like this website possible.
 
-## 📞 Contact
+## Contact
 
 **Dan McCreary**
-Connect on [LinkedIn](https://www.linkedin.com/in/danmccreary/)
-
----
-
-*Last updated: October 2024*
+Connect with Dan on [LinkedIn](https://www.linkedin.com/in/danmccreary/)
