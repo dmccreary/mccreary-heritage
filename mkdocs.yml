@@ -1,5 +1,5 @@
-site_name: Mkdocs Template Site
-site_description: 'DESCRIPTION All content licensed Creative Commons ShareAlike Attribution Noncommercial'
+site_name: 'McCreary Family Heritage'
+site_description: 'McCreary family heritage website and educational resources for teaching Scottish, Irish and immigration history and genealogy.'
 site_author: 'Dan McCreary'
 repo_name: 'GitHub Repo'
 site_url: 'https://dmccreary.github.io/mccreary-heitage/'
@@ -8,6 +8,7 @@ edit_uri: 'blob/master/docs'
 
 nav:
   - Home: index.md
+  - About: about.md
   - Chapters:
     - Table of Contents: content/index.md
     - Introduction: content/01-introduction/index.md
@@ -29,6 +30,8 @@ nav:
   - License: license.md
   - Prompts:
     - prompts/index.md
+    - prompts/introduction.md
+    - prompts/timeline-chapter-text.md
     - prompts/personas.md
     - prompts/readme.md
     - prompts/site-layout.md

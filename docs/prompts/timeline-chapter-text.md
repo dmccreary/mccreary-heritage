@@ -7,6 +7,8 @@
     
     Use the timeline.json file in the project files area as your guide.  Place any specialized terms in a link to a glossary like this:
 
-    [TERM](../,,/glossary#term-lowercase-with-dashes)
+```markdown
+[TERM](../,,/glossary.md#term-lowercase-with-dashes)
+```
 
     Make sure to put all place names in the glossary. 

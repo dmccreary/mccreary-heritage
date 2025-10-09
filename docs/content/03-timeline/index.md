@@ -10,21 +10,21 @@ The story of the McCreary families spans over a thousand years and stretches acr
 
 ### The Birth of Scotland
 
-Our story begins in the year 843, when [Kenneth MacAlpin](../../glossary#kenneth-macalpin) united the [Picts](../../glossary#picts) and [Scots](../../glossary#scots) to create the [Kingdom of Scotland](../../glossary#kingdom-of-scotland). This wasn't just a political arrangement—it created the foundation for the [clan system](../../glossary#clan-system) that would define Scottish society for centuries. Think of clans as extended family networks that controlled specific territories, maintained their own armies, and owed loyalty to their chief above all others.
+Our story begins in the year 843, when [Kenneth MacAlpin](../../glossary.md#kenneth-macalpin) united the [Picts](../../glossary.md#picts) and [Scots](../../glossary.md#scots) to create the [Kingdom of Scotland](../../glossary.md#kingdom-of-scotland). This wasn't just a political arrangement—it created the foundation for the [clan system](../../glossary.md#clan-system) that would define Scottish society for centuries. Think of clans as extended family networks that controlled specific territories, maintained their own armies, and owed loyalty to their chief above all others.
 
-The [Norman Conquest](../../glossary#norman-conquest) of England in 1066 sent ripples northward into Scotland. Norman nobles brought [feudalism](../../glossary#feudalism)—a system where land was exchanged for military service and loyalty. This created an interesting tension in Scotland: the imported feudal system, where loyalty went to whoever granted you land, clashed with the traditional clan system, where loyalty was based on kinship and blood ties. Many Scottish families, including the ancestors of the McCrearys, had to navigate both systems.
+The [Norman Conquest](../../glossary.md#norman-conquest) of England in 1066 sent ripples northward into Scotland. Norman nobles brought [feudalism](../../glossary.md#feudalism)—a system where land was exchanged for military service and loyalty. This created an interesting tension in Scotland: the imported feudal system, where loyalty went to whoever granted you land, clashed with the traditional clan system, where loyalty was based on kinship and blood ties. Many Scottish families, including the ancestors of the McCrearys, had to navigate both systems.
 
 ### Wars of Independence and National Identity
 
-The late 1200s brought crisis. In 1296, [Edward I of England](../../glossary#edward-i) invaded Scotland, beginning the [First War of Scottish Independence](../../glossary#first-war-of-scottish-independence). This wasn't just a war between kings—it was a fight that pulled in every clan and defined what it meant to be Scottish.
+The late 1200s brought crisis. In 1296, [Edward I of England](../../glossary.md#edward-i) invaded Scotland, beginning the [First War of Scottish Independence](../../glossary.md#first-war-of-scottish-independence). This wasn't just a war between kings—it was a fight that pulled in every clan and defined what it meant to be Scottish.
 
-The most famous moment came in 1314 at the [Battle of Bannockburn](../../glossary#battle-of-bannockburn). [Robert the Bruce](../../glossary#robert-the-bruce) led Scottish forces to a stunning victory over a much larger English army. Clans that fought with Bruce gained prestige and land, while the battle itself became a cornerstone of Scottish identity. Even today, Scots remember Bannockburn as proof that they could stand against larger, more powerful enemies.
+The most famous moment came in 1314 at the [Battle of Bannockburn](../../glossary.md#battle-of-bannockburn). [Robert the Bruce](../../glossary.md#robert-the-bruce) led Scottish forces to a stunning victory over a much larger English army. Clans that fought with Bruce gained prestige and land, while the battle itself became a cornerstone of Scottish identity. Even today, Scots remember Bannockburn as proof that they could stand against larger, more powerful enemies.
 
 **Illustration suggestion**: A map showing the major battles of the Scottish Wars of Independence, with arrows indicating troop movements at Bannockburn.
 
 ### The McCreary Name Emerges
 
-Around 1400, the surname pattern that would become "McCreary" began to solidify. In [Gaelic](../../glossary#gaelic), the name was [Mac Ruaidhrí](../../glossary#mac-ruaidhri), meaning "son of [Ruaidhrí](../../glossary#ruaidhri)" (or Rory). The name Ruaidhrí itself means "red king" in Gaelic, possibly referring to red hair or fierce temperament.
+Around 1400, the surname pattern that would become "McCreary" began to solidify. In [Gaelic](../../glossary.md#gaelic), the name was [Mac Ruaidhrí](../../glossary.md#mac-ruaidhri), meaning "son of [Ruaidhrí](../../glossary.md#ruaidhri)" (or Rory). The name Ruaidhrí itself means "red king" in Gaelic, possibly referring to red hair or fierce temperament.
 
 As surnames became hereditary (passed from parent to child), different branches of the family spelled the name differently. You might see:
 - MacRory or McRory (closer to the Gaelic pronunciation)
@@ -32,41 +32,41 @@ As surnames became hereditary (passed from parent to child), different branches 
 - McCreary or MacCreary (the most common American spellings)
 - McCririe or Macrorie (less common variations)
 
-All these spellings refer to descendants of someone named Ruaidhrí who lived centuries ago. The name was particularly common in western Scotland and would later become established in [Ulster](../../glossary#ulster).
+All these spellings refer to descendants of someone named Ruaidhrí who lived centuries ago. The name was particularly common in western Scotland and would later become established in [Ulster](../../glossary.md#ulster).
 
 **Table suggestion**: A table showing the different spelling variations of the McCreary name, their origins, and where each was most common.
 
 ### Religious Revolution
 
-The year 1560 marked a turning point. Scotland officially became Protestant through the [Scottish Reformation](../../glossary#scottish-reformation), led by the fiery preacher [John Knox](../../glossary#john-knox). But Scotland didn't just become Protestant—it became [Presbyterian](../../glossary#presbyterian), which was different from the [Anglican](../../glossary#anglican) Church of England or [Catholic](../../glossary#catholic) Church.
+The year 1560 marked a turning point. Scotland officially became Protestant through the [Scottish Reformation](../../glossary.md#scottish-reformation), led by the fiery preacher [John Knox](../../glossary.md#john-knox). But Scotland didn't just become Protestant—it became [Presbyterian](../../glossary.md#presbyterian), which was different from the [Anglican](../../glossary.md#anglican) Church of England or [Catholic](../../glossary.md#catholic) Church.
 
 Presbyterianism emphasized:
 - Democratic church governance (congregations elected their own ministers)
 - Strict moral discipline
 - Universal education (everyone should read the Bible)
-- [Covenant theology](../../glossary#covenant-theology) (religious and political agreements were sacred contracts)
+- [Covenant theology](../../glossary.md#covenant-theology) (religious and political agreements were sacred contracts)
 
-This Presbyterian culture became absolutely central to [Scotch-Irish](../../glossary#scotch-irish) identity. When Scottish families later moved to Ireland and then America, they brought these beliefs with them. The emphasis on education, for example, explains why Scotch-Irish settlers established schools and colleges throughout the American frontier.
+This Presbyterian culture became absolutely central to [Scotch-Irish](../../glossary.md#scotch-irish) identity. When Scottish families later moved to Ireland and then America, they brought these beliefs with them. The emphasis on education, for example, explains why Scotch-Irish settlers established schools and colleges throughout the American frontier.
 
 ## Ireland: The Ulster Plantation (1603-1690)
 
 ### Opening the Door to Ulster
 
-In 1603, something unexpected happened: [James VI of Scotland](../../glossary#james-vi) inherited the English throne, becoming [James I of England](../../glossary#james-i). This [Union of the Crowns](../../glossary#union-of-the-crowns) meant one person ruled both kingdoms, making it much easier for Scots to move to Ireland.
+In 1603, something unexpected happened: [James VI of Scotland](../../glossary.md#james-vi) inherited the English throne, becoming [James I of England](../../glossary.md#james-i). This [Union of the Crowns](../../glossary.md#union-of-the-crowns) meant one person ruled both kingdoms, making it much easier for Scots to move to Ireland.
 
-At the same time, Ireland's Gaelic lords were fighting—and losing—their final battle against English conquest. The [Nine Years' War](../../glossary#nine-years-war) ended in 1603, and in 1607 came the [Flight of the Earls](../../glossary#flight-of-the-earls). When Ulster's defeated Irish lords fled to continental Europe, they abandoned approximately four million acres of land. The English government saw an opportunity.
+At the same time, Ireland's Gaelic lords were fighting—and losing—their final battle against English conquest. The [Nine Years' War](../../glossary.md#nine-years-war) ended in 1603, and in 1607 came the [Flight of the Earls](../../glossary.md#flight-of-the-earls). When Ulster's defeated Irish lords fled to continental Europe, they abandoned approximately four million acres of land. The English government saw an opportunity.
 
 ### The Plantation Scheme
 
-In 1609, King James launched the [Ulster Plantation](../../glossary#ulster-plantation)—a systematic plan to colonize Ulster with Protestant settlers. The goal was political control: by settling loyal Protestants in Ireland's most rebellious province, the English hoped to pacify the entire island.
+In 1609, King James launched the [Ulster Plantation](../../glossary.md#ulster-plantation)—a systematic plan to colonize Ulster with Protestant settlers. The goal was political control: by settling loyal Protestants in Ireland's most rebellious province, the English hoped to pacify the entire island.
 
-Scottish [Lowlanders](../../glossary#lowlanders), especially Presbyterians, were actively recruited. The deal was attractive:
+Scottish [Lowlanders](../../glossary.md#lowlanders), especially Presbyterians, were actively recruited. The deal was attractive:
 - Confiscated land at low rents
 - Religious freedom (relatively speaking)
 - Only 13 miles of sea to cross at the narrowest point
 - Familiar climate and farming conditions
 
-By 1610, thousands of Scottish families were crossing the [North Channel](../../glossary#north-channel). Many McCreary families were among them, settling in counties [Antrim](../../glossary#antrim), [Down](../../glossary#down), [Donegal](../../glossary#donegal), and [Tyrone](../../glossary#tyrone).
+By 1610, thousands of Scottish families were crossing the [North Channel](../../glossary.md#north-channel). Many McCreary families were among them, settling in counties [Antrim](../../glossary.md#antrim), [Down](../../glossary.md#down), [Donegal](../../glossary.md#donegal), and [Tyrone](../../glossary.md#tyrone).
 
 **Map suggestion**: A map showing the Scottish Lowlands, the short sea crossing to Ulster, and the counties where Scots settled most heavily.
 
@@ -74,27 +74,27 @@ But the plantation created as many problems as it solved. The English required s
 
 ### Violence and Trauma
 
-The tensions exploded in 1641 with the [Irish Rebellion](../../glossary#irish-rebellion). Ulster Catholics, who had lost their lands to Protestant settlers, rose in revolt. Thousands of Protestant settlers were killed or driven from their homes. Stories of massacres (some true, many exaggerated) circulated widely and became part of Protestant collective memory.
+The tensions exploded in 1641 with the [Irish Rebellion](../../glossary.md#irish-rebellion). Ulster Catholics, who had lost their lands to Protestant settlers, rose in revolt. Thousands of Protestant settlers were killed or driven from their homes. Stories of massacres (some true, many exaggerated) circulated widely and became part of Protestant collective memory.
 
-The rebellion was brutally suppressed, first by local forces and then by [Oliver Cromwell](../../glossary#oliver-cromwell) in 1649. [Cromwell's conquest](../../glossary#cromwells-conquest) was marked by infamous sieges at [Drogheda](../../glossary#drogheda) and [Wexford](../../glossary#wexford), where thousands died. Catholic landholding fell from 60% to 20% of Ireland, cementing Protestant control.
+The rebellion was brutally suppressed, first by local forces and then by [Oliver Cromwell](../../glossary.md#oliver-cromwell) in 1649. [Cromwell's conquest](../../glossary.md#cromwells-conquest) was marked by infamous sieges at [Drogheda](../../glossary.md#drogheda) and [Wexford](../../glossary.md#wexford), where thousands died. Catholic landholding fell from 60% to 20% of Ireland, cementing Protestant control.
 
 These traumatic events created lasting divisions. Protestant settlers, including McCreary families, saw themselves as survivors who had defended their homes against massacre. Irish Catholics saw themselves as dispossessed natives fighting against foreign colonizers. Both perspectives contained truth, and both would shape Irish history for centuries.
 
 ### The Siege That Defined a People
 
-The [Glorious Revolution](../../glossary#glorious-revolution) of 1688 brought everything to a head. When Catholic [James II](../../glossary#james-ii) was overthrown in favor of Protestant [William of Orange](../../glossary#william-of-orange), James fled to Ireland to raise an army and reclaim his throne. This triggered the [Williamite War](../../glossary#williamite-war) in Ireland.
+The [Glorious Revolution](../../glossary.md#glorious-revolution) of 1688 brought everything to a head. When Catholic [James II](../../glossary.md#james-ii) was overthrown in favor of Protestant [William of Orange](../../glossary.md#william-of-orange), James fled to Ireland to raise an army and reclaim his throne. This triggered the [Williamite War](../../glossary.md#williamite-war) in Ireland.
 
-The defining moment came with the [Siege of Derry](../../glossary#siege-of-derry) in 1689. For 105 days, the Protestant city held out against [Jacobite](../../glossary#jacobite) (James's) forces. Approximately 4,000 defenders and 7,000 civilians died from disease and starvation, but the city refused to surrender. When relief ships finally broke through, the siege was over.
+The defining moment came with the [Siege of Derry](../../glossary.md#siege-of-derry) in 1689. For 105 days, the Protestant city held out against [Jacobite](../../glossary.md#jacobite) (James's) forces. Approximately 4,000 defenders and 7,000 civilians died from disease and starvation, but the city refused to surrender. When relief ships finally broke through, the siege was over.
 
-"[No Surrender](../../glossary#no-surrender)" became the battle cry, and the siege became a foundational myth of Ulster Protestant identity. Even today, the siege is commemorated annually, symbolizing resistance to Catholic rule.
+"[No Surrender](../../glossary.md#no-surrender)" became the battle cry, and the siege became a foundational myth of Ulster Protestant identity. Even today, the siege is commemorated annually, symbolizing resistance to Catholic rule.
 
-The [Battle of the Boyne](../../glossary#battle-of-the-boyne) in 1690 sealed William's victory. Though not the bloodiest battle, it became deeply symbolic. The [Treaty of Limerick](../../glossary#treaty-of-limerick) in 1691 ended the war, but it was followed by harsh [Penal Laws](../../glossary#penal-laws) that stripped Catholics of civil rights, land ownership, and religious freedom.
+The [Battle of the Boyne](../../glossary.md#battle-of-the-boyne) in 1690 sealed William's victory. Though not the bloodiest battle, it became deeply symbolic. The [Treaty of Limerick](../../glossary.md#treaty-of-limerick) in 1691 ended the war, but it was followed by harsh [Penal Laws](../../glossary.md#penal-laws) that stripped Catholics of civil rights, land ownership, and religious freedom.
 
 **Diagram suggestion**: A timeline showing the key events of 1688-1691 (Glorious Revolution → Siege of Derry → Battle of the Boyne → Treaty of Limerick), with brief explanations of how each affected Ulster Protestants and Irish Catholics differently.
 
 ### Double Discrimination
 
-Ironically, Ulster Presbyterians soon found themselves discriminated against as well. While the Penal Laws primarily targeted Catholics, the [Test Acts](../../glossary#test-acts) required all public officials to conform to the Anglican Church. This meant Presbyterians:
+Ironically, Ulster Presbyterians soon found themselves discriminated against as well. While the Penal Laws primarily targeted Catholics, the [Test Acts](../../glossary.md#test-acts) required all public officials to conform to the Anglican Church. This meant Presbyterians:
 - Couldn't hold government positions
 - Had restrictions on their schools
 - Faced questions about the validity of their marriages
@@ -128,7 +128,7 @@ The first major wave began in 1717-1718, when approximately 5,000 Ulster Scots c
 
 ### McCreary Families Arrive
 
-The first documented McCreary families arrived around 1718. They typically landed in [Philadelphia](../../glossary#philadelphia) or [New Castle, Delaware](../../glossary#new-castle-delaware), then moved to frontier areas. Pennsylvania's [Cumberland Valley](../../glossary#cumberland-valley) became an early settlement area for many Scotch-Irish families, including McCrearys.
+The first documented McCreary families arrived around 1718. They typically landed in [Philadelphia](../../glossary.md#philadelphia) or [New Castle, Delaware](../../glossary.md#new-castle-delaware), then moved to frontier areas. Pennsylvania's [Cumberland Valley](../../glossary.md#cumberland-valley) became an early settlement area for many Scotch-Irish families, including McCrearys.
 
 These early settlers:
 - Established farms using familiar Scottish and Ulster methods
@@ -140,7 +140,7 @@ One thing to understand: these weren't wealthy people. They came as families, of
 
 ### Moving South: The Great Wagon Road
 
-By the 1750s, Pennsylvania's good land was filling up and prices were rising. Scotch-Irish settlers began moving south along the [Great Wagon Road](../../glossary#great-wagon-road)—a path that ran from Pennsylvania through the [Shenandoah Valley](../../glossary#shenandoah-valley) of Virginia and into the [Carolinas](../../glossary#carolinas) and [Georgia](../../glossary#georgia).
+By the 1750s, Pennsylvania's good land was filling up and prices were rising. Scotch-Irish settlers began moving south along the [Great Wagon Road](../../glossary.md#great-wagon-road)—a path that ran from Pennsylvania through the [Shenandoah Valley](../../glossary.md#shenandoah-valley) of Virginia and into the [Carolinas](../../glossary.md#carolinas) and [Georgia](../../glossary.md#georgia).
 
 Around 1760, many McCreary families joined this southward migration. The Shenandoah Valley was particularly attractive:
 - Similar climate to Ulster
@@ -148,7 +148,7 @@ Around 1760, many McCreary families joined this southward migration. The Shenand
 - Frontier location (which meant cheap land but also danger)
 - Other Scotch-Irish settlers (creating familiar communities)
 
-By 1770, Scotch-Irish settlers formed the majority population in the [Appalachian backcountry](../../glossary#appalachian-backcountry) from Pennsylvania to Georgia. They became the characteristic frontier population, known for:
+By 1770, Scotch-Irish settlers formed the majority population in the [Appalachian backcountry](../../glossary.md#appalachian-backcountry) from Pennsylvania to Georgia. They became the characteristic frontier population, known for:
 - Fierce independence
 - Presbyterian faith and education
 - Whiskey production
@@ -171,7 +171,7 @@ A British officer complained that the Revolution was "nothing more or less than 
 
 ### The Battle of Kings Mountain
 
-The most dramatic example of Scotch-Irish military contribution came at the [Battle of Kings Mountain](../../glossary#battle-of-kings-mountain) in 1780. When British forces threatened the Carolina backcountry, Scotch-Irish "[Overmountain Men](../../glossary#overmountain-men)" from what is now Tennessee crossed the mountains to confront them.
+The most dramatic example of Scotch-Irish military contribution came at the [Battle of Kings Mountain](../../glossary.md#battle-of-kings-mountain) in 1780. When British forces threatened the Carolina backcountry, Scotch-Irish "[Overmountain Men](../../glossary.md#overmountain-men)" from what is now Tennessee crossed the mountains to confront them.
 
 The battle was fought and won almost entirely by Scotch-Irish frontiersmen. Using their superior rifle skills and knowledge of wilderness fighting, they surrounded and destroyed a Loyalist force, killing or capturing the entire enemy army. The victory proved decisive in the Southern campaign and demonstrated the effectiveness of frontier fighting methods.
 
@@ -179,15 +179,15 @@ Many McCreary men served in Revolutionary units from Pennsylvania, Virginia, the
 
 ### After the Revolution
 
-The [Treaty of Paris](../../glossary#treaty-of-paris) in 1783 ended the war and gave the United States territory stretching to the [Mississippi River](../../glossary#mississippi-river). For frontier families like the McCrearys, this opened vast new territories for settlement.
+The [Treaty of Paris](../../glossary.md#treaty-of-paris) in 1783 ended the war and gave the United States territory stretching to the [Mississippi River](../../glossary.md#mississippi-river). For frontier families like the McCrearys, this opened vast new territories for settlement.
 
-In the 1790s, McCreary families participated in the westward push into [Kentucky](../../glossary#kentucky) and [Tennessee](../../glossary#tennessee). These states became major destinations for Scotch-Irish settlers:
+In the 1790s, McCreary families participated in the westward push into [Kentucky](../../glossary.md#kentucky) and [Tennessee](../../glossary.md#tennessee). These states became major destinations for Scotch-Irish settlers:
 - Kentucky: Particularly central Kentucky and the eastern mountains
 - Tennessee: Especially the eastern regions
 
 The pattern continued throughout the 1800s. As each generation grew up, younger sons (who wouldn't inherit the family farm) moved west seeking their own land. McCreary families eventually spread throughout the Midwest and beyond.
 
-**[McCreary County, Kentucky](../../glossary#mccreary-county-kentucky)**, established in 1912, was named after [James B. McCreary](../../glossary#james-b-mccreary), who served as Kentucky's governor twice and as a U.S. Senator. This honors the family's prominence in the region.
+**[McCreary County, Kentucky](../../glossary.md#mccreary-county-kentucky)**, established in 1912, was named after [James B. McCreary](../../glossary.md#james-b-mccreary), who served as Kentucky's governor twice and as a U.S. Senator. This honors the family's prominence in the region.
 
 ## Understanding the Historical Arc
 
