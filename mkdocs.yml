@@ -2,8 +2,8 @@ site_name: 'McCreary Family Heritage'
 site_description: 'McCreary family heritage website and educational resources for teaching Scottish, Irish and immigration history and genealogy.'
 site_author: 'Dan McCreary'
 repo_name: 'GitHub Repo'
-site_url: 'https://dmccreary.github.io/mccreary-heitage/'
-repo_url: 'https://github.com/dmccreary/mccreary-heitage'
+site_url: 'https://dmccreary.github.io/mccreary-heritage/'
+repo_url: 'https://github.com/dmccreary/mccreary-heritage'
 edit_uri: 'blob/master/docs'
 
 nav:
