@@ -147,16 +147,14 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>McCreary Family Migration</h1>
-            <p>From Galloway in Scotland to Ulster and then from Ulster to North America</p>
+            <h1>🗺️ McCreary Family Migration</h1>
+            <p>From Scotland to Ulster to North America</p>
         </div>
         
         <div id="map"></div>
         
         <div class="controls">
-            <button class="control-btn" id="showMigration">Show Complete Migration</button>
-            <button class="control-btn" id="firstMigration">First Migration: Scotland to Ireland</button>
-            <button class="control-btn" id="secondMigration">Migration: Ireland to North America</button>
+            <button class="control-btn" id="showMigration">Show Migration</button>
             <button class="control-btn" id="resetMap">Reset Map</button>
         </div>
         
@@ -233,11 +231,12 @@
 
         // Initialize map
         function initMap() {
+            // set the view to show the North Atlantic
             map = L.map('map').setView([48.0, -30.0], 3);
             
             L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
                 attribution: '© OpenStreetMap contributors',
-                maxZoom: 19
+                maxZoom: 14
             }).addTo(map);
         }
 
@@ -303,69 +302,6 @@
             return marker;
         }
 
-        // Show first migration (Scotland to Ireland)
-        async function showFirstMigration() {
-            // Clear existing layers
-            clearMigration();
-            
-            // Show migration info
-            document.getElementById('migrationDetails').classList.add('active');
-            
-            // Disable button during animation
-            document.getElementById('firstMigration').disabled = true;
-            
-            // Add markers for Scotland and Ulster only
-            createMarker(locations.scotland, '#1e3a8a');
-            createMarker(locations.ulster, '#1e5631');
-            
-            // Zoom to Scotland and Ireland area
-            const bounds = L.latLngBounds([
-                [locations.scotland.lat, locations.scotland.lng],
-                [locations.ulster.lat, locations.ulster.lng]
-            ]);
-            map.fitBounds(bounds, { padding: [100, 100] });
-            
-            // Animate migration route
-            await createMigrationArrow(locations.scotland, locations.ulster, '#1e5631', 500);
-            
-            // Re-enable button
-            document.getElementById('firstMigration').disabled = false;
-        }
-
-        // Show second migration (Ireland to North America)
-        async function showSecondMigration() {
-            // Clear existing layers
-            clearMigration();
-            
-            // Show migration info
-            document.getElementById('migrationDetails').classList.add('active');
-            
-            // Disable button during animation
-            document.getElementById('secondMigration').disabled = true;
-            
-            // Add markers
-            createMarker(locations.ulster, '#1e5631');
-            createMarker(locations.philadelphia, '#8b0000');
-            createMarker(locations.cumberland, '#8b0000');
-            createMarker(locations.shenandoah, '#8b0000');
-            
-            // Zoom out to show transatlantic route
-            const bounds = L.latLngBounds([
-                [locations.ulster.lat, locations.ulster.lng],
-                [locations.philadelphia.lat, locations.philadelphia.lng],
-                [locations.shenandoah.lat, locations.shenandoah.lng]
-            ]);
-            map.fitBounds(bounds, { padding: [50, 50] });
-            
-            // Animate migration routes
-            await createMigrationArrow(locations.ulster, locations.philadelphia, '#8b0000', 500);
-            await createMigrationArrow(locations.philadelphia, locations.cumberland, '#8b0000', 500);
-            await createMigrationArrow(locations.cumberland, locations.shenandoah, '#8b0000', 500);
-            
-            // Re-enable button
-            document.getElementById('secondMigration').disabled = false;
-        }
-
         // Show migration animation
         async function showMigration() {
             // Clear existing layers
@@ -420,8 +356,6 @@
 
         // Event listeners
         document.getElementById('showMigration').addEventListener('click', showMigration);
-        document.getElementById('firstMigration').addEventListener('click', showFirstMigration);
-        document.getElementById('secondMigration').addEventListener('click', showSecondMigration);
         document.getElementById('resetMap').addEventListener('click', resetMap);
 
         // Initialize on load
