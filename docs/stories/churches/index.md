@@ -1,20 +1,18 @@
 # From Majestic Cathedrals to Moss Covered Ruins
 
-## The Collapse of Churches in Scotland
-
 ![](./image-00.png)
 
 As we toured Scotland, many of the castles contained huge paintings that glorified the
-battles of the clans of Scotland.  Although some were battles of the clans against 
-the repressive English government, many were just about clans fighting each other
+battles of the clans of Scotland.  Although many of the paintings were battles of the clans against 
+the repressive English government, many were about clans fighting each other
 about their different religions.  Both sides believed that God was on their side.
-Tens of thousands of people died in these wars.
+Hundreds of thousands of people died in these wars.
 
 But as we traveled around Scotland, we notices something somewhat interesting.  People
 were not fighting each other over religion any more.  In fact quite the opposite.
 Churches were mostly empty, and many in a state of disrepair.  What was their story?
 
-## Panel 1: The Warning Signs
+## Closed Churches
 ![](./image-01.png)
 <details>
    <summary>Show image description</summary>
@@ -26,7 +24,7 @@ Churches were mostly empty, and many in a state of disrepair.  What was their st
 
 Why are so many of Scotland's beautiful old churches abandoned with warning signs? What happened to these once-vital centers of community life?"
 
-## Panel 2: Scotland's Sacred Past
+## Scotland's Sacred Past
 ![](./image-02.png)
 <details>
    <summary>Show image description</summary>
@@ -38,7 +36,7 @@ Why are so many of Scotland's beautiful old churches abandoned with warning sign
 
 For centuries, Scotland's churches were the heart of every community. Magnificent cathedrals and humble parish churches alike drew crowds every Sunday. Faith was woven into the fabric of Scottish life."
 
-## Panel 3: The Long Decline
+## The Long Decline
 
 ![](./image-03.png)
 <details>
@@ -52,7 +50,7 @@ For centuries, Scotland's churches were the heart of every community. Magnificen
 
 But attendance began dropping in the 1960s and never stopped. Each generation attended less than the one before. The pews grew emptier year by year.
 
-## Panel 4: Before the Pandemic
+## Before the Pandemic
 ![](./image-04.png)
 <details>
    <summary>Show image description</summary>
@@ -64,7 +62,7 @@ But attendance began dropping in the 1960s and never stopped. Each generation at
 
 By 2020, just before COVID struck, only 9% of Scots attended church regularly. The faithful remnant was mostly elderly - people who had attended all their lives and wouldn't stop now.
 
-## Panel 5: The Pandemic's Devastating Impact
+## The Pandemic's Devastating Impact
 ![](./image-05.png)
 <details>
    <summary>Show image description</summary>
@@ -76,7 +74,9 @@ By 2020, just before COVID struck, only 9% of Scots attended church regularly. T
 
 After COVID, attendance collapsed to just 4%. Many elderly parishioners never returned - some had died, others stayed home permanently. Those who remained were mostly pensioners on fixed incomes with little money to spare for donations.
 
-## Panel 6: The Budget Crisis
+<iframe src="../../sims/religion/main3.html" height=580></iframe>
+
+## The Budget Crisis
 ![](./image-06.png)
 <details>
    <summary>Show image description</summary>
@@ -88,7 +88,7 @@ After COVID, attendance collapsed to just 4%. Many elderly parishioners never re
 
 Without enough members, church budgets collapsed. The math was brutal: medieval buildings require constant expensive maintenance, but donations now barely cover heating and the minister's salary. There was nothing left for repairs.
 
-## Panel 7: The Rot Begins
+## The Rot Begins
 ![](./image-07.png)
 <details>
    <summary>Show image description</summary>
@@ -100,7 +100,7 @@ Without enough members, church budgets collapsed. The math was brutal: medieval 
 
 Once the money ran out, small leaks went unrepaired. Scottish rain poured through gaps in the roof, soaking the medieval timber frames. The ancient wood, dry for centuries, began to rot with alarming speed.
 
-## Panel 8: Falling Tiles
+## Falling Tiles
 ![](./image-08.png)
 <details>
    <summary>Show image description</summary>
@@ -113,7 +113,7 @@ Once the money ran out, small leaks went unrepaired. Scottish rain poured throug
 
 As the roof timbers weakened, heavy slate tiles began to fall. Each tile weighed several kilograms - deadly projectiles crashing to the ground below. The buildings became dangerous to approach, forcing closure."
 
-## Panel 9: Collapse and Reclamation
+## Collapse and Reclamation
 ![](./image-09.png)
 <details>
    <summary>Show image description</summary>
@@ -127,7 +127,7 @@ As the roof timbers weakened, heavy slate tiles began to fall. Each tile weighed
 
 Without repairs, the inevitable happened. Ceiling sections collapsed inward. Scottish rain and wind now pour freely inside. Moss quickly colonized the damp stonework, covering surfaces that had been dry for 800 years.
 
-## Panel 10: From Cathedral to Ruin
+## From Cathedral to Ruin
 ![](./image-10.png)
 <details>
    <summary>Show image description</summary>
@@ -141,16 +141,19 @@ In just five to ten years, churches that stood proud for centuries now look like
 Scotland's religious collapse happened not over centuries, but in a single generation. 
 These aren't medieval ruins - they're the fresh casualties of our secular age.
 
-**Epilogue Text:**
+## Epilogue
 
 This story reflects the real crisis facing Scotland's historic churches. 
 Between 2020 and 2024, church attendance dropped by more than half. 
 Over 300 Church of Scotland buildings are now at risk of closure or demolition. 
 The architectural heritage of a nation crumbles not from ancient age, but from modern abandonment.
-Here is an example of a 1,000 year old church and abby you can purchase for about $50,000.
+Here is an example of a 1,000 year old church and abby you can purchase for [about $50,000](https://www.churchofscotland.org.uk/about-us/departments/property-and-church-buildings/properties-for-sale/properties/churches-and-halls/culross-abbey-kirk-street-culross-ky12-8jd).
+
 ![](culross-abby.png)
 
-## References for "From Majestic Cathedrals to Moss Covered Ruins"
+## References and Further Study
+
+### The Decay of Religion and Churches in Scotland
 
 The following references have been choses for a high-school audience.
 
@@ -174,34 +177,30 @@ The following references have been choses for a high-school audience.
 
 10. [From pews to ruins: Documenting Scotland's abandoned churches](https://www.architecturalheritage.scot/abandoned-churches-scotland/) - 2023 - Architectural Heritage Society of Scotland - Photographic documentation and analysis of abandoned and deteriorating church buildings across Scotland, visual evidence supporting the transformation shown in Panels 8-10.
 
-## Death Toll from Religious Wars in Scotland
-
-I'll search for information about religious conflicts and casualties in Scottish history.Let me search for more specific information about religious casualties in Scotland.Based on my research, I can provide you with some estimates about religious conflict deaths in Scotland, though precise total numbers over 1,000 years are difficult to establish.
-
-## Major Religious Conflicts and Death Tolls in Scotland
+### Major Religious Conflicts and Death Tolls in Scotland
 
 It's challenging to provide an exact total death toll from religious conflicts in Scotland over 1,000 years, as historians note that accurate casualty figures are often difficult to determine or assemble. However, I can share information about the major documented religious conflicts:
 
-### Wars of the Three Kingdoms (1639-1653)
+#### Wars of the Three Kingdoms (1639-1653)
 This was one of the bloodiest episodes in Scottish history. Estimates indicate around 15,000 civilians died as a direct result of the war through massacres or disease, with another 30,000 dying from plague between 1645 and 1649, partly spread by troop movements. Additionally, at least 20,000 Scottish soldiers died fighting in civil wars in England and Ireland during this period.
 
 Military deaths were likely even higher than direct combat casualties, as disease typically killed three times as many soldiers as combat did during this era.
 
-### The Killing Time (1679-1688)
+#### The Killing Time (1679-1688)
 During this period of persecution of Presbyterian Covenanters, around 100 executions were recorded as a result of the Privy Council's orders, with the majority being radical Cameronians executed over several months in 1685. At the Battle of Bothwell Bridge in 1679, 800 Covenanters were killed.
 
-### Other Conflicts
+#### Other Conflicts
 The broader Wars of the Three Kingdoms (which included England and Ireland) caused about 85,000 combat deaths in England and Wales, with a further 127,000 noncombat deaths including about 40,000 civilians.
 
-### Why Exact Numbers Are Difficult
+#### Why Exact Numbers Are Difficult
 Historians face several challenges in calculating total deaths from religious conflicts:
 - Many deaths were indirect (disease, famine) rather than direct combat
 - Record-keeping was incomplete, especially for civilian casualties
 - The definition of "religious persecution" varies—some count only state executions, others include all conflict deaths where religion played a role
 
-**In summary**: While we cannot provide a precise 1,000-year total, the documented evidence shows that Scotland's major religious conflicts in the 17th century alone likely resulted in **tens of thousands of deaths**, with the Wars of the Three Kingdoms (1639-1653) representing the bloodiest period.
+**In summary**: While we cannot provide a precise 1,000-year total, the documented evidence shows that Scotland's major religious conflicts in the 17th century alone likely resulted in **hundreds of thousands of deaths**, with the Wars of the Three Kingdoms (1639-1653) representing the bloodiest period.
 
-## Chat Logs
+### Chat Logs
 
 * [Claude Sonnet 4.5 for the Narrative](https://claude.ai/share/f06296df-a2ac-4903-b0c5-dabac35a0365)
 Note: I neglected to put the figure number into the template
