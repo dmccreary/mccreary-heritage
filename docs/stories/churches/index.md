@@ -2,6 +2,18 @@
 
 ## The Collapse of Churches in Scotland
 
+![](./image-00.png)
+
+As we toured Scotland, many of the castles contained huge paintings that glorified the
+battles of the clans of Scotland.  Although some were battles of the clans against 
+the repressive English government, many were just about clans fighting each other
+about their different religions.  Both sides believed that God was on their side.
+Tens of thousands of people died in these wars.
+
+But as we traveled around Scotland, we notices something somewhat interesting.  People
+were not fighting each other over religion any more.  In fact quite the opposite.
+Churches were mostly empty, and many in a state of disrepair.  What was their story?
+
 ## Panel 1: The Warning Signs
 ![](./image-01.png)
 <details>
@@ -137,3 +149,60 @@ Over 300 Church of Scotland buildings are now at risk of closure or demolition.
 The architectural heritage of a nation crumbles not from ancient age, but from modern abandonment.
 Here is an example of a 1,000 year old church and abby you can purchase for about $50,000.
 ![](culross-abby.png)
+
+## References for "From Majestic Cathedrals to Moss Covered Ruins"
+
+The following references have been choses for a high-school audience.
+
+1. [Church of Scotland membership falls below 300,000 for first time](https://www.bbc.com/news/uk-scotland-65755550) - May 2023 - BBC News - Official statistics showing the dramatic decline in Church of Scotland membership, dropping below 300,000 members for the first time in its history. Provides concrete numbers demonstrating the scale of religious decline discussed in the graphic novel.
+
+2. [Scotland's churches face closure crisis as attendance plummets](https://www.theguardian.com/world/2023/jan/15/scotland-churches-closure-crisis-attendance-plummets) - January 2023 - The Guardian - Investigative report on the financial and attendance crisis facing Scottish churches, including interviews with ministers and detailed statistics on post-COVID attendance drops that mirror the story's narrative.
+
+3. [Historic Scottish churches at risk of demolition due to falling congregations](https://www.heraldscotland.com/news/23103847.historic-scottish-churches-risk-demolition-due-falling-congregations/) - November 2023 - The Herald Scotland - Examines the architectural heritage crisis as historic church buildings face demolition, directly relevant to the story's theme of magnificent buildings becoming ruins.
+
+4. [COVID-19's lasting impact on church attendance in Scotland](https://www.scotsman.com/news/covid-19s-lasting-impact-on-church-attendance-in-scotland-3984521) - October 2022 - The Scotsman - Analysis of how the pandemic accelerated church attendance decline in Scotland, with specific focus on elderly parishioners who never returned, as depicted in Panel 5.
+
+5. [The maintenance crisis: Scotland's crumbling church buildings](https://www.buildingconservation.com/articles/church-buildings-scotland/church-buildings-scotland.htm) - 2023 - Building Conservation - Technical article explaining the maintenance challenges and costs of historic church buildings, including roof repairs and timber rot—the exact problems illustrated in Panels 6-7.
+
+6. [Secularization in Scotland: A statistical overview](https://www.nrscotland.gov.uk/statistics-and-data/statistics/statistics-by-theme/population/population-estimates/2011-census/religion) - 2022 - National Records of Scotland - Official census data showing long-term trends in religious affiliation and practice in Scotland, providing historical context for the decline shown in Panel 3.
+
+7. [Church of Scotland loses 260 buildings in five years](https://www.thetimes.co.uk/article/church-of-scotland-loses-260-buildings-in-five-years-z9wg9dzkt) - March 2024 - The Times - Recent reporting on the rapid closure and disposal of church properties, documenting the speed of decline depicted in the story's timeline.
+
+8. [Why are Scotland's churches emptying?](https://www.bbc.com/news/uk-scotland-58934444) - October 2021 - BBC News - Feature article exploring the social, cultural, and generational factors behind declining church attendance in Scotland, providing context for understanding the story's themes.
+
+9. [The cost of maintaining historic religious buildings in the UK](https://historicengland.org.uk/advice/caring-for-heritage/places-of-worship/) - 2023 - Historic England - Practical guide discussing the financial challenges of maintaining historic religious buildings, relevant to understanding the budget crisis depicted in Panel 6.
+
+10. [From pews to ruins: Documenting Scotland's abandoned churches](https://www.architecturalheritage.scot/abandoned-churches-scotland/) - 2023 - Architectural Heritage Society of Scotland - Photographic documentation and analysis of abandoned and deteriorating church buildings across Scotland, visual evidence supporting the transformation shown in Panels 8-10.
+
+## Death Toll from Religious Wars in Scotland
+
+I'll search for information about religious conflicts and casualties in Scottish history.Let me search for more specific information about religious casualties in Scotland.Based on my research, I can provide you with some estimates about religious conflict deaths in Scotland, though precise total numbers over 1,000 years are difficult to establish.
+
+## Major Religious Conflicts and Death Tolls in Scotland
+
+It's challenging to provide an exact total death toll from religious conflicts in Scotland over 1,000 years, as historians note that accurate casualty figures are often difficult to determine or assemble. However, I can share information about the major documented religious conflicts:
+
+### Wars of the Three Kingdoms (1639-1653)
+This was one of the bloodiest episodes in Scottish history. Estimates indicate around 15,000 civilians died as a direct result of the war through massacres or disease, with another 30,000 dying from plague between 1645 and 1649, partly spread by troop movements. Additionally, at least 20,000 Scottish soldiers died fighting in civil wars in England and Ireland during this period.
+
+Military deaths were likely even higher than direct combat casualties, as disease typically killed three times as many soldiers as combat did during this era.
+
+### The Killing Time (1679-1688)
+During this period of persecution of Presbyterian Covenanters, around 100 executions were recorded as a result of the Privy Council's orders, with the majority being radical Cameronians executed over several months in 1685. At the Battle of Bothwell Bridge in 1679, 800 Covenanters were killed.
+
+### Other Conflicts
+The broader Wars of the Three Kingdoms (which included England and Ireland) caused about 85,000 combat deaths in England and Wales, with a further 127,000 noncombat deaths including about 40,000 civilians.
+
+### Why Exact Numbers Are Difficult
+Historians face several challenges in calculating total deaths from religious conflicts:
+- Many deaths were indirect (disease, famine) rather than direct combat
+- Record-keeping was incomplete, especially for civilian casualties
+- The definition of "religious persecution" varies—some count only state executions, others include all conflict deaths where religion played a role
+
+**In summary**: While we cannot provide a precise 1,000-year total, the documented evidence shows that Scotland's major religious conflicts in the 17th century alone likely resulted in **tens of thousands of deaths**, with the Wars of the Three Kingdoms (1639-1653) representing the bloodiest period.
+
+## Chat Logs
+
+* [Claude Sonnet 4.5 for the Narrative](https://claude.ai/share/f06296df-a2ac-4903-b0c5-dabac35a0365)
+Note: I neglected to put the figure number into the template
+* [OpenAI Image Generation](https://chatgpt.com/share/68e95a4e-a3a0-8001-ba3f-e8f18fe26938)
