@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Scotland Church Attendance (% of population)</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <style>
+    body {
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Arial, sans-serif;
+      margin: 24px;
+    }
+    #wrap {
+      max-width: 100%;
+      width: 100%;
+      margin: auto;
+    }
+    canvas {
+      display: block;
+      width: 100% !important;
+      height: 300px !important;  /* fixed height */
+    }
+    .legend {
+      font-size: 0.9rem;
+      color: #444;
+      margin-top: 8px;
+    }
+    .badge {
+      display: inline-block;
+      border-radius: 6px;
+      padding: 2px 8px;
+      margin-right: 6px;
+    }
+    .badge.measured { background: #e6f4ea; }
+    .badge.estimated { background: #fef3c7; }
+    .badge.projected { background: #e0e7ff; }
+    .src {
+      font-size: 0.85rem;
+      color: #555;
+      margin-top: 10px;
+      line-height: 1.35;
+    }
+    .src a {
+      color: #2b6cb0;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+<div id="wrap">
+  <h1>People Attending Church in Scotland (% of population)</h1>
+  <p>Decadal points from 1950–2050. <strong>2025</strong> is marked as “today”; values after 2025 are <em>dashed</em> and labeled “projected”.  
+  A yellow shaded band marks the COVID-19 pandemic years (2020–2022).</p>
+
+  <canvas id="chart"></canvas>
+
+  <div class="legend">
+    <span class="badge measured">measured</span>
+    <span class="badge estimated">estimated/interpolated</span>
+    <span class="badge projected">projected</span>
+  </div>
+
+  <div class="src">
+    <strong>Anchors:</strong>
+    1984 = 17% and 2016 = 7.2% (Scottish Church Census, Brierley); 2002 ≈ 12% (Brierley via Evangelical Focus).  
+    Background trend discussion: Scottish churchgoing decline studies.
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@3.1.0"></script>
+<script>
+const points = [
+  {x:1950, y:30, kind:'est'},
+  {x:1960, y:25, kind:'est'},
+  {x:1970, y:20, kind:'est'},
+  {x:1980, y:18, kind:'est'},
+  {x:1984, y:17, kind:'meas'},
+  {x:1990, y:14, kind:'est'},
+  {x:2002, y:12, kind:'meas'},
+  {x:2010, y:8.5, kind:'est'},
+  {x:2016, y:7.2, kind:'meas'},
+  {x:2020, y:9, kind:'meas'},
+  {x:2025, y:4, kind:'meas'},
+  {x:2030, y:3, kind:'proj'},
+  {x:2040, y:2, kind:'proj'},
+  {x:2050, y:1, kind:'proj'}
+];
+
+const ctx = document.getElementById('chart').getContext('2d');
+
+const data = {
+  datasets: [{
+    label: '% attending church (of total population)',
+    data: points.map(p => ({x:p.x, y:p.y, kind:p.kind})),
+    parsing: {xAxisKey:'x', yAxisKey:'y'},
+    tension: 0.25,
+    pointRadius: points.map(p => p.kind==='meas' ? 5 : 4),
+    pointHoverRadius: 6,
+    pointStyle: points.map(p => p.kind==='meas' ? 'circle' : (p.kind==='proj' ? 'triangle' : 'rect')),
+    borderWidth: 2,
+    borderColor: '#2563eb',
+    backgroundColor: '#2563eb33',
+    segment: {
+      borderDash: ctx => ctx.p1.parsed.x >= 2025 ? [6,6] : undefined,
+      borderColor: ctx => ctx.p1.parsed.x >= 2025 ? '#2563eb' : '#2563eb'
+    }
+  }]
+};
+
+const chart = new Chart(ctx, {
+  type: 'line',
+  data,
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,  // important for fixed height & full-width responsiveness
+    interaction: {mode:'nearest', intersect:false},
+    plugins: {
+      legend: {display:false},
+      title: {
+        display:true,
+        text:'Scottish church attendance (% of total population), 1950–2050'
+      },
+      tooltip: {
+        callbacks: {
+          label: (ctx) => {
+            const p = ctx.raw;
+            const tag = p.kind==='meas' ? 'measured' : (p.kind==='proj' ? 'projected' : 'estimated');
+            return `${ctx.parsed.y}% (${tag})`;
+          }
+        }
+      },
+      annotation: {
+        annotations: {
+          covid: {
+            type: 'box',
+            xMin: 2020,
+            xMax: 2022,
+            backgroundColor: 'rgba(255, 230, 0, 0.25)',
+            borderColor: 'rgba(255, 230, 0, 0.7)',
+            borderWidth: 1,
+            label: {
+              enabled: true,
+              content: 'COVID-19 pandemic',
+              position: 'start',
+              backgroundColor: 'rgba(255,230,0,0.85)',
+              color: '#000',
+              yAdjust: -10
+            }
+          },
+          todayLine: {
+            type:'line',
+            xMin:2025, xMax:2025,
+            borderColor:'#ef4444',
+            borderWidth:2,
+            label: {
+              enabled:true,
+              position:'start',
+              content:'today (2025)',
+              backgroundColor:'#ef4444',
+              color:'#fff',
+              yAdjust:-10
+            }
+          },
+          projectedLabel: {
+            type:'label',
+            xValue:2034,
+            yValue: Math.max(...points.filter(p=>p.x>=2025).map(p=>p.y)) + 1,
+            content:['projected'],
+            color:'#111',
+            backgroundColor:'#e0e7ff',
+            borderRadius:6,
+            padding:6
+          }
+        }
+      }
+    },
+    scales: {
+      x: {
+        type:'linear',
+        min:1948,
+        max:2052,
+        ticks: { stepSize: 10, callback: (v)=> v % 10 === 0 ? v : '' },
+        title: {display:true, text:'Year'}
+      },
+      y: {
+        beginAtZero:true,
+        suggestedMax: 32,
+        ticks: {callback: v => v + '%'},
+        title: {display:true, text:'% of population attending church'}
+      }
+    }
+  }
+});
+
+// Explicitly trigger resize updates on window resize (optional redundancy)
+window.addEventListener('resize', () => {
+  chart.resize();
+});
+</script>
+</body>
+</html>
