@@ -10,7 +10,10 @@ The McCreary surname has its roots in Scotland, though you might see it spelled 
 
 The McCrearys were part of Scotland's complex clan system, where extended families lived together, shared resources, and defended common territory. Understanding where your ancestors came from—and why they left—requires looking beyond individual family trees to see the bigger picture of Scottish and Irish history.
 
+<!--
 **[Suggested Image: Map showing Scotland, Ireland (with Ulster highlighted), and eastern North America, with arrows indicating migration routes]**
+-->
+![](./map-of-migration.png)
 
 ## The Three-Part Journey
 
@@ -26,7 +29,10 @@ Beginning in the early 1600s, the British government implemented a plan called t
 
 This migration wasn't simply about seeking better farmland. It was part of a larger political strategy to control Ireland by transplanting loyal Protestant settlers into a predominantly Catholic region. The Scottish settlers who accepted this opportunity—who would become known as the [Scotch-Irish](../../glossary.md#scotch-irish) or Ulster Scots—found themselves in a complicated position. They were newcomers in a land where they weren't entirely welcome, caught between their Scottish heritage and their new Irish home.
 
+<!--
 **[Suggested Image: Illustration or period map of the Ulster Plantation showing townlands and settlements]**
+-->
+![](./mccreary-counties.png)
 
 ### 3. North America: The Great Migration (1700s-1800s)
 

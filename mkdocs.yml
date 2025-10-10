@@ -24,6 +24,7 @@ nav:
     - List of Applications & Tools: sims/index.md
     - Migration Simulation: sims/migration/index.md
     - Timeline Viewer: sims/timeline/index.md
+    - Maps: sims/maps/index.md
   - Glossary: glossary.md
   - How We Built This Site: how-we-built-this-site.md
   - References: references.md
