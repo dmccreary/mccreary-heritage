@@ -208,6 +208,7 @@
                 <button class="filter-btn" onclick="filterCategory('McCreary Origins')">McCreary Origins</button>
                 <button class="filter-btn" onclick="filterCategory('Scottish History')">Scottish History</button>
                 <button class="filter-btn" onclick="filterCategory('Irish History')">Irish History</button>
+                <button class="filter-btn" onclick="filterCategory('Events in America')">Events in America</button>
             </div>
         </div>
         
@@ -231,6 +232,10 @@
                     <div class="legend-color" style="background-color: #1e5631;"></div>
                     <span>Irish History</span>
                 </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background-color: #7c2d12;"></div>
+                    <span>Events in America</span>
+                </div>
             </div>
 
             <div id="eventDetails" class="event-details"></div>
@@ -247,7 +252,8 @@
         const categoryColors = {
             'McCreary Origins': '#8b0000',
             'Scottish History': '#1e3a8a',
-            'Irish History': '#1e5631'
+            'Irish History': '#1e5631',
+            'Events in America': '#7c2d12'
         };
 
         // Load and process the JSON data

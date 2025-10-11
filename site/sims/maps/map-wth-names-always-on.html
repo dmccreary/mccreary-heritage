@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>McCreary Settlement Counties - Northern Ireland</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f0f4f8;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        
+        .header h1 {
+            margin: 0 0 10px 0;
+            font-size: 2.2em;
+        }
+        
+        .header p {
+            margin: 0;
+            font-size: 1.1em;
+            opacity: 0.95;
+        }
+        
+        #map {
+            height: 700px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+            border: 3px solid #1e3a8a;
+        }
+        
+        .info-panel {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            margin-top: 20px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        
+        .info-panel h3 {
+            margin: 0 0 15px 0;
+            color: #1e3a8a;
+            font-size: 1.5em;
+        }
+        
+        .county-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+        
+        .county-item {
+            padding: 15px;
+            background: #f8fafc;
+            border-left: 4px solid #3b82f6;
+            border-radius: 6px;
+        }
+        
+        .county-item strong {
+            color: #1e3a8a;
+            font-size: 1.1em;
+        }
+        
+        .leaflet-popup-content-wrapper {
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+        
+        .leaflet-popup-content {
+            margin: 15px;
+            font-size: 14px;
+        }
+        
+        .leaflet-popup-content h4 {
+            margin: 0 0 8px 0;
+            color: #1e3a8a;
+            font-size: 1.2em;
+        }
+        
+        .county-label {
+            background: rgba(30, 58, 138, 0.85);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 6px;
+            font-size: 1.3em;
+            font-weight: 600;
+            border: 2px solid white;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+            white-space: nowrap;
+            pointer-events: none;
+            text-align: center;
+        }
+        
+        .county-label-hover {
+            background: rgba(30, 64, 175, 0.95);
+            transform: scale(1.1);
+            transition: all 0.2s ease;
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 20px;
+            color: #1e3a8a;
+            font-size: 1.1em;
+            font-weight: 500;
+        }
+        
+        .error {
+            text-align: center;
+            padding: 20px;
+            color: #dc2626;
+            font-size: 1.1em;
+            background: #fee2e2;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🗺️ McCreary Family Settlement Counties</h1>
+            <p>Primary Ulster Counties Where McCreary Families Settled (1610-1718)</p>
+        </div>
+        
+        <div id="loading" class="loading">Loading county boundaries...</div>
+        <div id="error" class="error" style="display: none;"></div>
+        <div id="map" style="display: none;"></div>
+        
+        <div class="info-panel">
+            <h3>About These Counties</h3>
+            <p>During the Ulster Plantation (beginning 1609) and subsequent decades, McCreary families from Scotland settled primarily in these four counties of Ulster. The highlighted counties represent the main areas where Scottish Presbyterian families, including the McCrearys, established communities before many emigrated to North America in the early 18th century.</p>
+            
+            <div class="county-list">
+                <div class="county-item">
+                    <strong>County Antrim</strong>
+                    <p>Closest to Scotland across the North Channel; major Presbyterian settlement area</p>
+                </div>
+                <div class="county-item">
+                    <strong>County Down</strong>
+                    <p>Southeastern Ulster; significant Scottish Lowlander migration</p>
+                </div>
+                <div class="county-item">
+                    <strong>County Donegal</strong>
+                    <p>Northwestern Ulster; mixed plantation settlement patterns</p>
+                </div>
+                <div class="county-item">
+                    <strong>County Tyrone</strong>
+                    <p>Central Ulster; heart of the plantation scheme</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+    <script>
+        const countyDescriptions = {
+            'Antrim': 'The closest county to Scotland, Antrim received significant Scottish Presbyterian settlement. The narrow North Channel (just 13 miles at its closest point) made migration relatively easy.',
+            'Down': 'County Down in southeastern Ulster saw substantial Scottish Lowlander settlement, particularly from Ayrshire and Galloway. Many McCreary families settled here.',
+            'Donegal': 'The northwesternmost county of Ulster (and Ireland), Donegal had a more mixed settlement pattern during the Plantation, with Scottish settlers in coastal and lowland areas.',
+            'Tyrone': 'The largest county in Northern Ireland and a central focus of the Ulster Plantation. Many Scottish Presbyterian families, including McCrearys, received land grants here.'
+        };
+
+        let map;
+        let geojsonLayer;
+        let countyLabels = {};
+
+        function getCountyName(properties) {
+            return properties.NAME_TAG || properties.NAME_EN || properties.name || properties.COUNTY || 'Unknown';
+        }
+
+        function style(feature) {
+            return {
+                fillColor: '#3b82f6',
+                fillOpacity: 0.2,
+                color: '#1e3a8a',
+                weight: 3,
+                opacity: 0.9
+            };
+        }
+
+        function addCountyLabels(data) {
+            data.features.forEach(feature => {
+                const countyName = getCountyName(feature.properties);
+                const bounds = L.geoJSON(feature).getBounds();
+                const center = bounds.getCenter();
+                
+                const label = L.marker(center, {
+                    icon: L.divIcon({
+                        className: 'county-label',
+                        html: `County ${countyName}`,
+                        iconSize: [110, 20],
+                        iconAnchor: [75, 20]
+                    }),
+                    interactive: false
+                }).addTo(map);
+                
+                countyLabels[countyName] = label;
+            });
+        }
+
+        function highlightFeature(e) {
+            const layer = e.target;
+            const countyName = getCountyName(layer.feature.properties);
+            
+            layer.setStyle({
+                weight: 5,
+                color: '#1e40af',
+                fillOpacity: 0.35
+            });
+            if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
+                layer.bringToFront();
+            }
+            
+            if (countyLabels[countyName]) {
+                const labelElement = countyLabels[countyName].getElement();
+                if (labelElement) {
+                    labelElement.classList.add('county-label-hover');
+                }
+            }
+        }
+
+        function resetHighlight(e) {
+            const layer = e.target;
+            const countyName = getCountyName(layer.feature.properties);
+            
+            geojsonLayer.resetStyle(e.target);
+            
+            if (countyLabels[countyName]) {
+                const labelElement = countyLabels[countyName].getElement();
+                if (labelElement) {
+                    labelElement.classList.remove('county-label-hover');
+                }
+            }
+        }
+
+        function onEachFeature(feature, layer) {
+            const countyName = getCountyName(feature.properties);
+            
+            layer.on({
+                mouseover: highlightFeature,
+                mouseout: resetHighlight,
+                click: function(e) {
+                    const description = countyDescriptions[countyName] || 
+                                      'One of the four primary McCreary settlement counties in Ulster.';
+                    
+                    layer.bindPopup(`
+                        <h4>County ${countyName}</h4>
+                        <p>${description}</p>
+                    `).openPopup();
+                }
+            });
+        }
+
+        async function loadCountyBoundaries() {
+            try {
+                const response = await fetch('mccreary-counties.geojson');
+                
+                if (!response.ok) {
+                    throw new Error(`Failed to load GeoJSON file: ${response.status} ${response.statusText}`);
+                }
+                
+                const data = await response.json();
+                
+                if (!data.features || data.features.length === 0) {
+                    throw new Error('GeoJSON file contains no features');
+                }
+                
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('map').style.display = 'block';
+                
+                map = L.map('map').setView([54.7, -7.0], 8);
+
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    attribution: '© OpenStreetMap contributors',
+                    maxZoom: 18,
+                    minZoom: 7
+                }).addTo(map);
+                
+                geojsonLayer = L.geoJSON(data, {
+                    style: style,
+                    onEachFeature: onEachFeature
+                }).addTo(map);
+                
+                map.fitBounds(geojsonLayer.getBounds());
+                
+                addCountyLabels(data);
+                
+                L.control.scale({imperial: true, metric: true}).addTo(map);
+                
+                console.log(`Successfully loaded ${data.features.length} counties:`);
+                data.features.forEach(feature => {
+                    const name = getCountyName(feature.properties);
+                    console.log(`  - ${name}`);
+                });
+                
+            } catch (error) {
+                console.error('Error loading county boundaries:', error);
+                document.getElementById('loading').style.display = 'none';
+                const errorDiv = document.getElementById('error');
+                errorDiv.style.display = 'block';
+                errorDiv.innerHTML = `
+                    <strong>Error Loading Map</strong><br>
+                    ${error.message}<br><br>
+                    <small>Please ensure 'mccreary-counties.geojson' is in the same directory as this HTML file.</small>
+                `;
+            }
+        }
+        
+        loadCountyBoundaries();
+    </script>
+</body>
+</html>
