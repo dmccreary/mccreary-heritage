@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ulster Plantation Migration (1603-1718) - McCreary Family</title>
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/migration-maps.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🗺️ Ulster Plantation Migration</h1>
+            <p class="subtitle">Scottish Presbyterian Families Migrate to Ulster, Ireland</p>
+            <p class="period">1603-1718 CE</p>
+        </div>
+
+        <div class="controls">
+            <h3>Animation Controls</h3>
+            <div class="button-group">
+                <button class="btn btn-primary" onclick="playAllAnimations()">▶️ Play All Routes</button>
+                <button class="btn btn-success" onclick="playRoute(0)">Route 1: Ayrshire → Antrim</button>
+                <button class="btn btn-success" onclick="playRoute(1)">Route 2: Galloway → Down</button>
+                <button class="btn btn-success" onclick="playRoute(2)">Route 3: Dumfriesshire → Tyrone</button>
+                <button class="btn btn-success" onclick="playRoute(3)">Route 4: Western Scotland → Donegal</button>
+                <button class="btn btn-warning" onclick="resetMap()">🔄 Reset</button>
+            </div>
+        </div>
+
+        <div id="loading" class="loading" style="display: none;">Loading migration routes</div>
+        <div id="error" class="error" style="display: none;"></div>
+        <div id="map"></div>
+
+        <div class="info-panel">
+            <h3>About the Ulster Plantation</h3>
+            <p>
+                The Ulster Plantation (1609-1718) was a systematic colonization program that brought thousands of Scottish
+                Presbyterian families, including the McCrearys, from Scotland to Ulster (Northern Ireland). After the
+                <strong>Flight of the Earls</strong> in 1607, when Gaelic Irish lords fled to continental Europe, approximately
+                4 million acres of land became available for settlement.
+            </p>
+            <p>
+                King James I (who was also James VI of Scotland) actively recruited Scottish Lowlanders, particularly
+                Presbyterians, to settle confiscated lands. The short sea crossing—just <strong>13 miles</strong> at the narrowest
+                point between Ayrshire and Antrim—made Ulster more accessible than other colonial destinations.
+            </p>
+            <p>
+                By 1718, approximately 50,000-100,000 Scottish families had settled in Ulster. However, they faced
+                "double discrimination": resented by Irish Catholics for taking their land, and discriminated against by
+                English Anglicans who controlled the government. This tension, combined with economic hardship, would
+                eventually drive the great emigration to America beginning in 1717.
+            </p>
+
+            <div class="legend">
+                <h4>Migration Routes Legend</h4>
+                <div class="legend-item">
+                    <div class="legend-line" style="background: #1e3a8a;"></div>
+                    <div class="legend-arrow" style="border-left-color: #1e3a8a;"></div>
+                    <span class="legend-text">Ayrshire → Antrim (13 miles, shortest crossing)</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-line" style="background: #1e40af;"></div>
+                    <div class="legend-arrow" style="border-left-color: #1e40af;"></div>
+                    <span class="legend-text">Galloway → Down (25 miles)</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-line" style="background: #2563eb;"></div>
+                    <div class="legend-arrow" style="border-left-color: #2563eb;"></div>
+                    <span class="legend-text">Dumfriesshire → Tyrone (35 miles)</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-line" style="background: #3b82f6;"></div>
+                    <div class="legend-arrow" style="border-left-color: #3b82f6;"></div>
+                    <span class="legend-text">Western Scotland → Donegal (30 miles)</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Leaflet JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+
+    <!-- Leaflet Polyline Decorator plugin - load before SnakeAnim -->
+    <script src="https://cdn.jsdelivr.net/npm/leaflet-polylinedecorator@1.6.0/dist/leaflet.polylineDecorator.min.js"></script>
+
+    <!-- Leaflet Polyline SnakeAnim plugin -->
+    <script src="https://cdn.jsdelivr.net/npm/leaflet.polyline.snakeanim/L.Polyline.SnakeAnim.js"></script>
+
+    <script>
+        let map;
+        let routeData;
+        let currentRoutes = [];
+        let currentDecorators = [];
+        let ulsterCountiesLayer;
+
+        // Initialize the map
+        function initMap() {
+            map = L.map('map').setView([54.8, -6.5], 7);
+
+            // Add base tile layer (Stamen Terrain for historical look)
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '© OpenStreetMap contributors',
+                maxZoom: 18,
+                minZoom: 6
+            }).addTo(map);
+
+            // Add scale control
+            L.control.scale({imperial: true, metric: true}).addTo(map);
+
+            // Load Ulster counties
+            loadUlsterCounties();
+
+            // Load migration routes
+            loadMigrationRoutes();
+        }
+
+        // Load Ulster counties GeoJSON
+        async function loadUlsterCounties() {
+            try {
+                const response = await fetch('../mccreary-counties.geojson');
+                if (!response.ok) {
+                    console.warn('Ulster counties GeoJSON not found, skipping');
+                    return;
+                }
+
+                const data = await response.json();
+
+                ulsterCountiesLayer = L.geoJSON(data, {
+                    style: {
+                        fillColor: '#d1fae5',
+                        fillOpacity: 0.3,
+                        color: '#059669',
+                        weight: 2,
+                        opacity: 0.6
+                    },
+                    onEachFeature: function(feature, layer) {
+                        const countyName = feature.properties.NAME_TAG ||
+                                         feature.properties.NAME_EN ||
+                                         feature.properties.name ||
+                                         'Ulster County';
+
+                        layer.bindPopup(`
+                            <h4>County ${countyName}</h4>
+                            <p>One of the four primary Ulster counties where McCreary families settled during the Plantation period (1609-1718).</p>
+                        `);
+
+                        // Add permanent labels
+                        const bounds = layer.getBounds();
+                        const center = bounds.getCenter();
+
+                        L.marker(center, {
+                            icon: L.divIcon({
+                                className: 'place-label',
+                                html: countyName,
+                                iconSize: null
+                            })
+                        }).addTo(map);
+                    }
+                }).addTo(map);
+
+            } catch (error) {
+                console.warn('Error loading Ulster counties:', error);
+            }
+        }
+
+        // Load migration routes
+        async function loadMigrationRoutes() {
+            try {
+                document.getElementById('loading').style.display = 'block';
+
+                const response = await fetch('data/scotland-ulster-routes.geojson');
+                if (!response.ok) {
+                    throw new Error(`Failed to load routes: ${response.status}`);
+                }
+
+                routeData = await response.json();
+                document.getElementById('loading').style.display = 'none';
+
+                // Add start and end point markers
+                addLocationMarkers();
+
+                console.log(`Loaded ${routeData.features.length} migration routes`);
+
+            } catch (error) {
+                console.error('Error loading migration routes:', error);
+                document.getElementById('loading').style.display = 'none';
+                const errorDiv = document.getElementById('error');
+                errorDiv.style.display = 'block';
+                errorDiv.innerHTML = `
+                    <strong>Error Loading Routes</strong><br>
+                    ${error.message}<br><br>
+                    <small>Please ensure the data files are in the correct location.</small>
+                `;
+            }
+        }
+
+        // Add location markers for Scotland and Ulster
+        function addLocationMarkers() {
+            const locations = [
+                {name: 'Ayrshire', coords: [55.46, -4.63], type: 'scotland'},
+                {name: 'Galloway', coords: [54.86, -4.24], type: 'scotland'},
+                {name: 'Dumfriesshire', coords: [55.07, -3.61], type: 'scotland'},
+                {name: 'County Antrim', coords: [54.86, -5.93], type: 'ulster'},
+                {name: 'County Down', coords: [54.48, -5.71], type: 'ulster'},
+                {name: 'County Tyrone', coords: [54.60, -7.05], type: 'ulster'},
+                {name: 'County Donegal', coords: [54.99, -7.73], type: 'ulster'}
+            ];
+
+            locations.forEach(loc => {
+                const color = loc.type === 'scotland' ? '#8b0000' : '#059669';
+
+                L.circleMarker(loc.coords, {
+                    radius: 6,
+                    fillColor: color,
+                    color: 'white',
+                    weight: 2,
+                    opacity: 1,
+                    fillOpacity: 0.8
+                }).addTo(map).bindPopup(`
+                    <h4>${loc.name}</h4>
+                    <p><strong>${loc.type === 'scotland' ? 'Origin' : 'Destination'}</strong></p>
+                    <p>${loc.type === 'scotland' ?
+                        'Scottish Presbyterian families departed from here' :
+                        'Ulster settlement area for McCreary families'}</p>
+                `);
+            });
+        }
+
+        // Play animation for a specific route
+        function playRoute(index) {
+            if (!routeData || index >= routeData.features.length) return;
+
+            const feature = routeData.features[index];
+            const coords = feature.geometry.coordinates.map(c => [c[1], c[0]]);
+            const props = feature.properties;
+
+            // Remove existing route if it exists
+            if (currentRoutes[index]) {
+                map.removeLayer(currentRoutes[index]);
+            }
+            if (currentDecorators[index]) {
+                map.removeLayer(currentDecorators[index]);
+            }
+
+            // Create animated polyline
+            const route = L.polyline(coords, {
+                color: props.color,
+                weight: 4,
+                opacity: 0.8,
+                snakingSpeed: 400
+            }).addTo(map);
+
+            currentRoutes[index] = route;
+
+            // Bind popup
+            route.bindPopup(`
+                <h4>${props.name}</h4>
+                <p><strong>From:</strong> ${props.from}</p>
+                <p><strong>To:</strong> ${props.to}</p>
+                <p><strong>Distance:</strong> ${props.distance_miles} miles</p>
+                <p><strong>Period:</strong> ${props.period}</p>
+                <p>${props.description}</p>
+            `);
+
+            // Animate the route
+            route.snakeIn();
+
+            // Add decorative arrows after animation completes
+            setTimeout(() => {
+                const decorator = L.polylineDecorator(route, {
+                    patterns: [
+                        {
+                            offset: '50%',
+                            repeat: 0,
+                            symbol: L.Symbol.arrowHead({
+                                pixelSize: 20,
+                                polygon: true,
+                                pathOptions: {
+                                    fillOpacity: 1,
+                                    weight: 2,
+                                    color: 'white',
+                                    fillColor: props.color
+                                }
+                            })
+                        },
+                        {
+                            offset: '25%',
+                            repeat: 0,
+                            symbol: L.Symbol.arrowHead({
+                                pixelSize: 16,
+                                polygon: true,
+                                pathOptions: {
+                                    fillOpacity: 0.8,
+                                    weight: 2,
+                                    color: 'white',
+                                    fillColor: props.color
+                                }
+                            })
+                        },
+                        {
+                            offset: '75%',
+                            repeat: 0,
+                            symbol: L.Symbol.arrowHead({
+                                pixelSize: 16,
+                                polygon: true,
+                                pathOptions: {
+                                    fillOpacity: 0.8,
+                                    weight: 2,
+                                    color: 'white',
+                                    fillColor: props.color
+                                }
+                            })
+                        }
+                    ]
+                }).addTo(map);
+
+                currentDecorators[index] = decorator;
+
+                // Open popup after arrows are added
+                route.openPopup();
+
+            }, 1200);
+        }
+
+        // Play all routes in sequence
+        function playAllAnimations() {
+            resetMap();
+
+            routeData.features.forEach((feature, index) => {
+                setTimeout(() => {
+                    playRoute(index);
+                }, index * 1500);
+            });
+        }
+
+        // Reset map to initial state
+        function resetMap() {
+            // Remove all routes and decorators
+            currentRoutes.forEach(route => {
+                if (route) map.removeLayer(route);
+            });
+            currentDecorators.forEach(decorator => {
+                if (decorator) map.removeLayer(decorator);
+            });
+
+            currentRoutes = [];
+            currentDecorators = [];
+
+            // Reset view
+            map.setView([54.8, -6.5], 7);
+        }
+
+        // Initialize map when page loads
+        document.addEventListener('DOMContentLoaded', initMap);
+    </script>
+</body>
+</html>

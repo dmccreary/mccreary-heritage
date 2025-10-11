@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>McCreary Family Migration Maps</title>
+    <link rel="stylesheet" href="css/migration-maps.css">
+    <style>
+        .map-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .map-card {
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+            cursor: pointer;
+            border: 3px solid transparent;
+        }
+
+        .map-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+            border-color: #3b82f6;
+        }
+
+        .map-card.available {
+            opacity: 1;
+        }
+
+        .map-card.coming-soon {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        .map-card-header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 15px;
+        }
+
+        .map-number {
+            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+            color: white;
+            font-size: 1.5em;
+            font-weight: bold;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .map-card.coming-soon .map-number {
+            background: linear-gradient(135deg, #9ca3af 0%, #d1d5db 100%);
+        }
+
+        .map-card-title {
+            flex: 1;
+        }
+
+        .map-card-title h3 {
+            margin: 0 0 5px 0;
+            color: #1e3a8a;
+            font-size: 1.3em;
+        }
+
+        .map-card-title .period {
+            margin: 0;
+            color: #6b7280;
+            font-size: 0.9em;
+            font-style: italic;
+        }
+
+        .map-card-description {
+            color: #374151;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .map-card-features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 15px;
+        }
+
+        .feature-tag {
+            background: #dbeafe;
+            color: #1e40af;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 0.85em;
+            font-weight: 500;
+        }
+
+        .map-card.coming-soon .feature-tag {
+            background: #e5e7eb;
+            color: #6b7280;
+        }
+
+        .view-button {
+            display: inline-block;
+            background: #3b82f6;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .view-button:hover {
+            background: #2563eb;
+        }
+
+        .map-card.coming-soon .view-button {
+            background: #9ca3af;
+            cursor: not-allowed;
+            pointer-events: none;
+        }
+
+        .badge {
+            display: inline-block;
+            background: #059669;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 0.8em;
+            font-weight: 600;
+            margin-left: 10px;
+        }
+
+        .badge.coming {
+            background: #d97706;
+        }
+
+        .intro-section {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+
+        .intro-section h2 {
+            color: #1e3a8a;
+            margin-top: 0;
+        }
+
+        .intro-section p {
+            line-height: 1.8;
+            color: #374151;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🗺️ McCreary Family Migration Maps</h1>
+            <p class="subtitle">Interactive Visualizations of the Scotch-Irish Journey</p>
+            <p class="period">From Prehistoric Times to Present Day</p>
+        </div>
+
+        <div class="intro-section">
+            <h2>Explore the Journey</h2>
+            <p>
+                Follow the remarkable migration of the McCreary family across centuries and continents.
+                These interactive maps use animations and historical data to show how Presbyterian Scottish
+                families moved from Scotland through Ulster (Ireland) to colonial America, and eventually
+                spread across the United States.
+            </p>
+            <p>
+                Each map features animated migration routes, interactive popups with historical context,
+                and timeline controls. Click on any available map below to explore that period of McCreary
+                family history.
+            </p>
+        </div>
+
+        <div class="map-grid">
+            <!-- Map 1: Celtic Origins -->
+            <div class="map-card coming-soon">
+                <div class="map-card-header">
+                    <div class="map-number">1</div>
+                    <div class="map-card-title">
+                        <h3>Celtic Origins <span class="badge coming">Coming Soon</span></h3>
+                        <p class="period">c. 400 BCE - 843 CE</p>
+                    </div>
+                </div>
+                <div class="map-card-description">
+                    Explore pre-Christian Celtic settlement patterns in Scotland and Ireland, the migration
+                    of Gaelic Scots from Ireland to Scotland (c. 500 CE), and the establishment of the
+                    Kingdom of Dál Riata.
+                </div>
+                <div class="map-card-features">
+                    <span class="feature-tag">Celtic Settlements</span>
+                    <span class="feature-tag">Scots Migration</span>
+                    <span class="feature-tag">Iona Monastery</span>
+                </div>
+                <a href="#" class="view-button">Coming Soon</a>
+            </div>
+
+            <!-- Map 2: Medieval Scotland -->
+            <div class="map-card coming-soon">
+                <div class="map-card-header">
+                    <div class="map-number">2</div>
+                    <div class="map-card-title">
+                        <h3>Medieval Scotland <span class="badge coming">Coming Soon</span></h3>
+                        <p class="period">843 - 1600 CE</p>
+                    </div>
+                </div>
+                <div class="map-card-description">
+                    See where the McCreary name emerged in western Scotland, trace clan territories in
+                    Ayrshire, Galloway, and Dumfriesshire, and explore key medieval battles and events.
+                </div>
+                <div class="map-card-features">
+                    <span class="feature-tag">Clan Territories</span>
+                    <span class="feature-tag">MacRory Origins</span>
+                    <span class="feature-tag">Battle Sites</span>
+                </div>
+                <a href="#" class="view-button">Coming Soon</a>
+            </div>
+
+            <!-- Map 3: Ulster Plantation (AVAILABLE) -->
+            <div class="map-card available" onclick="window.location.href='03-ulster-plantation.html'">
+                <div class="map-card-header">
+                    <div class="map-number">3</div>
+                    <div class="map-card-title">
+                        <h3>Ulster Plantation <span class="badge">Available</span></h3>
+                        <p class="period">1603 - 1718 CE</p>
+                    </div>
+                </div>
+                <div class="map-card-description">
+                    Watch animated routes show Scottish Presbyterian families crossing the narrow North
+                    Channel to settle in Ulster counties: Antrim, Down, Tyrone, and Donegal.
+                </div>
+                <div class="map-card-features">
+                    <span class="feature-tag">Animated Routes</span>
+                    <span class="feature-tag">4 Migration Paths</span>
+                    <span class="feature-tag">Interactive Popups</span>
+                </div>
+                <a href="03-ulster-plantation.html" class="view-button">View Map →</a>
+            </div>
+
+            <!-- Map 4: Transatlantic Migration -->
+            <div class="map-card coming-soon">
+                <div class="map-card-header">
+                    <div class="map-number">4</div>
+                    <div class="map-card-title">
+                        <h3>Transatlantic Migration <span class="badge coming">Coming Soon</span></h3>
+                        <p class="period">1717 - 1775 CE</p>
+                    </div>
+                </div>
+                <div class="map-card-description">
+                    Follow ship routes across the Atlantic from Ulster to Philadelphia and New Castle,
+                    Delaware. See three major emigration waves bringing McCreary families to America.
+                </div>
+                <div class="map-card-features">
+                    <span class="feature-tag">Ship Routes</span>
+                    <span class="feature-tag">3 Emigration Waves</span>
+                    <span class="feature-tag">Port Cities</span>
+                </div>
+                <a href="#" class="view-button">Coming Soon</a>
+            </div>
+
+            <!-- Map 5: American Frontier -->
+            <div class="map-card coming-soon">
+                <div class="map-card-header">
+                    <div class="map-number">5</div>
+                    <div class="map-card-title">
+                        <h3>American Frontier Expansion <span class="badge coming">Coming Soon</span></h3>
+                        <p class="period">1718 - 1800 CE</p>
+                    </div>
+                </div>
+                <div class="map-card-description">
+                    Trace the southward migration from Pennsylvania through the Shenandoah Valley to the
+                    Carolinas, following the Great Wagon Road into Kentucky and Tennessee.
+                </div>
+                <div class="map-card-features">
+                    <span class="feature-tag">Great Wagon Road</span>
+                    <span class="feature-tag">Settlement Patterns</span>
+                    <span class="feature-tag">Presbyterian Churches</span>
+                </div>
+                <a href="#" class="view-button">Coming Soon</a>
+            </div>
+
+            <!-- Map 6: 19th Century Westward -->
+            <div class="map-card coming-soon">
+                <div class="map-card-header">
+                    <div class="map-number">6</div>
+                    <div class="map-card-title">
+                        <h3>19th Century Westward <span class="badge coming">Coming Soon</span></h3>
+                        <p class="period">1800 - 1900 CE</p>
+                    </div>
+                </div>
+                <div class="map-card-description">
+                    See how McCreary families spread west from Appalachia into Ohio, Indiana, Missouri,
+                    and beyond during the era of westward expansion and the Civil War.
+                </div>
+                <div class="map-card-features">
+                    <span class="feature-tag">Westward Routes</span>
+                    <span class="feature-tag">Civil War Impact</span>
+                    <span class="feature-tag">Railroad Era</span>
+                </div>
+                <a href="#" class="view-button">Coming Soon</a>
+            </div>
+
+            <!-- Map 7: Modern Distribution -->
+            <div class="map-card coming-soon">
+                <div class="map-card-header">
+                    <div class="map-number">7</div>
+                    <div class="map-card-title">
+                        <h3>Modern Distribution <span class="badge coming">Coming Soon</span></h3>
+                        <p class="period">1900 - Present</p>
+                    </div>
+                </div>
+                <div class="map-card-description">
+                    Explore heat maps showing current McCreary surname distribution across the United
+                    States, comparing modern populations with historical settlement patterns.
+                </div>
+                <div class="map-card-features">
+                    <span class="feature-tag">Heat Map</span>
+                    <span class="feature-tag">Surname Distribution</span>
+                    <span class="feature-tag">State Rankings</span>
+                </div>
+                <a href="#" class="view-button">Coming Soon</a>
+            </div>
+        </div>
+
+        <div class="info-panel">
+            <h3>About These Maps</h3>
+            <p>
+                These interactive maps are built using <strong>Leaflet.js</strong> and various animation
+                plugins to visualize the multi-generational journey of the McCreary family. Each map includes:
+            </p>
+            <ul>
+                <li><strong>Animated migration routes</strong> showing directional movement</li>
+                <li><strong>Interactive popups</strong> with historical context and details</li>
+                <li><strong>Timeline controls</strong> for exploring different eras</li>
+                <li><strong>Multiple base maps</strong> appropriate for each historical period</li>
+                <li><strong>Geographic accuracy</strong> based on historical records and research</li>
+            </ul>
+            <p>
+                Map 3 (Ulster Plantation Migration) is currently available as a proof of concept. Additional
+                maps will be added progressively to complete the full migration story from prehistoric times
+                to the present day.
+            </p>
+
+            <h3>Technology Stack</h3>
+            <p>
+                These maps use the following open-source libraries:
+            </p>
+            <ul>
+                <li><strong>Leaflet.js</strong> - Primary mapping library</li>
+                <li><strong>Leaflet.Polyline.SnakeAnim</strong> - Animated route drawing</li>
+                <li><strong>Leaflet.PolylineDecorator</strong> - Directional arrows</li>
+                <li><strong>GeoJSON</strong> - Geographic data format</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
