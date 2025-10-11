@@ -1,0 +1,93 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ayrshire to Antrim",
+        "from": "Ayrshire, Scotland",
+        "to": "County Antrim, Ulster",
+        "period": "1609-1718",
+        "start_year": 1609,
+        "end_year": 1718,
+        "distance_miles": 13,
+        "route_type": "primary",
+        "color": "#1e3a8a",
+        "description": "The shortest crossing of the North Channel, only 13 miles at its narrowest point. This was the primary route for Scottish Presbyterian families from Ayrshire migrating to County Antrim."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-4.63, 55.46],
+          [-5.93, 54.86]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Galloway to Down",
+        "from": "Galloway, Scotland",
+        "to": "County Down, Ulster",
+        "period": "1609-1718",
+        "start_year": 1609,
+        "end_year": 1718,
+        "distance_miles": 25,
+        "route_type": "primary",
+        "color": "#1e40af",
+        "description": "Scottish Lowlanders from Galloway region crossed to County Down in southeastern Ulster, establishing Presbyterian communities."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-4.24, 54.86],
+          [-5.71, 54.48]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dumfriesshire to Tyrone",
+        "from": "Dumfriesshire, Scotland",
+        "to": "County Tyrone, Ulster",
+        "period": "1609-1718",
+        "start_year": 1609,
+        "end_year": 1718,
+        "distance_miles": 35,
+        "route_type": "secondary",
+        "color": "#2563eb",
+        "description": "Families from Dumfriesshire settled in County Tyrone, the heart of the Ulster Plantation scheme."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-3.61, 55.07],
+          [-7.05, 54.60]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Western Scotland to Donegal",
+        "from": "Western Scotland",
+        "to": "County Donegal, Ulster",
+        "period": "1609-1718",
+        "start_year": 1609,
+        "end_year": 1718,
+        "distance_miles": 30,
+        "route_type": "secondary",
+        "color": "#3b82f6",
+        "description": "Scottish settlers also moved to County Donegal in northwestern Ulster, though in smaller numbers than to Antrim and Down."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-5.10, 55.60],
+          [-7.73, 54.99]
+        ]
+      }
+    }
+  ]
+}

@@ -10,16 +10,21 @@ We've created a series of interactive maps showing the McCreary family's migrati
 
 ### Available Maps:
 
+- **[Celtic Origins & Early Scotland (c. 400 BCE - 843 CE)](../../sims/maps/migration/01-celtic-origins.html)** - Explore the Celtic migrations from continental Europe to Ireland and Scotland, the migration of Gaelic Scots from Ireland to establish Dál Riata, and St. Columba's mission to Iona. Features 5 distinct migration routes showing the deep historical roots of Gaelic culture.
+
+- **[Medieval Scotland & Surname Emergence (843-1600)](../../sims/maps/migration/02-medieval-scotland.html)** - Trace the formation of the Kingdom of Alba, the emergence of the MacRory (McCreary) surname in western Scotland, Norse Viking invasions, the Wars of Scottish Independence, and the Protestant Reformation. Features 6 historical routes showing clan territories, battles, and cultural transformations.
+
 - **[Ulster Plantation Migration (1603-1718)](../../sims/maps/migration/03-ulster-plantation.html)** - Watch animated routes showing how Scottish Presbyterian families crossed the North Channel to settle in Ulster counties. Features 4 distinct migration paths with historical details.
+
+- **[Transatlantic Migration (1717-1775)](../../sims/maps/migration/04-transatlantic-migration.html)** - Follow the great Scotch-Irish exodus across the Atlantic Ocean. See ship routes from Belfast and Londonderry to Philadelphia and New Castle, Delaware, including the three major emigration waves (1717-1718, 1725-1729, 1740-1741) that brought over 100,000 Ulster Scots to colonial America.
+
+- **[American Frontier Expansion (1718-1800)](../../sims/maps/migration/05-american-frontier.html)** - Trace the southward migration along the Great Wagon Road from Pennsylvania's Cumberland Valley through Virginia's Shenandoah Valley to the Carolinas. See the trans-Appalachian routes through Cumberland Gap to Kentucky and into Tennessee. Features 6 migration routes showing how McCreary families and other Scotch-Irish settlers moved into the American frontier.
+
+- **[19th Century Westward Expansion (1800-1900)](../../sims/maps/migration/06-westward-expansion.html)** - Follow the continued westward movement from the Appalachian base into the Old Northwest (Ohio, Indiana, Illinois), across the Mississippi into Missouri and Texas, onto the Great Plains (Kansas), and via the Oregon Trail to the Far West. Features 7 migration routes showing the full scope of 19th-century American expansion including the Civil War era and railroad age.
 
 ### Coming Soon:
 
-1. **Celtic Origins & Early Scotland** (c. 400 BCE - 843 CE)
-2. **Medieval Scotland & Surname Emergence** (843 - 1600)
-3. **Transatlantic Migration** (1717 - 1775)
-4. **American Frontier Expansion** (1718 - 1800)
-5. **19th Century Westward Expansion** (1800 - 1900)
-6. **Modern Distribution** (1900 - Present)
+1. **Modern Distribution** (1900 - Present)
 
 ## Geographic Origins: Scotland
 

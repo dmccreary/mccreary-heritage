@@ -1,0 +1,137 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Belfast to Philadelphia",
+        "from": "Belfast, Ulster",
+        "to": "Philadelphia, Pennsylvania",
+        "period": "1717-1775",
+        "start_year": 1717,
+        "end_year": 1775,
+        "distance_miles": 3200,
+        "route_type": "primary",
+        "color": "#1e3a8a",
+        "description": "The primary route for Ulster Scots emigration. Philadelphia was the main port of entry, receiving approximately 100,000-150,000 Ulster Scots between 1717-1775. The voyage typically took 6-8 weeks."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-5.93, 54.60],
+          [-10.0, 54.5],
+          [-20.0, 53.0],
+          [-35.0, 48.0],
+          [-50.0, 44.0],
+          [-65.0, 42.0],
+          [-75.17, 39.95]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Londonderry to New Castle",
+        "from": "Londonderry, Ulster",
+        "to": "New Castle, Delaware",
+        "period": "1717-1775",
+        "start_year": 1717,
+        "end_year": 1775,
+        "distance_miles": 3150,
+        "route_type": "primary",
+        "color": "#1e40af",
+        "description": "A secondary but important route. New Castle, Delaware served as an overflow port when Philadelphia was crowded. Many McCreary families arrived through this port."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-7.32, 55.00],
+          [-12.0, 54.0],
+          [-22.0, 52.5],
+          [-37.0, 47.5],
+          [-52.0, 43.5],
+          [-67.0, 41.5],
+          [-75.52, 39.66]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "First Wave: 1717-1718",
+        "from": "Ulster",
+        "to": "Pennsylvania",
+        "period": "1717-1718",
+        "start_year": 1717,
+        "end_year": 1718,
+        "distance_miles": 3200,
+        "route_type": "wave",
+        "color": "#059669",
+        "description": "The first major wave of Scotch-Irish emigration. Driven by rack-renting, religious discrimination, and economic hardship. The McCreary family first appears in colonial records in 1718."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-6.5, 54.8],
+          [-15.0, 53.5],
+          [-30.0, 49.0],
+          [-45.0, 45.0],
+          [-60.0, 42.5],
+          [-75.0, 40.0]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Second Wave: 1725-1729",
+        "from": "Ulster",
+        "to": "Pennsylvania",
+        "period": "1725-1729",
+        "start_year": 1725,
+        "end_year": 1729,
+        "distance_miles": 3200,
+        "route_type": "wave",
+        "color": "#047857",
+        "description": "The second wave, triggered by severe droughts, poor harvests, and increased rent. Thousands of families followed earlier emigrants to established communities."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-6.5, 54.8],
+          [-16.0, 53.8],
+          [-32.0, 49.5],
+          [-47.0, 45.5],
+          [-62.0, 43.0],
+          [-75.0, 40.0]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Third Wave: 1740-1741",
+        "from": "Ulster",
+        "to": "Pennsylvania",
+        "period": "1740-1741",
+        "start_year": 1740,
+        "end_year": 1741,
+        "distance_miles": 3200,
+        "route_type": "wave",
+        "color": "#10b981",
+        "description": "The third and largest wave, caused by the devastating famine of 1740-1741 ('Blian an Áir' - the Year of Slaughter). Up to 400,000 people died in Ireland, spurring massive emigration."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-6.5, 54.8],
+          [-17.0, 54.0],
+          [-33.0, 50.0],
+          [-48.0, 46.0],
+          [-63.0, 43.5],
+          [-75.0, 40.0]
+        ]
+      }
+    }
+  ]
+}

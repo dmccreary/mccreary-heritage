@@ -33,9 +33,9 @@
 
         <div id="loading" class="loading" style="display: none;">Loading migration routes</div>
         <div id="error" class="error" style="display: none;"></div>
+        <div id="map"></div>
 
-        <div class="map-info-container">
-            <div class="info-panel">
+        <div class="info-panel">
             <h3>About the Ulster Plantation</h3>
             <p>
                 The Ulster Plantation (1609-1718) was a systematic colonization program that brought thousands of Scottish
@@ -79,10 +79,7 @@
                 </div>
             </div>
         </div>
-
-        <div id="map"></div>
     </div>
-</div>
 
     <!-- Leaflet JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
@@ -259,7 +256,7 @@
 
             currentRoutes[index] = route;
 
-            // Bind popup with left offset
+            // Bind popup
             route.bindPopup(`
                 <h4>${props.name}</h4>
                 <p><strong>From:</strong> ${props.from}</p>
@@ -267,9 +264,7 @@
                 <p><strong>Distance:</strong> ${props.distance_miles} miles</p>
                 <p><strong>Period:</strong> ${props.period}</p>
                 <p>${props.description}</p>
-            `, {
-                offset: L.point(-250, 0)
-            });
+            `);
 
             // Animate the route
             route.snakeIn();
