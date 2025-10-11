@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Distribution (1900-Present) - McCreary Family</title>
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/migration-maps.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🗺️ Modern Distribution</h1>
+            <p class="subtitle">Where McCreary Families Live Today</p>
+            <p class="period">1900 - Present</p>
+        </div>
+
+        <div class="controls">
+            <h3>Visualization Controls</h3>
+            <div class="button-group">
+                <button class="btn btn-primary" onclick="showAllStates()">🗺️ Show All States</button>
+                <button class="btn btn-success" onclick="showTopFive()">⭐ Top 5 States</button>
+                <button class="btn btn-warning" onclick="resetMap()">🔄 Reset</button>
+            </div>
+        </div>
+
+        <div id="loading" class="loading" style="display: none;">Loading distribution data</div>
+        <div id="error" class="error" style="display: none;"></div>
+
+        <div class="map-info-container">
+            <div class="info-panel">
+            <h3>About Modern Distribution</h3>
+            <p>
+                Today, McCreary surname bearers are found throughout the United States, with the highest
+                concentrations in states where Scotch-Irish families originally settled in the 18th and
+                19th centuries.
+            </p>
+
+            <h4>Top States by Concentration</h4>
+            <ol>
+                <li><strong>Kentucky</strong> - Highest concentration, McCreary County named for the family</li>
+                <li><strong>Tennessee</strong> - Strong Eastern Tennessee presence</li>
+                <li><strong>North Carolina</strong> - Western mountains, Great Wagon Road heritage</li>
+                <li><strong>Virginia</strong> - Shenandoah Valley descendants</li>
+                <li><strong>Pennsylvania</strong> - Original 1718 landing point, Cumberland Valley</li>
+                <li><strong>Ohio</strong> - 19th-century expansion from Kentucky</li>
+                <li><strong>South Carolina</strong> - Piedmont/backcountry settlement</li>
+                <li><strong>Indiana</strong> - Old Northwest settlement</li>
+                <li><strong>Missouri</strong> - Gateway to the West</li>
+                <li><strong>Texas</strong> - Southern frontier expansion</li>
+            </ol>
+
+            <h4>20th Century Changes</h4>
+            <p>
+                The 20th century brought major demographic shifts:
+            </p>
+            <ul>
+                <li><strong>Urbanization</strong> - Movement from farms to cities (1900-1950)</li>
+                <li><strong>Great Migration</strong> - Some families moved to northern industrial cities</li>
+                <li><strong>WWII & Post-War</strong> - Military service and education dispersed families</li>
+                <li><strong>Sunbelt Migration</strong> - Retirement and economic migration to Florida, Arizona, California (1960-present)</li>
+                <li><strong>Professional Mobility</strong> - College education enabled national distribution</li>
+            </ul>
+
+            <h4>Geographic Patterns</h4>
+            <p>
+                Despite 20th-century dispersal, clear patterns remain:
+            </p>
+            <ul>
+                <li><strong>Appalachian Core</strong> - Highest concentrations remain in original settlement areas</li>
+                <li><strong>Midwest Presence</strong> - Strong in states settled during 19th-century expansion</li>
+                <li><strong>Urban Centers</strong> - Concentrations in major metropolitan areas</li>
+                <li><strong>Lower Density West</strong> - Fewer families in Mountain West and Pacific Northwest</li>
+            </ul>
+
+            <h4>Cultural Continuity</h4>
+            <p>
+                Despite geographic dispersal, McCreary families often maintain:
+            </p>
+            <ul>
+                <li>Presbyterian church affiliation</li>
+                <li>Family reunion traditions</li>
+                <li>Genealogical research and heritage interest</li>
+                <li>Connection to ancestral homeland (Scotland, Ulster, Appalachia)</li>
+                <li>Educational values and achievement</li>
+            </ul>
+
+            <h4>Modern Genealogy</h4>
+            <p>
+                The internet age has transformed McCreary family connections:
+            </p>
+            <ul>
+                <li><strong>DNA Testing</strong> - Ancestry.com, 23andMe connect distant cousins</li>
+                <li><strong>Online Records</strong> - FamilySearch, Ancestry digitize historical records</li>
+                <li><strong>Social Media</strong> - Facebook groups unite McCreary researchers</li>
+                <li><strong>Virtual Reunions</strong> - Zoom enables nationwide family gatherings</li>
+            </ul>
+
+            <h4>Looking Forward</h4>
+            <p>
+                21st century trends suggest continued evolution:
+            </p>
+            <ul>
+                <li>Remote work enables return to ancestral regions</li>
+                <li>Heritage tourism to Scotland, Ulster, and Appalachia</li>
+                <li>Renewed interest in Scotch-Irish history and culture</li>
+                <li>Preservation of family stories and traditions</li>
+            </ul>
+
+            <div class="legend">
+                <h4>Concentration Legend</h4>
+                <div class="legend-item">
+                    <div class="legend-circle" style="background: #dc2626; width: 30px; height: 30px; border-radius: 50%;"></div>
+                    <span class="legend-text">Very High Concentration (KY, TN)</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-circle" style="background: #ef4444; width: 24px; height: 24px; border-radius: 50%;"></div>
+                    <span class="legend-text">High Concentration (NC, VA, PA)</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-circle" style="background: #f97316; width: 18px; height: 18px; border-radius: 50%;"></div>
+                    <span class="legend-text">Moderate Concentration (OH, SC, IN, MO, TX)</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-circle" style="background: #fb923c; width: 12px; height: 12px; border-radius: 50%;"></div>
+                    <span class="legend-text">Low-Moderate Concentration (IL, CA, FL, GA)</span>
+                </div>
+            </div>
+        </div>
+
+        <div id="map"></div>
+    </div>
+</div>
+
+    <!-- Leaflet JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+
+    <script>
+        let map;
+        let distributionData;
+        let currentMarkers = [];
+
+        // Initialize the map
+        function initMap() {
+            map = L.map('map').setView([37.5, -92.0], 4);
+
+            // Add base tile layer
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '© OpenStreetMap contributors',
+                maxZoom: 18,
+                minZoom: 3
+            }).addTo(map);
+
+            // Add scale control
+            L.control.scale({imperial: true, metric: true}).addTo(map);
+
+            // Load distribution data
+            loadDistributionData();
+        }
+
+        // Load distribution data
+        async function loadDistributionData() {
+            try {
+                document.getElementById('loading').style.display = 'block';
+
+                const response = await fetch('data/modern-distribution.geojson');
+                if (!response.ok) {
+                    throw new Error(`Failed to load data: ${response.status}`);
+                }
+
+                distributionData = await response.json();
+                document.getElementById('loading').style.display = 'none';
+
+                // Show all states by default
+                showAllStates();
+
+                console.log(`Loaded ${distributionData.features.length} state distributions`);
+
+            } catch (error) {
+                console.error('Error loading distribution data:', error);
+                document.getElementById('loading').style.display = 'none';
+                const errorDiv = document.getElementById('error');
+                errorDiv.style.display = 'block';
+                errorDiv.innerHTML = `
+                    <strong>Error Loading Data</strong><br>
+                    ${error.message}<br><br>
+                    <small>Please ensure the data files are in the correct location.</small>
+                `;
+            }
+        }
+
+        // Show all states
+        function showAllStates() {
+            clearMarkers();
+
+            distributionData.features.forEach((feature, index) => {
+                const coords = [feature.geometry.coordinates[1], feature.geometry.coordinates[0]];
+                const props = feature.properties;
+
+                // Create circle marker with size based on concentration
+                const marker = L.circleMarker(coords, {
+                    radius: props.radius,
+                    fillColor: props.color,
+                    color: 'white',
+                    weight: 2,
+                    opacity: 1,
+                    fillOpacity: 0.6
+                }).addTo(map);
+
+                // Bind popup
+                marker.bindPopup(`
+                    <h4>#${props.rank} ${props.state}</h4>
+                    <p><strong>Concentration:</strong> ${props.concentration.replace('_', ' ')}</p>
+                    <p>${props.description}</p>
+                `, {
+                    offset: L.point(-250, 0)
+                });
+
+                // Add click event to zoom
+                marker.on('click', function() {
+                    map.setView(coords, 6);
+                });
+
+                currentMarkers.push(marker);
+            });
+        }
+
+        // Show only top 5 states
+        function showTopFive() {
+            clearMarkers();
+
+            distributionData.features.slice(0, 5).forEach((feature) => {
+                const coords = [feature.geometry.coordinates[1], feature.geometry.coordinates[0]];
+                const props = feature.properties;
+
+                // Create larger circles for top 5
+                const marker = L.circleMarker(coords, {
+                    radius: props.radius + 5,
+                    fillColor: props.color,
+                    color: 'white',
+                    weight: 3,
+                    opacity: 1,
+                    fillOpacity: 0.7
+                }).addTo(map);
+
+                // Bind popup
+                marker.bindPopup(`
+                    <h4>#${props.rank} ${props.state}</h4>
+                    <p><strong>Concentration:</strong> ${props.concentration.replace('_', ' ')}</p>
+                    <p>${props.description}</p>
+                `, {
+                    offset: L.point(-250, 0)
+                });
+
+                // Add label
+                L.marker(coords, {
+                    icon: L.divIcon({
+                        className: 'state-label',
+                        html: `<div style="background: ${props.color}; color: white; padding: 4px 8px; border-radius: 4px; font-weight: bold; border: 2px solid white;">#${props.rank} ${props.state}</div>`,
+                        iconSize: null
+                    })
+                }).addTo(map);
+
+                marker.on('click', function() {
+                    map.setView(coords, 6);
+                });
+
+                currentMarkers.push(marker);
+            });
+
+            // Zoom to show top 5 states
+            map.setView([37.0, -84.0], 5);
+        }
+
+        // Clear all markers
+        function clearMarkers() {
+            currentMarkers.forEach(marker => {
+                map.removeLayer(marker);
+            });
+            currentMarkers = [];
+        }
+
+        // Reset map to initial state
+        function resetMap() {
+            map.setView([37.5, -92.0], 4);
+            showAllStates();
+        }
+
+        // Initialize map when page loads
+        document.addEventListener('DOMContentLoaded', initMap);
+    </script>
+</body>
+</html>
