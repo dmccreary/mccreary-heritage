@@ -1,0 +1,215 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "state": "Kentucky",
+        "concentration": "very_high",
+        "rank": 1,
+        "description": "Highest concentration of McCreary surname bearers. McCreary County, Kentucky (established 1912) is named for the prominent family. Strong Appalachian roots.",
+        "color": "#dc2626",
+        "radius": 40
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-85.0, 37.5]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "state": "Tennessee",
+        "concentration": "very_high",
+        "rank": 2,
+        "description": "Second highest concentration. Eastern Tennessee has deep Scotch-Irish roots from 18th-century settlement. Strong Presbyterian heritage.",
+        "color": "#dc2626",
+        "radius": 38
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-86.0, 35.8]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "state": "North Carolina",
+        "concentration": "high",
+        "rank": 3,
+        "description": "Western North Carolina was a major Scotch-Irish settlement area along the Great Wagon Road. Many families remained in the mountains.",
+        "color": "#ef4444",
+        "radius": 35
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.5, 35.5]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "state": "Virginia",
+        "concentration": "high",
+        "rank": 4,
+        "description": "Shenandoah Valley was a primary 18th-century settlement area. Many families still live in western Virginia.",
+        "color": "#ef4444",
+        "radius": 33
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-78.5, 37.5]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "state": "Pennsylvania",
+        "concentration": "high",
+        "rank": 5,
+        "description": "First landing point for Ulster Scots in 1717-1718. Cumberland Valley remains home to many descendants.",
+        "color": "#ef4444",
+        "radius": 30
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-77.5, 40.3]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "state": "Ohio",
+        "concentration": "moderate",
+        "rank": 6,
+        "description": "19th-century settlement from Kentucky and Pennsylvania. Significant Scotch-Irish population in southern Ohio.",
+        "color": "#f97316",
+        "radius": 28
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-82.5, 40.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "state": "South Carolina",
+        "concentration": "moderate",
+        "rank": 7,
+        "description": "Backcountry settlement along the Great Wagon Road. Piedmont region has strong Scotch-Irish heritage.",
+        "color": "#f97316",
+        "radius": 26
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-81.0, 34.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "state": "Indiana",
+        "concentration": "moderate",
+        "rank": 8,
+        "description": "19th-century westward expansion from Ohio. Southern Indiana has particularly strong McCreary presence.",
+        "color": "#f97316",
+        "radius": 24
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-86.3, 39.8]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "state": "Missouri",
+        "concentration": "moderate",
+        "rank": 9,
+        "description": "Gateway to the West. 19th-century migration from Kentucky and Tennessee brought many families.",
+        "color": "#f97316",
+        "radius": 22
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-92.5, 38.5]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "state": "Texas",
+        "concentration": "moderate",
+        "rank": 10,
+        "description": "19th-century migration from southern Appalachia. Texas independence and statehood attracted settlers.",
+        "color": "#f97316",
+        "radius": 20
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-99.0, 31.5]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "state": "Illinois",
+        "concentration": "low_moderate",
+        "rank": 11,
+        "description": "19th-century prairie settlement. Chicago urbanization drew families in 20th century.",
+        "color": "#fb923c",
+        "radius": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-89.5, 40.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "state": "California",
+        "concentration": "low_moderate",
+        "rank": 12,
+        "description": "20th-century migration, especially post-WWII. Gold Rush brought some 19th-century families.",
+        "color": "#fb923c",
+        "radius": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-119.5, 37.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "state": "Florida",
+        "concentration": "low_moderate",
+        "rank": 13,
+        "description": "Primarily 20th-century retirement and economic migration from Appalachian states.",
+        "color": "#fb923c",
+        "radius": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-82.0, 28.5]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "state": "Georgia",
+        "concentration": "low_moderate",
+        "rank": 14,
+        "description": "Some 18th-century backcountry settlement, but primarily 20th-century Atlanta urbanization.",
+        "color": "#fb923c",
+        "radius": 12
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-83.5, 32.7]
+      }
+    }
+  ]
+}

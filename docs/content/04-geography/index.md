@@ -22,9 +22,7 @@ We've created a series of interactive maps showing the McCreary family's migrati
 
 - **[19th Century Westward Expansion (1800-1900)](../../sims/maps/migration/06-westward-expansion.html)** - Follow the continued westward movement from the Appalachian base into the Old Northwest (Ohio, Indiana, Illinois), across the Mississippi into Missouri and Texas, onto the Great Plains (Kansas), and via the Oregon Trail to the Far West. Features 7 migration routes showing the full scope of 19th-century American expansion including the Civil War era and railroad age.
 
-### Coming Soon:
-
-1. **Modern Distribution** (1900 - Present)
+- **[Modern Distribution (1900-Present)](../../sims/maps/migration/07-modern-distribution.html)** - Explore where McCreary surname bearers live today across the United States. See concentration circles sized by population density in 14 states, from the highest concentrations in Kentucky and Tennessee to modern dispersal patterns. Includes analysis of 20th-century urbanization, Sunbelt migration, and how families maintain cultural continuity despite geographic dispersal.
 
 ## Geographic Origins: Scotland
 
