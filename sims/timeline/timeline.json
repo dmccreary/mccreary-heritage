@@ -3,6 +3,63 @@
   "events": [
     {
       "start_date": {
+        "year": "400",
+        "display_date": "c. 400 BCE - 400 CE"
+      },
+      "text": {
+        "headline": "Celtic Polytheistic Religion Dominates",
+        "text": "Ancient Celts in Scotland and Ireland practice polytheistic religions centered on nature gods, druids, and sacred sites like stone circles and ritual wells."
+      },
+      "group": "Scottish History",
+      "notes": "Pre-Christian Celts worshipped multiple gods associated with nature, warfare, and fertility. Druids served as priests, judges, and keepers of oral traditions. Sacred sites included stone circles, groves, and wells. Religious practices involved seasonal festivals (Samhain, Beltane, Lughnasadh, Imbolc) that later influenced Christian holy days. This polytheistic worldview emphasized connection to the land and cycles of nature, quite different from the monotheistic Christianity that would arrive later."
+    },
+    {
+      "start_date": {
+        "year": "432"
+      },
+      "text": {
+        "headline": "St. Patrick Brings Christianity to Ireland",
+        "text": "St. Patrick, a former slave who escaped Britain, returns to Ireland as a Christian missionary, beginning the Christianization of Ireland."
+      },
+      "group": "Irish History",
+      "notes": "St. Patrick (c. 385-461) is credited with converting much of Ireland to Christianity, though Christian communities may have existed earlier. Patrick established churches, monasteries, and schools throughout Ireland. Irish Christianity developed distinctive features, including a strong monastic tradition and emphasis on missionary work. Unlike much of Europe where Christianity spread through Roman imperial power, Ireland adopted Christianity peacefully through persuasion. Irish monks would later play a crucial role in spreading Christianity back to parts of Europe during the early medieval period."
+    },
+    {
+      "start_date": {
+        "year": "500",
+        "display_date": "c. 500"
+      },
+      "text": {
+        "headline": "Scots Migrate from Ireland to Scotland",
+        "text": "The Gaelic-speaking Scots (Scoti) migrate from Ireland to western Scotland, bringing Christianity and establishing the Kingdom of Dál Riata."
+      },
+      "group": "Scottish History",
+      "notes": "The Scots were originally from Ireland (Scotia Minor) and established settlements in what is now Argyll and the Inner Hebrides, creating the Kingdom of Dál Riata that spanned both sides of the North Channel. They brought Christianity, the Gaelic language, and Irish cultural traditions to Scotland. This migration was pivotal: it introduced Christianity to the Picts in Scotland and established Gaelic as a major language. The term 'Scotland' itself derives from these Irish settlers, the 'Scoti.'"
+    },
+    {
+      "start_date": {
+        "year": "563"
+      },
+      "text": {
+        "headline": "St. Columba Founds Iona Monastery",
+        "text": "Irish monk St. Columba establishes a monastery on the island of Iona, which becomes the center for Christianizing Scotland."
+      },
+      "group": "Scottish History",
+      "notes": "St. Columba (521-597) left Ireland and founded the monastery at Iona, which became one of the most important religious centers in medieval Europe. From Iona, monks spread Christianity throughout Scotland, converting Pictish kings and establishing churches and monasteries. Iona became a major center of learning, art (including the famous Book of Kells), and missionary activity. The Celtic Christian tradition established by Columba emphasized monasticism, scholarship, and missionary work—traditions that would influence Scottish religious culture for centuries, even after the later adoption of Roman Catholic practices and eventually Protestantism."
+    },
+    {
+      "start_date": {
+        "year": "664"
+      },
+      "text": {
+        "headline": "Synod of Whitby",
+        "text": "Church leaders decide to follow Roman Catholic practices rather than Celtic Christian traditions, gradually bringing Scotland and Ireland into alignment with Rome."
+      },
+      "group": "Scottish History",
+      "notes": "The Synod of Whitby resolved differences between Celtic and Roman Christian practices, particularly regarding the calculation of Easter and monastic tonsure styles. While the decision favored Roman practices, Celtic monasticism and scholarship remained influential in Scotland and Ireland for centuries. This marked the beginning of closer ties between Scotland/Ireland and the broader Catholic Church centered in Rome, though distinctive regional practices persisted. This Catholic tradition would dominate until the Protestant Reformation of the 1500s."
+    },
+    {
+      "start_date": {
         "year": "843"
       },
       "text": {
