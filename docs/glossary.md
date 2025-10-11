@@ -20,6 +20,10 @@ The frontier region along the Appalachian Mountains from Pennsylvania south to G
 
 ## B
 
+### Baptist {#baptist}
+
+A Protestant Christian denomination that emphasizes adult baptism (believer's baptism) rather than infant baptism, and the complete independence of local congregations. Baptists believe individuals should choose faith for themselves when old enough to understand it, rather than being baptized as infants. Baptist churches are even more decentralized than Presbyterian churches, with each congregation fully independent. Baptists became numerous on the American frontier alongside Presbyterians, though their worship style and governance differed.
+
 ### Battle of Bannockburn {#battle-of-bannockburn}
 
 A decisive battle fought on June 23-24, 1314, near Stirling, Scotland, during the First War of Scottish Independence. Robert the Bruce led a Scottish army of approximately 7,000 men to victory over an English force of 15,000-20,000 under King Edward II. The victory secured Scottish independence and became a defining moment in Scottish national identity. Clans that fought at Bannockburn gained prestige and land grants.
@@ -40,6 +44,14 @@ The British colonies of North Carolina and South Carolina, major destinations fo
 
 The Roman Catholic Church, the largest Christian denomination. In the context of McCreary family history, Catholicism was the religion of most native Irish people, while Scottish and English settlers who came during the Ulster Plantation were predominantly Protestant (Presbyterian or Anglican). Religious differences between Catholics and Protestants shaped Irish history for centuries, with Catholics facing legal discrimination under the Penal Laws following the Williamite War.
 
+### Celtic Christianity {#celtic-christianity}
+
+The distinctive form of Christianity that developed in Ireland and Scotland from the 400s-600s CE, before being brought into alignment with Roman Catholic practices. Celtic Christianity emphasized monasticism, missionary work, scholarship, and art. Unlike Christianity in Roman-controlled Europe, Irish Christianity spread peacefully through persuasion rather than imperial conquest. Important Celtic Christian centers included Iona in Scotland and numerous Irish monasteries. While the Synod of Whitby (664) aligned Celtic regions with Rome, Celtic traditions of learning and monasticism remained influential for centuries.
+
+### Celtic Religion {#celtic-religion}
+
+The pre-Christian polytheistic religions practiced by Celtic peoples in Scotland and Ireland before the arrival of Christianity (c. 400 BCE - 500 CE). Ancient Celts worshipped multiple gods associated with nature, warfare, and fertility. Druids served as priests, judges, and keepers of oral traditions. Sacred sites included stone circles, groves, and wells. Religious practices centered on seasonal festivals (Samhain, Beltane, Lughnasadh, Imbolc) that later influenced Christian holy days. This worldview emphasized connection to the land and cycles of nature.
+
 ### Clan System {#clan-system}
 
 The traditional Scottish social structure based on kinship and loyalty to a clan chief. Clans were extended family networks that controlled specific territories, maintained their own armies, and provided mutual protection and support. The clan system emphasized blood ties and personal loyalty to the chief above feudal obligations to lords or kings. This system shaped Scottish society from medieval times through the 1700s and influenced how Scottish families organized communities in Ulster and America.
@@ -58,6 +70,10 @@ A valley in south-central Pennsylvania that became an early settlement area for 
 
 ## D
 
+### Dál Riata {#dal-riata}
+
+An ancient Gaelic kingdom that existed from roughly 500-900 CE, spanning both northeastern Ireland and western Scotland (modern Argyll and Inner Hebrides). Founded by Irish Scots who migrated to Scotland, Dál Riata was crucial in spreading Christianity, the Gaelic language, and Irish culture to Scotland. The kingdom connected both sides of the North Channel and played a key role in Scotland's Christianization. Kenneth MacAlpin, who united the Picts and Scots to create the Kingdom of Scotland in 843, was a king of Dál Riata.
+
 ### Donegal {#donegal}
 
 A county in northwestern Ireland (Ulster) that received significant Scottish Presbyterian settlement during the Ulster Plantation. County Donegal was one of the six Ulster counties most heavily affected by the plantation scheme, with Scottish families receiving land grants and establishing Presbyterian communities in the early 1600s.
@@ -69,6 +85,10 @@ A county in northeastern Ireland (Ulster) adjacent to County Antrim, where many 
 ### Drogheda {#drogheda}
 
 An Irish town on the east coast north of Dublin, site of a notorious massacre during Cromwell's Conquest in September 1649. After a siege, Cromwell's forces breached the walls and killed approximately 3,500 people, including soldiers and civilians. Cromwell justified the massacre as revenge for Protestant deaths during the 1641 Rebellion. The event became symbolic of English brutality in Irish Catholic memory.
+
+### Druids {#druids}
+
+The priestly class in ancient Celtic society who served as religious leaders, judges, teachers, and keepers of oral tradition. Druids performed religious ceremonies, interpreted omens, presided over sacrifices, and preserved Celtic knowledge through memorization and oral transmission rather than writing. They held significant social and political power in pre-Christian Celtic Scotland and Ireland. Sacred sites like stone circles, groves, and wells were centers of druidic religious practice. Druidism declined with the Christianization of Ireland and Scotland beginning in the 400s-500s CE.
 
 ## E
 
@@ -109,6 +129,10 @@ The overthrow of Catholic King James II of England in 1688 and his replacement b
 The main overland route for Scotch-Irish migration from Pennsylvania southward through the Shenandoah Valley of Virginia and into the Carolinas and Georgia. The road followed Native American trails and became the primary route for frontier settlement from the 1740s through the early 1800s. Thousands of Scotch-Irish families, including McCrearys, traveled the Great Wagon Road seeking land and opportunity.
 
 ## I
+
+### Iona {#iona}
+
+A small island in the Inner Hebrides of Scotland, site of the monastery founded by St. Columba in 563 CE. Iona became one of the most important religious centers in medieval Europe, serving as the base for Christianizing Scotland and northern England. The monastery was a major center of learning, scholarship, and art—the famous Book of Kells was begun there. Iona monks established churches and monasteries throughout Scotland, converting Pictish kings and spreading Celtic Christianity. Scottish kings were buried on Iona for centuries, reflecting its spiritual significance.
 
 ### Irish Rebellion {#irish-rebellion}
 
@@ -170,6 +194,10 @@ The Scottish Gaelic form of the McCreary surname, meaning "son of Ruaidhri" (Ror
 
 A county in southern Kentucky established in 1912 and named for James B. McCreary, who served as Kentucky's governor and U.S. Senator. The county's name honors the McCreary family's prominence in Kentucky history and reflects the significant Scotch-Irish settlement in the region.
 
+### Methodist {#methodist}
+
+A Protestant Christian denomination that emerged in England in the 1700s as a movement within Anglicanism, founded by John and Charles Wesley. Methodism emphasized personal religious experience, emotional worship, conversion experiences, and holy living. Methodist circuit riders (traveling preachers) were particularly effective in reaching frontier communities in America, competing with Presbyterian ministers for converts. Methodist services were more emotional and less formal than Presbyterian services, featuring singing, emotional testimonies, and revival meetings. Methodists became one of the largest denominations in 19th century America.
+
 ### Mississippi River {#mississippi-river}
 
 The major river that formed the western boundary of the United States after the Treaty of Paris (1783) ended the American Revolution. The treaty gave the new nation all territory east of the Mississippi, opening vast lands for settlement. This westward expansion drew Scotch-Irish families from the eastern states into Kentucky, Tennessee, and eventually across the Mississippi.
@@ -224,6 +252,16 @@ An ancient people who inhabited northern and eastern Scotland before the medieva
 
 A Protestant Christian denomination that follows a form of church governance by elders (presbyters) rather than bishops. Presbyterianism emerged from the Protestant Reformation, particularly influenced by John Calvin and John Knox in Scotland. The Presbyterian Church of Scotland (the Kirk) became the established church in 1690. Most Scotch-Irish immigrants, including McCreary families, were Presbyterian. This religious identity shaped their communities in Ulster and later in North America, where they established Presbyterian churches as centers of worship, education, and community life. Presbyterian beliefs emphasized education, individual Bible reading, and democratic church governance, values that influenced American frontier culture.
 
+### Protestant Reformation {#protestant-reformation}
+
+A religious revolution that began in 1517 when Martin Luther challenged Catholic Church practices in Germany, leading to the creation of Protestant Christianity. The Reformation spread across Europe, with different regions developing distinct forms of Protestantism. In Switzerland, John Calvin developed theology that would influence Presbyterianism. In Scotland, John Knox led the Scottish Reformation (1560) that established Presbyterianism. The Reformation created permanent divisions between Catholics and Protestants that shaped European and British history for centuries, including the religious conflicts that drove Scotch-Irish emigration to America.
+
+## Q
+
+### Quaker {#quaker}
+
+Members of the Religious Society of Friends, a Protestant Christian movement founded in England in the 1600s by George Fox. Quakers believe in direct personal experience of God without need for ministers, formal liturgy, or church hierarchy. They practice pacifism (opposition to war), simplicity, and equality. Quakers were persecuted in England but found refuge in America. William Penn, a Quaker, founded Pennsylvania as a colony offering religious freedom. Philadelphia became a major entry point for Scotch-Irish Presbyterian immigrants, though Quaker and Presbyterian religious styles differed greatly. Quakers were early opponents of slavery.
+
 ## R
 
 ### Robert the Bruce {#robert-the-bruce}
@@ -255,6 +293,18 @@ A fertile valley in western Virginia between the Blue Ridge and Allegheny Mounta
 ### Siege of Derry {#siege-of-derry}
 
 A 105-day siege from April to July 1689 during the Williamite War, when Jacobite forces surrounded the Protestant city of Derry (Londonderry) in Ulster. Despite starvation, disease, and bombardment that killed approximately 4,000 defenders and 7,000 civilians, the city refused to surrender to Catholic King James II's forces. When relief ships finally broke through, the siege ended in Protestant victory. "No Surrender" became the city's motto and a symbol of Ulster Protestant resistance. The siege remains a foundational event in Ulster Protestant identity and is commemorated annually.
+
+### St. Columba {#st-columba}
+
+Irish monk and missionary (521-597 CE) who founded the monastery at Iona, Scotland in 563. Columba (also called Colum Cille) left Ireland and established Iona as a base for Christianizing Scotland. From Iona, monks spread Christianity throughout Scotland and northern England, converting Pictish kings and establishing churches and monasteries. Iona became a major center of Celtic Christianity, learning, and art. Columba's Celtic Christian tradition emphasized monasticism, scholarship, missionary work, and illuminated manuscripts. He is one of Scotland's patron saints and his legacy shaped Scottish religious culture for centuries.
+
+### St. Patrick {#st-patrick}
+
+Christian missionary and patron saint of Ireland (c. 385-461 CE). Patrick was kidnapped from Britain as a teenager and enslaved in Ireland. After escaping, he returned as a missionary, establishing churches, monasteries, and schools throughout Ireland. Patrick is credited with converting much of Ireland to Christianity, though Christian communities may have existed earlier. Irish Christianity under Patrick's influence developed distinctive features including strong monasticism and missionary emphasis. Unlike most of Europe where Christianity spread through Roman imperial power, Ireland adopted Christianity peacefully. Patrick's legacy made Ireland a center of Christian learning that sent missionaries throughout Europe during the early medieval period.
+
+### Synod of Whitby {#synod-of-whitby}
+
+A church council held in 664 CE in Northumbria (northern England) that resolved differences between Celtic and Roman Christian practices. The synod decided to follow Roman Catholic practices regarding the calculation of Easter and monastic tonsure (haircut) styles, rather than Celtic Christian traditions. While the decision favored Roman practices, Celtic monasticism and scholarship remained influential in Scotland and Ireland for centuries. The Synod of Whitby marked the beginning of closer ties between Celtic regions and the Roman Catholic Church centered in Rome. This Catholic tradition would dominate Scotland and Ireland until the Protestant Reformation of the 1500s.
 
 ## T
 

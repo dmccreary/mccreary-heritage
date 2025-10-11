@@ -50,7 +50,7 @@ While both Catholics and Presbyterians are Christians who follow the Bible, they
 - **Religious Services**: Catholic Mass was traditionally in Latin with elaborate ceremonies, incense, and ornamentation. Presbyterian services were in the local language with emphasis on Bible reading and preaching, with little ceremony or decoration.
 
 **Historical Conflict**
-The Protestant Reformation in the 1500s created a permanent split between Catholics and Protestants across Europe. In Britain and Ireland, this split became violent and political:
+The [Protestant Reformation](../../glossary.md#protestant-reformation) in the 1500s created a permanent split between [Catholics](../../glossary.md#catholic) and Protestants across Europe. In Britain and Ireland, this split became violent and political:
 
 - **In Scotland**: Scotland became officially Presbyterian in 1560. Highland clans were sometimes Catholic, while Lowlanders (including many McCreary ancestors) were Presbyterian. This religious divide contributed to conflicts within Scotland.
 
@@ -104,13 +104,13 @@ In America, there was no established Anglican hierarchy in most colonies, and Pr
 In America, McCreary families encountered many Protestant denominations they hadn't known in Scotland or Ulster:
 
 **Baptists**
-Baptists believed in adult baptism (waiting until a person is old enough to choose faith for themselves) rather than infant baptism. They also emphasized complete independence of each congregation—even more decentralized than Presbyterian governance. Baptists became numerous on the American frontier alongside Presbyterians.
+[Baptists](../../glossary.md#baptist) believed in adult baptism (waiting until a person is old enough to choose faith for themselves) rather than infant baptism. They also emphasized complete independence of each congregation—even more decentralized than Presbyterian governance. Baptists became numerous on the American frontier alongside Presbyterians.
 
 **Methodists**
-Methodism began in England in the 1700s as a movement within Anglicanism, emphasizing personal religious experience and emotional worship. Methodists sent traveling preachers to frontier areas, competing with Presbyterian ministers for converts. Methodist services were more emotional and less formal than Presbyterian services.
+[Methodism](../../glossary.md#methodist) began in England in the 1700s as a movement within Anglicanism, emphasizing personal religious experience and emotional worship. Methodists sent traveling preachers to frontier areas, competing with Presbyterian ministers for converts. Methodist services were more emotional and less formal than Presbyterian services.
 
 **Quakers**
-The Society of Friends (Quakers) believed in direct personal experience of God without ministers, formal services, or established hierarchy. They practiced pacifism and opposed slavery early on. Quakers founded Pennsylvania, where many Scotch-Irish Presbyterians first landed, but the two groups were quite different in religious style.
+The Society of Friends ([Quakers](../../glossary.md#quaker)) believed in direct personal experience of God without ministers, formal services, or established hierarchy. They practiced pacifism and opposed slavery early on. Quakers founded Pennsylvania, where many Scotch-Irish Presbyterians first landed, but the two groups were quite different in religious style.
 
 **Lutherans**
 Note: The original outline mentioned "Other Branches of Lutheranism" but this appears to be an error. Martin Luther founded Lutheranism in Germany in the 1500s as part of the Protestant Reformation, but it's a different tradition from Presbyterianism. Lutherans in America were primarily German or Scandinavian immigrants. McCreary families would have had little interaction with Lutheran communities, as they settled in different regions and spoke different languages.
@@ -122,15 +122,15 @@ The important point is that America was far more religiously diverse than Ulster
 
 Understanding when major religious events happened helps explain the McCreary family's history:
 
-**c. 400 BCE - 400 CE** - Celtic polytheistic religions dominate Scotland and Ireland. Ancient Celts worship multiple gods associated with nature, warfare, and fertility. Druids serve as priests, judges, and keepers of oral traditions. Sacred sites include stone circles, groves, and ritual wells. Religious practices center on seasonal festivals (Samhain, Beltane, Lughnasadh, Imbolc) that would later influence Christian holy days. This polytheistic worldview emphasizes connection to the land and cycles of nature.
+**c. 400 BCE - 400 CE** - [Celtic polytheistic religions](../../glossary.md#celtic-religion) dominate Scotland and Ireland. Ancient Celts worship multiple gods associated with nature, warfare, and fertility. [Druids](../../glossary.md#druids) serve as priests, judges, and keepers of oral traditions. Sacred sites include stone circles, groves, and ritual wells. Religious practices center on seasonal festivals (Samhain, Beltane, Lughnasadh, Imbolc) that would later influence Christian holy days. This polytheistic worldview emphasizes connection to the land and cycles of nature.
 
-**432** - St. Patrick brings Christianity to Ireland. Patrick, a former slave who escaped Britain, returns to Ireland as a Christian missionary, establishing churches, monasteries, and schools throughout the island. Irish Christianity develops distinctive features, including a strong monastic tradition and emphasis on missionary work. Unlike much of Europe where Christianity spreads through Roman imperial power, Ireland adopts Christianity peacefully through persuasion.
+**432** - [St. Patrick](../../glossary.md#st-patrick) brings Christianity to Ireland. Patrick, a former slave who escaped Britain, returns to Ireland as a Christian missionary, establishing churches, monasteries, and schools throughout the island. Irish Christianity develops distinctive features, including a strong monastic tradition and emphasis on missionary work. Unlike much of Europe where Christianity spreads through Roman imperial power, Ireland adopts Christianity peacefully through persuasion.
 
-**c. 500** - The Scots (originally from Ireland) migrate to western Scotland, bringing Christianity and establishing the Kingdom of Dál Riata. They introduce Christianity, the Gaelic language, and Irish cultural traditions to Scotland. This migration is pivotal in Christianizing the Pictish peoples of Scotland.
+**c. 500** - The [Scots](../../glossary.md#scots) (originally from Ireland) migrate to western Scotland, bringing Christianity and establishing the Kingdom of [Dál Riata](../../glossary.md#dal-riata). They introduce Christianity, the Gaelic language, and Irish cultural traditions to Scotland. This migration is pivotal in Christianizing the Pictish peoples of Scotland.
 
-**563** - Irish monk St. Columba founds Iona Monastery, which becomes the center for Christianizing Scotland. From Iona, monks spread Christianity throughout Scotland, converting Pictish kings and establishing churches and monasteries. Iona becomes a major center of learning, art (including the famous Book of Kells), and missionary activity. The Celtic Christian tradition established by Columba emphasizes monasticism, scholarship, and missionary work.
+**563** - Irish monk [St. Columba](../../glossary.md#st-columba) founds [Iona](../../glossary.md#iona) Monastery, which becomes the center for Christianizing Scotland. From Iona, monks spread Christianity throughout Scotland, converting Pictish kings and establishing churches and monasteries. Iona becomes a major center of learning, art (including the famous Book of Kells), and missionary activity. The [Celtic Christian](../../glossary.md#celtic-christianity) tradition established by Columba emphasizes monasticism, scholarship, and missionary work.
 
-**664** - Synod of Whitby: Church leaders decide to follow Roman Catholic practices rather than Celtic Christian traditions, gradually bringing Scotland and Ireland into alignment with Rome. While the decision favors Roman practices, Celtic monasticism and scholarship remain influential. This marks the beginning of closer ties with the Catholic Church centered in Rome—a Catholic tradition that would dominate until the Protestant Reformation of the 1500s.
+**664** - [Synod of Whitby](../../glossary.md#synod-of-whitby): Church leaders decide to follow Roman [Catholic](../../glossary.md#catholic) practices rather than [Celtic Christian](../../glossary.md#celtic-christianity) traditions, gradually bringing Scotland and Ireland into alignment with Rome. While the decision favors Roman practices, Celtic monasticism and scholarship remain influential. This marks the beginning of closer ties with the Catholic Church centered in Rome—a Catholic tradition that would dominate until the [Protestant Reformation](../../glossary.md#protestant-reformation) of the 1500s.
 
 **843** - Kenneth MacAlpin unites the Picts and Scots to create the Kingdom of Scotland, which remains Catholic. The Catholic Church becomes deeply embedded in Scottish political and social life.
 
