@@ -16,7 +16,7 @@ nav:
     - Timeline: content/03-timeline/index.md
     - Geography: content/04-geography/index.md
     - Education: content/05-education/index.md
-    - Heritage Tourism: content/06-heritage-tourism/index.md
+    - Religion: content/06-religion/index.md
     - Culture and Traditions: content/07-culture-and-traditions/index.md
     - Research: content/08-research/index.md
     - Stories: content/09-stories/index.md
@@ -25,8 +25,14 @@ nav:
     - Migration Simulation: sims/migration/index.md
     - Timeline Viewer: sims/timeline/index.md
     - Maps: sims/maps/index.md
+    - Map Generation: sims/maps/map-documentation.md
   - Glossary: glossary.md
   - How We Built This Site: how-we-built-this-site.md
+  - Prompts:
+    - Migration v2: prompts/migration-1.md
+    - Migration: prompts/migration.md
+    - Ulster Plantation Maps: prompts/ulster-plantation-map.md
+  
   - References: references.md
   - Contact: contact.md
   - License: license.md
