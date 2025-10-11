@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ulster Plantation Migration (1603-1718) - McCreary Family</title>
+    <title>Transatlantic Migration (1717-1775) - McCreary Family</title>
 
     <!-- Leaflet CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
@@ -14,19 +14,20 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>🗺️ Ulster Plantation Migration</h1>
-            <p class="subtitle">Scottish Presbyterian Families Migrate to Ulster, Ireland</p>
-            <p class="period">1603-1718 CE</p>
+            <h1>🗺️ Transatlantic Migration</h1>
+            <p class="subtitle">The Great Scotch-Irish Exodus to Colonial America</p>
+            <p class="period">1717 - 1775 CE</p>
         </div>
 
         <div class="controls">
             <h3>Animation Controls</h3>
             <div class="button-group">
                 <button class="btn btn-primary" onclick="playAllAnimations()">▶️ Play All Routes</button>
-                <button class="btn btn-success" onclick="playRoute(0)">Route 1: Ayrshire → Antrim</button>
-                <button class="btn btn-success" onclick="playRoute(1)">Route 2: Galloway → Down</button>
-                <button class="btn btn-success" onclick="playRoute(2)">Route 3: Dumfriesshire → Tyrone</button>
-                <button class="btn btn-success" onclick="playRoute(3)">Route 4: Western Scotland → Donegal</button>
+                <button class="btn btn-success" onclick="playRoute(0)">Route 1: Belfast → Philadelphia</button>
+                <button class="btn btn-success" onclick="playRoute(1)">Route 2: Londonderry → New Castle</button>
+                <button class="btn btn-success" onclick="playRoute(2)">First Wave (1717-1718)</button>
+                <button class="btn btn-success" onclick="playRoute(3)">Second Wave (1725-1729)</button>
+                <button class="btn btn-success" onclick="playRoute(4)">Third Wave (1740-1741)</button>
                 <button class="btn btn-warning" onclick="resetMap()">🔄 Reset</button>
             </div>
         </div>
@@ -36,23 +37,66 @@
 
         <div class="map-info-container">
             <div class="info-panel">
-            <h3>About the Ulster Plantation</h3>
+            <h3>About the Transatlantic Migration</h3>
             <p>
-                The Ulster Plantation (1609-1718) was a systematic colonization program that brought thousands of Scottish
-                Presbyterian families, including the McCrearys, from Scotland to Ulster (Northern Ireland). After the
-                <strong>Flight of the Earls</strong> in 1607, when Gaelic Irish lords fled to continental Europe, approximately
-                4 million acres of land became available for settlement.
+                Between 1717 and 1775, approximately <strong>100,000-150,000 Ulster Scots</strong> (Scotch-Irish)
+                crossed the Atlantic Ocean to colonial America. This massive migration was one of the largest
+                population movements of the 18th century and fundamentally shaped American colonial society.
             </p>
             <p>
-                King James I (who was also James VI of Scotland) actively recruited Scottish Lowlanders, particularly
-                Presbyterians, to settle confiscated lands. The short sea crossing—just <strong>13 miles</strong> at the narrowest
-                point between Ayrshire and Antrim—made Ulster more accessible than other colonial destinations.
+                The McCreary family was part of this great exodus, with the first documented McCreary arrivals
+                appearing in Pennsylvania records in <strong>1718</strong>, just one year after the migration began.
+            </p>
+
+            <h4>Why They Left Ulster</h4>
+            <p>Multiple factors drove this massive emigration:</p>
+            <ul>
+                <li><strong>Rack-Renting</strong> - Landlords dramatically increased rents when leases expired</li>
+                <li><strong>Religious Discrimination</strong> - Test Acts denied Presbyterians full civil rights</li>
+                <li><strong>Economic Hardship</strong> - Trade restrictions hurt Ulster's linen industry</li>
+                <li><strong>Failed Harvests</strong> - Droughts and famines (especially 1740-1741)</li>
+                <li><strong>Limited Land</strong> - Growing population with no new land available</li>
+            </ul>
+
+            <h4>Three Major Waves</h4>
+            <p>
+                <strong>First Wave (1717-1718)</strong> - About 5,000 people fled rack-renting and religious
+                persecution. These pioneers established the pattern for later emigrants.
             </p>
             <p>
-                By 1718, approximately 50,000-100,000 Scottish families had settled in Ulster. However, they faced
-                "double discrimination": resented by Irish Catholics for taking their land, and discriminated against by
-                English Anglicans who controlled the government. This tension, combined with economic hardship, would
-                eventually drive the great emigration to America beginning in 1717.
+                <strong>Second Wave (1725-1729)</strong> - Severe droughts and poor harvests drove thousands
+                more to America. Extended families and entire communities migrated together.
+            </p>
+            <p>
+                <strong>Third Wave (1740-1741)</strong> - The devastating famine known as <em>Blian an Áir</em>
+                (the Year of Slaughter) killed up to 400,000 in Ireland and triggered the largest wave of emigration.
+            </p>
+
+            <h4>The Voyage</h4>
+            <p>
+                The Atlantic crossing was dangerous and difficult:
+            </p>
+            <ul>
+                <li><strong>Duration:</strong> 6-8 weeks in good conditions, longer in storms</li>
+                <li><strong>Cost:</strong> £3-5 per adult (about 6 months' wages for a laborer)</li>
+                <li><strong>Conditions:</strong> Crowded ships, poor food, limited water</li>
+                <li><strong>Mortality:</strong> 10-20% died during passage in bad years</li>
+            </ul>
+
+            <h4>Main Ports of Entry</h4>
+            <p>
+                <strong>Philadelphia, Pennsylvania</strong> was the primary destination, receiving the vast
+                majority of Ulster Scots. The city offered:
+            </p>
+            <ul>
+                <li>Religious tolerance for Presbyterians</li>
+                <li>Affordable land in the Pennsylvania interior</li>
+                <li>Existing Scotch-Irish communities</li>
+                <li>Gateway to the southern frontier</li>
+            </ul>
+            <p>
+                <strong>New Castle, Delaware</strong> served as a secondary port near Philadelphia, handling
+                overflow when ships were too numerous.
             </p>
 
             <div class="legend">
@@ -60,22 +104,27 @@
                 <div class="legend-item">
                     <div class="legend-line" style="background: #1e3a8a;"></div>
                     <div class="legend-arrow" style="border-left-color: #1e3a8a;"></div>
-                    <span class="legend-text">Ayrshire → Antrim (13 miles, shortest crossing)</span>
+                    <span class="legend-text">Belfast → Philadelphia (3,200 miles)</span>
                 </div>
                 <div class="legend-item">
                     <div class="legend-line" style="background: #1e40af;"></div>
                     <div class="legend-arrow" style="border-left-color: #1e40af;"></div>
-                    <span class="legend-text">Galloway → Down (25 miles)</span>
+                    <span class="legend-text">Londonderry → New Castle (3,150 miles)</span>
                 </div>
                 <div class="legend-item">
-                    <div class="legend-line" style="background: #2563eb;"></div>
-                    <div class="legend-arrow" style="border-left-color: #2563eb;"></div>
-                    <span class="legend-text">Dumfriesshire → Tyrone (35 miles)</span>
+                    <div class="legend-line" style="background: #059669;"></div>
+                    <div class="legend-arrow" style="border-left-color: #059669;"></div>
+                    <span class="legend-text">First Wave (1717-1718)</span>
                 </div>
                 <div class="legend-item">
-                    <div class="legend-line" style="background: #3b82f6;"></div>
-                    <div class="legend-arrow" style="border-left-color: #3b82f6;"></div>
-                    <span class="legend-text">Western Scotland → Donegal (30 miles)</span>
+                    <div class="legend-line" style="background: #047857;"></div>
+                    <div class="legend-arrow" style="border-left-color: #047857;"></div>
+                    <span class="legend-text">Second Wave (1725-1729)</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-line" style="background: #10b981;"></div>
+                    <div class="legend-arrow" style="border-left-color: #10b981;"></div>
+                    <span class="legend-text">Third Wave (1740-1741)</span>
                 </div>
             </div>
         </div>
@@ -98,76 +147,24 @@
         let routeData;
         let currentRoutes = [];
         let currentDecorators = [];
-        let ulsterCountiesLayer;
 
         // Initialize the map
         function initMap() {
-            map = L.map('map').setView([54.8, -6.5], 7);
+            // the last parameter is the initlal zoom level
+            map = L.map('map').setView([47.0, -35.0], 4);
 
-            // Add base tile layer (Stamen Terrain for historical look)
+            // Add base tile layer
             L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
                 attribution: '© OpenStreetMap contributors',
                 maxZoom: 18,
-                minZoom: 6
+                minZoom: 2
             }).addTo(map);
 
             // Add scale control
             L.control.scale({imperial: true, metric: true}).addTo(map);
 
-            // Load Ulster counties
-            loadUlsterCounties();
-
             // Load migration routes
             loadMigrationRoutes();
-        }
-
-        // Load Ulster counties GeoJSON
-        async function loadUlsterCounties() {
-            try {
-                const response = await fetch('../mccreary-counties.geojson');
-                if (!response.ok) {
-                    console.warn('Ulster counties GeoJSON not found, skipping');
-                    return;
-                }
-
-                const data = await response.json();
-
-                ulsterCountiesLayer = L.geoJSON(data, {
-                    style: {
-                        fillColor: '#d1fae5',
-                        fillOpacity: 0.3,
-                        color: '#059669',
-                        weight: 2,
-                        opacity: 0.6
-                    },
-                    onEachFeature: function(feature, layer) {
-                        const countyName = feature.properties.NAME_TAG ||
-                                         feature.properties.NAME_EN ||
-                                         feature.properties.name ||
-                                         'Ulster County';
-
-                        layer.bindPopup(`
-                            <h4>County ${countyName}</h4>
-                            <p>One of the four primary Ulster counties where McCreary families settled during the Plantation period (1609-1718).</p>
-                        `);
-
-                        // Add permanent labels
-                        const bounds = layer.getBounds();
-                        const center = bounds.getCenter();
-
-                        L.marker(center, {
-                            icon: L.divIcon({
-                                className: 'place-label',
-                                html: countyName,
-                                iconSize: null
-                            })
-                        }).addTo(map);
-                    }
-                }).addTo(map);
-
-            } catch (error) {
-                console.warn('Error loading Ulster counties:', error);
-            }
         }
 
         // Load migration routes
@@ -175,7 +172,7 @@
             try {
                 document.getElementById('loading').style.display = 'block';
 
-                const response = await fetch('data/scotland-ulster-routes.geojson');
+                const response = await fetch('data/transatlantic-routes.geojson');
                 if (!response.ok) {
                     throw new Error(`Failed to load routes: ${response.status}`);
                 }
@@ -183,13 +180,13 @@
                 routeData = await response.json();
                 document.getElementById('loading').style.display = 'none';
 
-                // Add start and end point markers
+                // Add location markers
                 addLocationMarkers();
 
-                console.log(`Loaded ${routeData.features.length} migration routes`);
+                console.log(`Loaded ${routeData.features.length} transatlantic routes`);
 
             } catch (error) {
-                console.error('Error loading migration routes:', error);
+                console.error('Error loading routes:', error);
                 document.getElementById('loading').style.display = 'none';
                 const errorDiv = document.getElementById('error');
                 errorDiv.style.display = 'block';
@@ -201,34 +198,31 @@
             }
         }
 
-        // Add location markers for Scotland and Ulster
+        // Add location markers
         function addLocationMarkers() {
             const locations = [
-                {name: 'Ayrshire', coords: [55.46, -4.63], type: 'scotland'},
-                {name: 'Galloway', coords: [54.86, -4.24], type: 'scotland'},
-                {name: 'Dumfriesshire', coords: [55.07, -3.61], type: 'scotland'},
-                {name: 'County Antrim', coords: [54.86, -5.93], type: 'ulster'},
-                {name: 'County Down', coords: [54.48, -5.71], type: 'ulster'},
-                {name: 'County Tyrone', coords: [54.60, -7.05], type: 'ulster'},
-                {name: 'County Donegal', coords: [54.99, -7.73], type: 'ulster'}
+                {name: 'Belfast, Ulster', coords: [54.60, -5.93], type: 'origin', icon: '🚢'},
+                {name: 'Londonderry, Ulster', coords: [55.00, -7.32], type: 'origin', icon: '🚢'},
+                {name: 'Philadelphia, PA', coords: [39.95, -75.17], type: 'destination', icon: '⚓'},
+                {name: 'New Castle, DE', coords: [39.66, -75.52], type: 'destination', icon: '⚓'}
             ];
 
             locations.forEach(loc => {
-                const color = loc.type === 'scotland' ? '#8b0000' : '#059669';
+                const color = loc.type === 'origin' ? '#dc2626' : '#059669';
 
                 L.circleMarker(loc.coords, {
-                    radius: 6,
+                    radius: 8,
                     fillColor: color,
                     color: 'white',
                     weight: 2,
                     opacity: 1,
                     fillOpacity: 0.8
                 }).addTo(map).bindPopup(`
-                    <h4>${loc.name}</h4>
-                    <p><strong>${loc.type === 'scotland' ? 'Origin' : 'Destination'}</strong></p>
-                    <p>${loc.type === 'scotland' ?
-                        'Scottish Presbyterian families departed from here' :
-                        'Ulster settlement area for McCreary families'}</p>
+                    <h4>${loc.icon} ${loc.name}</h4>
+                    <p><strong>${loc.type === 'origin' ? 'Departure Port' : 'Arrival Port'}</strong></p>
+                    <p>${loc.type === 'origin' ?
+                        'Ulster Scots departed from here for the 6-8 week Atlantic crossing' :
+                        'Colonial American port welcoming Ulster Scots immigrants'}</p>
                 `);
             });
         }
@@ -254,7 +248,7 @@
                 color: props.color,
                 weight: 4,
                 opacity: 0.8,
-                snakingSpeed: 400
+                snakingSpeed: 600
             }).addTo(map);
 
             currentRoutes[index] = route;
@@ -328,7 +322,7 @@
                 // Open popup after arrows are added
                 route.openPopup();
 
-            }, 1200);
+            }, 1500);
         }
 
         // Play all routes in sequence
@@ -338,7 +332,7 @@
             routeData.features.forEach((feature, index) => {
                 setTimeout(() => {
                     playRoute(index);
-                }, index * 1500);
+                }, index * 2500);
             });
         }
 
@@ -356,7 +350,7 @@
             currentDecorators = [];
 
             // Reset view
-            map.setView([54.8, -6.5], 7);
+            map.setView([47.0, -35.0], 4);
         }
 
         // Initialize map when page loads

@@ -1,0 +1,180 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kentucky/Tennessee to Ohio",
+        "from": "Kentucky & Tennessee",
+        "to": "Ohio",
+        "period": "1800-1830",
+        "start_year": 1800,
+        "end_year": 1830,
+        "distance_miles": 200,
+        "route_type": "northwest",
+        "color": "#1e3a8a",
+        "description": "After settling Kentucky and Tennessee, many Scotch-Irish families moved north across the Ohio River. Ohio became a state in 1803 and offered good farmland with access to river transportation."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-85.50, 37.80],
+          [-84.50, 38.50],
+          [-83.50, 39.50],
+          [-82.50, 40.20]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ohio to Indiana",
+        "from": "Ohio",
+        "to": "Indiana",
+        "period": "1810-1840",
+        "start_year": 1810,
+        "end_year": 1840,
+        "distance_miles": 150,
+        "route_type": "northwest",
+        "color": "#1e40af",
+        "description": "Indiana became a state in 1816. Scotch-Irish families continued westward, following the National Road and establishing farms in central Indiana."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-82.50, 40.20],
+          [-83.50, 40.00],
+          [-85.00, 39.80],
+          [-86.50, 39.80]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Indiana to Illinois",
+        "from": "Indiana",
+        "to": "Illinois",
+        "period": "1820-1850",
+        "start_year": 1820,
+        "end_year": 1850,
+        "distance_miles": 180,
+        "route_type": "northwest",
+        "color": "#2563eb",
+        "description": "Illinois became a state in 1818. Families crossed the Wabash River, settling the prairies. This marked the transition from woodland to prairie farming."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-86.50, 39.80],
+          [-87.80, 39.50],
+          [-89.00, 39.80],
+          [-90.20, 40.20]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kentucky/Tennessee to Missouri",
+        "from": "Kentucky & Tennessee",
+        "to": "Missouri",
+        "period": "1820-1860",
+        "start_year": 1820,
+        "end_year": 1860,
+        "distance_miles": 400,
+        "route_type": "southwest",
+        "color": "#059669",
+        "description": "Many families moved directly from the Appalachian base to Missouri, which became a state in 1821. The Boone's Lick Trail and Santa Fe Trail brought settlers to Missouri's fertile river valleys."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-85.50, 37.80],
+          [-87.00, 37.50],
+          [-89.50, 37.50],
+          [-91.50, 38.50],
+          [-93.50, 39.00]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Appalachia to Texas",
+        "from": "Tennessee & Arkansas",
+        "to": "Texas",
+        "period": "1830-1860",
+        "start_year": 1830,
+        "end_year": 1860,
+        "distance_miles": 600,
+        "route_type": "southwest",
+        "color": "#047857",
+        "description": "Texas independence (1836) and statehood (1845) attracted Scotch-Irish settlers. Many moved from Tennessee through Arkansas to Texas, bringing Presbyterian traditions to the frontier."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-84.20, 35.90],
+          [-90.00, 35.00],
+          [-92.50, 34.00],
+          [-95.00, 32.50],
+          [-97.50, 31.50]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Illinois/Missouri to Kansas",
+        "from": "Illinois & Missouri",
+        "to": "Kansas",
+        "period": "1854-1870",
+        "start_year": 1854,
+        "end_year": 1870,
+        "distance_miles": 250,
+        "route_type": "plains",
+        "color": "#10b981",
+        "description": "The Kansas-Nebraska Act (1854) opened Kansas for settlement. Free-state settlers, many of Scotch-Irish descent, moved to Kansas before and after the Civil War."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-90.20, 40.20],
+          [-93.50, 39.00],
+          [-95.50, 38.80],
+          [-97.50, 38.50],
+          [-99.00, 38.50]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Oregon Trail Migration",
+        "from": "Missouri",
+        "to": "Oregon/California",
+        "period": "1840-1870",
+        "start_year": 1840,
+        "end_year": 1870,
+        "distance_miles": 2000,
+        "route_type": "far_west",
+        "color": "#7c3aed",
+        "description": "Some McCreary families joined the great migrations to Oregon and California. The Oregon Trail started in Missouri, and the California Gold Rush (1849) drew many westward."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-93.50, 39.00],
+          [-96.00, 40.00],
+          [-100.00, 41.00],
+          [-104.00, 41.50],
+          [-108.00, 42.00],
+          [-112.00, 42.50],
+          [-117.00, 43.50],
+          [-122.00, 45.50]
+        ]
+      }
+    }
+  ]
+}
