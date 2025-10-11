@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ulster Plantation Migration (1603-1718) - McCreary Family</title>
+    <title>Medieval Scotland & Surname Emergence (843-1600) - McCreary Family</title>
 
     <!-- Leaflet CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
@@ -14,19 +14,21 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>🗺️ Ulster Plantation Migration</h1>
-            <p class="subtitle">Scottish Presbyterian Families Migrate to Ulster, Ireland</p>
-            <p class="period">1603-1718 CE</p>
+            <h1>🗺️ Medieval Scotland & Surname Emergence</h1>
+            <p class="subtitle">The Formation of Scotland and the Birth of the McCreary Name</p>
+            <p class="period">843 - 1600 CE</p>
         </div>
 
         <div class="controls">
             <h3>Animation Controls</h3>
             <div class="button-group">
                 <button class="btn btn-primary" onclick="playAllAnimations()">▶️ Play All Routes</button>
-                <button class="btn btn-success" onclick="playRoute(0)">Route 1: Ayrshire → Antrim</button>
-                <button class="btn btn-success" onclick="playRoute(1)">Route 2: Galloway → Down</button>
-                <button class="btn btn-success" onclick="playRoute(2)">Route 3: Dumfriesshire → Tyrone</button>
-                <button class="btn btn-success" onclick="playRoute(3)">Route 4: Western Scotland → Donegal</button>
+                <button class="btn btn-success" onclick="playRoute(0)">Route 1: Kingdom of Alba</button>
+                <button class="btn btn-success" onclick="playRoute(1)">Route 2: Norse Vikings</button>
+                <button class="btn btn-success" onclick="playRoute(2)">Route 3: MacRory Territory</button>
+                <button class="btn btn-success" onclick="playRoute(3)">Route 4: Wars of Independence</button>
+                <button class="btn btn-success" onclick="playRoute(4)">Route 5: Reformation</button>
+                <button class="btn btn-success" onclick="playRoute(5)">Route 6: Highland-Lowland Divide</button>
                 <button class="btn btn-warning" onclick="resetMap()">🔄 Reset</button>
             </div>
         </div>
@@ -36,48 +38,76 @@
 
         <div class="map-info-container">
             <div class="info-panel">
-            <h3>About the Ulster Plantation</h3>
+            <h3>About Medieval Scotland</h3>
             <p>
-                The Ulster Plantation (1609-1718) was a systematic colonization program that brought thousands of Scottish
-                Presbyterian families, including the McCrearys, from Scotland to Ulster (Northern Ireland). After the
-                <strong>Flight of the Earls</strong> in 1607, when Gaelic Irish lords fled to continental Europe, approximately
-                4 million acres of land became available for settlement.
+                The period from 843-1600 CE saw the transformation of Scotland from the Kingdom of Alba into a unified
+                nation with a distinct identity. In 843 CE, <strong>Kenneth MacAlpin</strong> united the Gaelic Scots
+                and the Picts, creating the Kingdom of Alba (Scotland). Over the following centuries, this kingdom
+                expanded and consolidated, absorbing Norse territories and defining its borders.
             </p>
             <p>
-                King James I (who was also James VI of Scotland) actively recruited Scottish Lowlanders, particularly
-                Presbyterians, to settle confiscated lands. The short sea crossing—just <strong>13 miles</strong> at the narrowest
-                point between Ayrshire and Antrim—made Ulster more accessible than other colonial destinations.
+                The <strong>MacRory (Mac Ruairidh)</strong> surname emerged during the period when surnames became
+                hereditary (c. 1100-1400 CE). The name means "son of Ruairidh" (Rory) in Scottish Gaelic. MacRory
+                families established themselves in western Scotland, particularly in Ayrshire, Galloway, and Dumfriesshire—
+                the transitional zone between the Gaelic Highlands and the Scots-speaking Lowlands.
             </p>
             <p>
-                By 1718, approximately 50,000-100,000 Scottish families had settled in Ulster. However, they faced
-                "double discrimination": resented by Irish Catholics for taking their land, and discriminated against by
-                English Anglicans who controlled the government. This tension, combined with economic hardship, would
-                eventually drive the great emigration to America beginning in 1717.
+                The <strong>Wars of Scottish Independence</strong> (1296-1357) under William Wallace and Robert the Bruce
+                strengthened Scottish national identity and resistance to English control. This period reinforced the
+                fierce independence that would later characterize Scotch-Irish families in Ulster and America.
+            </p>
+            <p>
+                The <strong>Protestant Reformation</strong> reached Scotland in 1560 under John Knox, establishing
+                <strong>Presbyterianism</strong> as the dominant religion. This religious transformation profoundly
+                influenced western Scottish families like the McCrearys, shaping their values, education, and later
+                migration patterns. Presbyterian beliefs in education, self-governance, and individual conscience
+                would become central to McCreary family identity.
             </p>
 
             <div class="legend">
-                <h4>Migration Routes Legend</h4>
+                <h4>Historical Routes & Events Legend</h4>
                 <div class="legend-item">
                     <div class="legend-line" style="background: #1e3a8a;"></div>
                     <div class="legend-arrow" style="border-left-color: #1e3a8a;"></div>
-                    <span class="legend-text">Ayrshire → Antrim (13 miles, shortest crossing)</span>
+                    <span class="legend-text">Kingdom of Alba Expansion (843-1000 CE)</span>
                 </div>
                 <div class="legend-item">
-                    <div class="legend-line" style="background: #1e40af;"></div>
-                    <div class="legend-arrow" style="border-left-color: #1e40af;"></div>
-                    <span class="legend-text">Galloway → Down (25 miles)</span>
+                    <div class="legend-line" style="background: #dc2626;"></div>
+                    <div class="legend-arrow" style="border-left-color: #dc2626;"></div>
+                    <span class="legend-text">Norse Viking Raids (800-1263 CE)</span>
                 </div>
                 <div class="legend-item">
-                    <div class="legend-line" style="background: #2563eb;"></div>
-                    <div class="legend-arrow" style="border-left-color: #2563eb;"></div>
-                    <span class="legend-text">Dumfriesshire → Tyrone (35 miles)</span>
+                    <div class="legend-line" style="background: #059669;"></div>
+                    <div class="legend-arrow" style="border-left-color: #059669;"></div>
+                    <span class="legend-text">MacRory Clan Territory (1100-1400 CE)</span>
                 </div>
                 <div class="legend-item">
-                    <div class="legend-line" style="background: #3b82f6;"></div>
-                    <div class="legend-arrow" style="border-left-color: #3b82f6;"></div>
-                    <span class="legend-text">Western Scotland → Donegal (30 miles)</span>
+                    <div class="legend-line" style="background: #b91c1c;"></div>
+                    <div class="legend-arrow" style="border-left-color: #b91c1c;"></div>
+                    <span class="legend-text">Wars of Independence (1296-1357 CE)</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-line" style="background: #7c3aed;"></div>
+                    <div class="legend-arrow" style="border-left-color: #7c3aed;"></div>
+                    <span class="legend-text">Protestant Reformation (1560-1600 CE)</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-line" style="background: #f59e0b;"></div>
+                    <div class="legend-arrow" style="border-left-color: #f59e0b;"></div>
+                    <span class="legend-text">Highland-Lowland Divide (1200-1600 CE)</span>
                 </div>
             </div>
+
+            <h3>Key Historical Events</h3>
+            <ul>
+                <li><strong>843 CE</strong> - Kenneth MacAlpin unites Scots and Picts to form Kingdom of Alba</li>
+                <li><strong>1100-1400 CE</strong> - Hereditary surnames emerge; MacRory name established</li>
+                <li><strong>1263 CE</strong> - Battle of Largs ends Norse control of western Scotland</li>
+                <li><strong>1296-1357 CE</strong> - Wars of Scottish Independence strengthen national identity</li>
+                <li><strong>1314 CE</strong> - Battle of Bannockburn secures Scottish independence</li>
+                <li><strong>1560 CE</strong> - Scottish Reformation establishes Presbyterianism</li>
+                <li><strong>1603 CE</strong> - Union of Crowns (James VI of Scotland becomes James I of England)</li>
+            </ul>
         </div>
 
         <div id="map"></div>
@@ -98,76 +128,23 @@
         let routeData;
         let currentRoutes = [];
         let currentDecorators = [];
-        let ulsterCountiesLayer;
 
         // Initialize the map
         function initMap() {
-            map = L.map('map').setView([54.8, -6.5], 7);
+            map = L.map('map').setView([56.5, -4.0], 6);
 
-            // Add base tile layer (Stamen Terrain for historical look)
+            // Add base tile layer
             L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
                 attribution: '© OpenStreetMap contributors',
                 maxZoom: 18,
-                minZoom: 6
+                minZoom: 5
             }).addTo(map);
 
             // Add scale control
             L.control.scale({imperial: true, metric: true}).addTo(map);
 
-            // Load Ulster counties
-            loadUlsterCounties();
-
             // Load migration routes
             loadMigrationRoutes();
-        }
-
-        // Load Ulster counties GeoJSON
-        async function loadUlsterCounties() {
-            try {
-                const response = await fetch('../mccreary-counties.geojson');
-                if (!response.ok) {
-                    console.warn('Ulster counties GeoJSON not found, skipping');
-                    return;
-                }
-
-                const data = await response.json();
-
-                ulsterCountiesLayer = L.geoJSON(data, {
-                    style: {
-                        fillColor: '#d1fae5',
-                        fillOpacity: 0.3,
-                        color: '#059669',
-                        weight: 2,
-                        opacity: 0.6
-                    },
-                    onEachFeature: function(feature, layer) {
-                        const countyName = feature.properties.NAME_TAG ||
-                                         feature.properties.NAME_EN ||
-                                         feature.properties.name ||
-                                         'Ulster County';
-
-                        layer.bindPopup(`
-                            <h4>County ${countyName}</h4>
-                            <p>One of the four primary Ulster counties where McCreary families settled during the Plantation period (1609-1718).</p>
-                        `);
-
-                        // Add permanent labels
-                        const bounds = layer.getBounds();
-                        const center = bounds.getCenter();
-
-                        L.marker(center, {
-                            icon: L.divIcon({
-                                className: 'place-label',
-                                html: countyName,
-                                iconSize: null
-                            })
-                        }).addTo(map);
-                    }
-                }).addTo(map);
-
-            } catch (error) {
-                console.warn('Error loading Ulster counties:', error);
-            }
         }
 
         // Load migration routes
@@ -175,7 +152,7 @@
             try {
                 document.getElementById('loading').style.display = 'block';
 
-                const response = await fetch('data/scotland-ulster-routes.geojson');
+                const response = await fetch('data/medieval-scotland-routes.geojson');
                 if (!response.ok) {
                     throw new Error(`Failed to load routes: ${response.status}`);
                 }
@@ -183,13 +160,13 @@
                 routeData = await response.json();
                 document.getElementById('loading').style.display = 'none';
 
-                // Add start and end point markers
+                // Add location markers
                 addLocationMarkers();
 
-                console.log(`Loaded ${routeData.features.length} migration routes`);
+                console.log(`Loaded ${routeData.features.length} historical routes`);
 
             } catch (error) {
-                console.error('Error loading migration routes:', error);
+                console.error('Error loading routes:', error);
                 document.getElementById('loading').style.display = 'none';
                 const errorDiv = document.getElementById('error');
                 errorDiv.style.display = 'block';
@@ -201,34 +178,42 @@
             }
         }
 
-        // Add location markers for Scotland and Ulster
+        // Add location markers
         function addLocationMarkers() {
             const locations = [
-                {name: 'Ayrshire', coords: [55.46, -4.63], type: 'scotland'},
-                {name: 'Galloway', coords: [54.86, -4.24], type: 'scotland'},
-                {name: 'Dumfriesshire', coords: [55.07, -3.61], type: 'scotland'},
-                {name: 'County Antrim', coords: [54.86, -5.93], type: 'ulster'},
-                {name: 'County Down', coords: [54.48, -5.71], type: 'ulster'},
-                {name: 'County Tyrone', coords: [54.60, -7.05], type: 'ulster'},
-                {name: 'County Donegal', coords: [54.99, -7.73], type: 'ulster'}
+                {name: 'Scone (Kenneth MacAlpin)', coords: [56.4, -3.4], type: 'royal', icon: '👑'},
+                {name: 'St. Andrews (Religious Center)', coords: [56.3, -2.8], type: 'religious', icon: '⛪'},
+                {name: 'Edinburgh (Capital)', coords: [55.95, -3.2], type: 'capital', icon: '🏰'},
+                {name: 'Ayrshire (MacRory Territory)', coords: [55.5, -4.6], type: 'clan', icon: '🛡️'},
+                {name: 'Galloway (MacRory Territory)', coords: [55.0, -4.3], type: 'clan', icon: '🛡️'},
+                {name: 'Stirling (Wars of Independence)', coords: [56.1, -3.9], type: 'battle', icon: '⚔️'},
+                {name: 'Bannockburn (1314)', coords: [56.1, -3.9], type: 'battle', icon: '⚔️'},
+                {name: 'Highland Line', coords: [56.5, -4.0], type: 'boundary', icon: '🏔️'}
             ];
 
             locations.forEach(loc => {
-                const color = loc.type === 'scotland' ? '#8b0000' : '#059669';
+                const color = loc.type === 'royal' ? '#1e3a8a' :
+                             loc.type === 'religious' ? '#7c3aed' :
+                             loc.type === 'capital' ? '#374151' :
+                             loc.type === 'clan' ? '#059669' :
+                             loc.type === 'battle' ? '#dc2626' :
+                             '#f59e0b';
 
                 L.circleMarker(loc.coords, {
-                    radius: 6,
+                    radius: 7,
                     fillColor: color,
                     color: 'white',
                     weight: 2,
                     opacity: 1,
                     fillOpacity: 0.8
                 }).addTo(map).bindPopup(`
-                    <h4>${loc.name}</h4>
-                    <p><strong>${loc.type === 'scotland' ? 'Origin' : 'Destination'}</strong></p>
-                    <p>${loc.type === 'scotland' ?
-                        'Scottish Presbyterian families departed from here' :
-                        'Ulster settlement area for McCreary families'}</p>
+                    <h4>${loc.icon} ${loc.name}</h4>
+                    <p><strong>${loc.type === 'royal' ? 'Royal Site' :
+                                 loc.type === 'religious' ? 'Religious Center' :
+                                 loc.type === 'capital' ? 'Capital City' :
+                                 loc.type === 'clan' ? 'Clan Territory' :
+                                 loc.type === 'battle' ? 'Battle Site' :
+                                 'Cultural Boundary'}</strong></p>
                 `);
             });
         }
@@ -264,7 +249,6 @@
                 <h4>${props.name}</h4>
                 <p><strong>From:</strong> ${props.from}</p>
                 <p><strong>To:</strong> ${props.to}</p>
-                <p><strong>Distance:</strong> ${props.distance_miles} miles</p>
                 <p><strong>Period:</strong> ${props.period}</p>
                 <p>${props.description}</p>
             `, {
@@ -338,7 +322,7 @@
             routeData.features.forEach((feature, index) => {
                 setTimeout(() => {
                     playRoute(index);
-                }, index * 1500);
+                }, index * 2000);
             });
         }
 
@@ -356,7 +340,7 @@
             currentDecorators = [];
 
             // Reset view
-            map.setView([54.8, -6.5], 7);
+            map.setView([56.5, -4.0], 6);
         }
 
         // Initialize map when page loads

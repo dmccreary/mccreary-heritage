@@ -1,0 +1,154 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Philadelphia to Cumberland Valley",
+        "from": "Philadelphia, PA",
+        "to": "Cumberland Valley, PA",
+        "period": "1718-1730",
+        "start_year": 1718,
+        "end_year": 1730,
+        "distance_miles": 120,
+        "route_type": "initial_settlement",
+        "color": "#1e3a8a",
+        "description": "The first inland movement from Philadelphia. Ulster Scots settled in Cumberland Valley (Lancaster, York, Cumberland counties), establishing the base for further southward migration."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-75.17, 39.95],
+          [-76.50, 40.20],
+          [-77.20, 40.20]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Great Wagon Road: Pennsylvania to Virginia",
+        "from": "Cumberland Valley, PA",
+        "to": "Shenandoah Valley, VA",
+        "period": "1730-1760",
+        "start_year": 1730,
+        "end_year": 1760,
+        "distance_miles": 200,
+        "route_type": "great_wagon_road",
+        "color": "#059669",
+        "description": "The Great Wagon Road became the primary migration route for Scotch-Irish families. This section runs through Maryland into Virginia's Shenandoah Valley, a fertile region between the Blue Ridge and Allegheny Mountains."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-77.20, 40.20],
+          [-77.70, 39.70],
+          [-78.20, 39.30],
+          [-78.80, 38.50],
+          [-79.00, 37.80]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shenandoah Valley to Western North Carolina",
+        "from": "Shenandoah Valley, VA",
+        "to": "Western North Carolina",
+        "period": "1750-1775",
+        "start_year": 1750,
+        "end_year": 1775,
+        "distance_miles": 250,
+        "route_type": "great_wagon_road",
+        "color": "#047857",
+        "description": "Continuing south along the Great Wagon Road through the Blue Ridge piedmont into western North Carolina. The Yadkin River valley became a major Scotch-Irish settlement area."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-79.00, 37.80],
+          [-79.50, 37.20],
+          [-80.00, 36.50],
+          [-80.50, 36.10],
+          [-81.00, 35.70]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Western North Carolina to South Carolina Backcountry",
+        "from": "Western North Carolina",
+        "to": "South Carolina Piedmont",
+        "period": "1760-1775",
+        "start_year": 1760,
+        "end_year": 1775,
+        "distance_miles": 150,
+        "route_type": "great_wagon_road",
+        "color": "#10b981",
+        "description": "The Great Wagon Road's southern terminus in South Carolina's backcountry (Piedmont region). Scotch-Irish settlers established Presbyterian communities throughout the upcountry."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-81.00, 35.70],
+          [-81.30, 35.20],
+          [-81.60, 34.80],
+          [-81.90, 34.40]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cumberland Gap to Kentucky",
+        "from": "Western Virginia",
+        "to": "Kentucky",
+        "period": "1775-1800",
+        "start_year": 1775,
+        "end_year": 1800,
+        "distance_miles": 200,
+        "route_type": "trans_appalachian",
+        "color": "#7c3aed",
+        "description": "After the Revolutionary War, settlers poured through the Cumberland Gap into Kentucky. Daniel Boone blazed the Wilderness Road in 1775. McCreary families were among the early Kentucky pioneers."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-79.00, 37.80],
+          [-80.50, 37.40],
+          [-82.00, 37.00],
+          [-83.30, 36.60],
+          [-84.50, 37.50],
+          [-85.50, 37.80]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Virginia to Tennessee",
+        "from": "Western Virginia",
+        "to": "East Tennessee",
+        "period": "1770-1800",
+        "start_year": 1770,
+        "end_year": 1800,
+        "distance_miles": 180,
+        "route_type": "trans_appalachian",
+        "color": "#6d28d9",
+        "description": "Scotch-Irish families moved into what would become Tennessee, following river valleys through the mountains. The Watauga and Holston settlements became major Scotch-Irish centers."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-79.50, 37.20],
+          [-80.80, 36.80],
+          [-81.70, 36.50],
+          [-82.50, 36.30],
+          [-83.50, 36.00],
+          [-84.20, 35.90]
+        ]
+      }
+    }
+  ]
+}

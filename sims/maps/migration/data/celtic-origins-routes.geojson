@@ -1,0 +1,120 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Celtic Migration to Ireland",
+        "from": "Continental Europe",
+        "to": "Ireland",
+        "period": "c. 500 BCE - 100 BCE",
+        "start_year": -500,
+        "end_year": -100,
+        "distance_miles": 600,
+        "route_type": "primary",
+        "color": "#8b4513",
+        "description": "Celtic peoples migrated from continental Europe (likely modern France and Spain) to Ireland, bringing their language, culture, and religion with them."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.5, 47.5],
+          [-3.0, 50.0],
+          [-5.5, 51.5],
+          [-7.5, 53.0]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Celtic Migration to Scotland",
+        "from": "Continental Europe",
+        "to": "Scotland",
+        "period": "c. 400 BCE - 100 BCE",
+        "start_year": -400,
+        "end_year": -100,
+        "distance_miles": 700,
+        "route_type": "primary",
+        "color": "#a0522d",
+        "description": "Celtic tribes also migrated directly to what is now Scotland, establishing settlements and bringing Celtic language and culture."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-1.5, 47.5],
+          [-1.0, 50.0],
+          [-2.0, 53.0],
+          [-3.5, 56.0]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Scots Migration from Ireland to Dál Riata",
+        "from": "Ulster, Ireland",
+        "to": "Argyll, Scotland (Dál Riata)",
+        "period": "c. 500 CE",
+        "start_year": 500,
+        "end_year": 550,
+        "distance_miles": 15,
+        "route_type": "primary",
+        "color": "#059669",
+        "description": "Gaelic-speaking Scots from Ulster crossed to Argyll and established the kingdom of Dál Riata, eventually giving Scotland its name."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-6.2, 55.2],
+          [-5.5, 55.9]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "St. Columba's Mission to Iona",
+        "from": "Ulster, Ireland",
+        "to": "Iona, Scotland",
+        "period": "563 CE",
+        "start_year": 563,
+        "end_year": 563,
+        "distance_miles": 80,
+        "route_type": "religious",
+        "color": "#7c3aed",
+        "description": "St. Columba sailed from Ireland to establish his famous monastery on Iona, which became a major center of Celtic Christianity."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-7.5, 55.0],
+          [-6.4, 56.3]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Expansion of Dál Riata Kingdom",
+        "from": "Argyll (Dál Riata)",
+        "to": "Central Scotland",
+        "period": "c. 600 CE - 843 CE",
+        "start_year": 600,
+        "end_year": 843,
+        "distance_miles": 100,
+        "route_type": "expansion",
+        "color": "#047857",
+        "description": "The Gaelic Scots expanded eastward from Dál Riata, eventually merging with the Picts to form the Kingdom of Alba (Scotland) in 843 CE under Kenneth MacAlpin."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-5.5, 55.9],
+          [-4.5, 56.5],
+          [-3.8, 56.8]
+        ]
+      }
+    }
+  ]
+}

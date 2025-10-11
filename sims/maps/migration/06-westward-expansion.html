@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ulster Plantation Migration (1603-1718) - McCreary Family</title>
+    <title>19th Century Westward Expansion (1800-1900) - McCreary Family</title>
 
     <!-- Leaflet CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
@@ -14,19 +14,22 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>🗺️ Ulster Plantation Migration</h1>
-            <p class="subtitle">Scottish Presbyterian Families Migrate to Ulster, Ireland</p>
-            <p class="period">1603-1718 CE</p>
+            <h1>🗺️ 19th Century Westward Expansion</h1>
+            <p class="subtitle">The Great American Migration West</p>
+            <p class="period">1800 - 1900 CE</p>
         </div>
 
         <div class="controls">
             <h3>Animation Controls</h3>
             <div class="button-group">
                 <button class="btn btn-primary" onclick="playAllAnimations()">▶️ Play All Routes</button>
-                <button class="btn btn-success" onclick="playRoute(0)">Route 1: Ayrshire → Antrim</button>
-                <button class="btn btn-success" onclick="playRoute(1)">Route 2: Galloway → Down</button>
-                <button class="btn btn-success" onclick="playRoute(2)">Route 3: Dumfriesshire → Tyrone</button>
-                <button class="btn btn-success" onclick="playRoute(3)">Route 4: Western Scotland → Donegal</button>
+                <button class="btn btn-success" onclick="playRoute(0)">Route 1: Kentucky/TN → Ohio</button>
+                <button class="btn btn-success" onclick="playRoute(1)">Route 2: Ohio → Indiana</button>
+                <button class="btn btn-success" onclick="playRoute(2)">Route 3: Indiana → Illinois</button>
+                <button class="btn btn-success" onclick="playRoute(3)">Route 4: Kentucky/TN → Missouri</button>
+                <button class="btn btn-success" onclick="playRoute(4)">Route 5: Appalachia → Texas</button>
+                <button class="btn btn-success" onclick="playRoute(5)">Route 6: Illinois/MO → Kansas</button>
+                <button class="btn btn-success" onclick="playRoute(6)">Route 7: Oregon Trail</button>
                 <button class="btn btn-warning" onclick="resetMap()">🔄 Reset</button>
             </div>
         </div>
@@ -36,46 +39,126 @@
 
         <div class="map-info-container">
             <div class="info-panel">
-            <h3>About the Ulster Plantation</h3>
+            <h3>About 19th Century Westward Expansion</h3>
             <p>
-                The Ulster Plantation (1609-1718) was a systematic colonization program that brought thousands of Scottish
-                Presbyterian families, including the McCrearys, from Scotland to Ulster (Northern Ireland). After the
-                <strong>Flight of the Earls</strong> in 1607, when Gaelic Irish lords fled to continental Europe, approximately
-                4 million acres of land became available for settlement.
+                The 19th century saw the descendants of Scotch-Irish pioneers continue their westward movement
+                from the Appalachian base established in the 1700s. McCreary families participated in every
+                major phase of westward expansion.
             </p>
+
+            <h4>The Old Northwest (1800-1850)</h4>
             <p>
-                King James I (who was also James VI of Scotland) actively recruited Scottish Lowlanders, particularly
-                Presbyterians, to settle confiscated lands. The short sea crossing—just <strong>13 miles</strong> at the narrowest
-                point between Ayrshire and Antrim—made Ulster more accessible than other colonial destinations.
+                After the Northwest Ordinance (1787) opened the territory north of the Ohio River, families
+                moved from Kentucky and Tennessee into:
             </p>
+            <ul>
+                <li><strong>Ohio</strong> (statehood 1803) - First stop across the Ohio River</li>
+                <li><strong>Indiana</strong> (statehood 1816) - Followed the National Road westward</li>
+                <li><strong>Illinois</strong> (statehood 1818) - Prairie farming began here</li>
+            </ul>
+
+            <h4>The Trans-Mississippi West (1820-1860)</h4>
             <p>
-                By 1718, approximately 50,000-100,000 Scottish families had settled in Ulster. However, they faced
-                "double discrimination": resented by Irish Catholics for taking their land, and discriminated against by
-                English Anglicans who controlled the government. This tension, combined with economic hardship, would
-                eventually drive the great emigration to America beginning in 1717.
+                The Louisiana Purchase (1803) opened vast territories west of the Mississippi:
             </p>
+            <ul>
+                <li><strong>Missouri</strong> (statehood 1821) - Gateway to the West, major settlement</li>
+                <li><strong>Arkansas</strong> (statehood 1836) - Stopover on route to Texas</li>
+                <li><strong>Texas</strong> (statehood 1845) - Land grants attracted many families</li>
+            </ul>
+
+            <h4>The Civil War Era (1850-1870)</h4>
+            <p>
+                The Civil War (1861-1865) profoundly affected McCreary families:
+            </p>
+            <ul>
+                <li>Families were divided between Union and Confederate sympathies</li>
+                <li>Kentucky and Missouri were border states with split loyalties</li>
+                <li>After the war, many moved to Kansas and Nebraska as free-state settlers</li>
+                <li>The Homestead Act (1862) offered free land to settlers</li>
+            </ul>
+
+            <h4>The Great Plains and Far West (1850-1900)</h4>
+            <p>
+                Later 19th century migrations reached the farthest frontiers:
+            </p>
+            <ul>
+                <li><strong>Kansas</strong> (statehood 1861) - Free-state settlement after 1854</li>
+                <li><strong>Nebraska</strong> (statehood 1867) - Homestead Act settlements</li>
+                <li><strong>Oregon</strong> (statehood 1859) - Oregon Trail migrations from Missouri</li>
+                <li><strong>California</strong> (statehood 1850) - Gold Rush (1849) and beyond</li>
+            </ul>
+
+            <h4>Transportation Revolution</h4>
+            <p>
+                New transportation technologies transformed migration:
+            </p>
+            <ul>
+                <li><strong>National Road</strong> (1811-1837) - First federal highway, connected East to West</li>
+                <li><strong>Canals</strong> - Erie Canal (1825), Ohio canals connected Great Lakes to rivers</li>
+                <li><strong>Steamboats</strong> - Mississippi and Ohio River transport</li>
+                <li><strong>Railroads</strong> - Transcontinental Railroad (1869) opened the West</li>
+            </ul>
+
+            <h4>McCreary Family Settlements</h4>
+            <p>
+                By 1900, McCreary families could be found in:
+            </p>
+            <ul>
+                <li>Original Appalachian base (PA, VA, NC, SC, KY, TN)</li>
+                <li>Old Northwest (OH, IN, IL, MI, WI)</li>
+                <li>Trans-Mississippi (MO, AR, TX, KS, NE)</li>
+                <li>Far West (CA, OR, WA)</li>
+            </ul>
+
+            <h4>Cultural Continuity</h4>
+            <p>
+                Despite geographic dispersal, McCreary families maintained:
+            </p>
+            <ul>
+                <li>Presbyterian church affiliation wherever they settled</li>
+                <li>Emphasis on education (schools and colleges)</li>
+                <li>Democratic values and local self-governance</li>
+                <li>Agricultural lifestyle (until urbanization)</li>
+                <li>Strong family and clan connections</li>
+            </ul>
 
             <div class="legend">
                 <h4>Migration Routes Legend</h4>
                 <div class="legend-item">
                     <div class="legend-line" style="background: #1e3a8a;"></div>
                     <div class="legend-arrow" style="border-left-color: #1e3a8a;"></div>
-                    <span class="legend-text">Ayrshire → Antrim (13 miles, shortest crossing)</span>
+                    <span class="legend-text">Kentucky/Tennessee → Ohio (1800-1830)</span>
                 </div>
                 <div class="legend-item">
                     <div class="legend-line" style="background: #1e40af;"></div>
                     <div class="legend-arrow" style="border-left-color: #1e40af;"></div>
-                    <span class="legend-text">Galloway → Down (25 miles)</span>
+                    <span class="legend-text">Ohio → Indiana (1810-1840)</span>
                 </div>
                 <div class="legend-item">
                     <div class="legend-line" style="background: #2563eb;"></div>
                     <div class="legend-arrow" style="border-left-color: #2563eb;"></div>
-                    <span class="legend-text">Dumfriesshire → Tyrone (35 miles)</span>
+                    <span class="legend-text">Indiana → Illinois (1820-1850)</span>
                 </div>
                 <div class="legend-item">
-                    <div class="legend-line" style="background: #3b82f6;"></div>
-                    <div class="legend-arrow" style="border-left-color: #3b82f6;"></div>
-                    <span class="legend-text">Western Scotland → Donegal (30 miles)</span>
+                    <div class="legend-line" style="background: #059669;"></div>
+                    <div class="legend-arrow" style="border-left-color: #059669;"></div>
+                    <span class="legend-text">Kentucky/Tennessee → Missouri (1820-1860)</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-line" style="background: #047857;"></div>
+                    <div class="legend-arrow" style="border-left-color: #047857;"></div>
+                    <span class="legend-text">Appalachia → Texas (1830-1860)</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-line" style="background: #10b981;"></div>
+                    <div class="legend-arrow" style="border-left-color: #10b981;"></div>
+                    <span class="legend-text">Illinois/Missouri → Kansas (1854-1870)</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-line" style="background: #7c3aed;"></div>
+                    <div class="legend-arrow" style="border-left-color: #7c3aed;"></div>
+                    <span class="legend-text">Oregon Trail (1840-1870)</span>
                 </div>
             </div>
         </div>
@@ -98,76 +181,23 @@
         let routeData;
         let currentRoutes = [];
         let currentDecorators = [];
-        let ulsterCountiesLayer;
 
         // Initialize the map
         function initMap() {
-            map = L.map('map').setView([54.8, -6.5], 7);
+            map = L.map('map').setView([39.0, -95.0], 4);
 
-            // Add base tile layer (Stamen Terrain for historical look)
+            // Add base tile layer
             L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
                 attribution: '© OpenStreetMap contributors',
                 maxZoom: 18,
-                minZoom: 6
+                minZoom: 3
             }).addTo(map);
 
             // Add scale control
             L.control.scale({imperial: true, metric: true}).addTo(map);
 
-            // Load Ulster counties
-            loadUlsterCounties();
-
             // Load migration routes
             loadMigrationRoutes();
-        }
-
-        // Load Ulster counties GeoJSON
-        async function loadUlsterCounties() {
-            try {
-                const response = await fetch('../mccreary-counties.geojson');
-                if (!response.ok) {
-                    console.warn('Ulster counties GeoJSON not found, skipping');
-                    return;
-                }
-
-                const data = await response.json();
-
-                ulsterCountiesLayer = L.geoJSON(data, {
-                    style: {
-                        fillColor: '#d1fae5',
-                        fillOpacity: 0.3,
-                        color: '#059669',
-                        weight: 2,
-                        opacity: 0.6
-                    },
-                    onEachFeature: function(feature, layer) {
-                        const countyName = feature.properties.NAME_TAG ||
-                                         feature.properties.NAME_EN ||
-                                         feature.properties.name ||
-                                         'Ulster County';
-
-                        layer.bindPopup(`
-                            <h4>County ${countyName}</h4>
-                            <p>One of the four primary Ulster counties where McCreary families settled during the Plantation period (1609-1718).</p>
-                        `);
-
-                        // Add permanent labels
-                        const bounds = layer.getBounds();
-                        const center = bounds.getCenter();
-
-                        L.marker(center, {
-                            icon: L.divIcon({
-                                className: 'place-label',
-                                html: countyName,
-                                iconSize: null
-                            })
-                        }).addTo(map);
-                    }
-                }).addTo(map);
-
-            } catch (error) {
-                console.warn('Error loading Ulster counties:', error);
-            }
         }
 
         // Load migration routes
@@ -175,7 +205,7 @@
             try {
                 document.getElementById('loading').style.display = 'block';
 
-                const response = await fetch('data/scotland-ulster-routes.geojson');
+                const response = await fetch('data/westward-expansion-routes.geojson');
                 if (!response.ok) {
                     throw new Error(`Failed to load routes: ${response.status}`);
                 }
@@ -183,13 +213,13 @@
                 routeData = await response.json();
                 document.getElementById('loading').style.display = 'none';
 
-                // Add start and end point markers
+                // Add location markers
                 addLocationMarkers();
 
-                console.log(`Loaded ${routeData.features.length} migration routes`);
+                console.log(`Loaded ${routeData.features.length} westward expansion routes`);
 
             } catch (error) {
-                console.error('Error loading migration routes:', error);
+                console.error('Error loading routes:', error);
                 document.getElementById('loading').style.display = 'none';
                 const errorDiv = document.getElementById('error');
                 errorDiv.style.display = 'block';
@@ -201,34 +231,39 @@
             }
         }
 
-        // Add location markers for Scotland and Ulster
+        // Add location markers
         function addLocationMarkers() {
             const locations = [
-                {name: 'Ayrshire', coords: [55.46, -4.63], type: 'scotland'},
-                {name: 'Galloway', coords: [54.86, -4.24], type: 'scotland'},
-                {name: 'Dumfriesshire', coords: [55.07, -3.61], type: 'scotland'},
-                {name: 'County Antrim', coords: [54.86, -5.93], type: 'ulster'},
-                {name: 'County Down', coords: [54.48, -5.71], type: 'ulster'},
-                {name: 'County Tyrone', coords: [54.60, -7.05], type: 'ulster'},
-                {name: 'County Donegal', coords: [54.99, -7.73], type: 'ulster'}
+                {name: 'Kentucky', coords: [37.80, -85.50], type: 'base', icon: '🏘️'},
+                {name: 'Tennessee', coords: [35.90, -84.20], type: 'base', icon: '🏘️'},
+                {name: 'Ohio', coords: [40.20, -82.50], type: 'settlement', icon: '⭐'},
+                {name: 'Indiana', coords: [39.80, -86.50], type: 'settlement', icon: '⭐'},
+                {name: 'Illinois', coords: [40.20, -90.20], type: 'settlement', icon: '⭐'},
+                {name: 'Missouri', coords: [39.00, -93.50], type: 'gateway', icon: '🚪'},
+                {name: 'Texas', coords: [31.50, -97.50], type: 'settlement', icon: '⭐'},
+                {name: 'Kansas', coords: [38.50, -99.00], type: 'settlement', icon: '⭐'},
+                {name: 'Oregon', coords: [45.50, -122.00], type: 'farwest', icon: '🌲'}
             ];
 
             locations.forEach(loc => {
-                const color = loc.type === 'scotland' ? '#8b0000' : '#059669';
+                const color = loc.type === 'base' ? '#dc2626' :
+                             loc.type === 'gateway' ? '#d97706' :
+                             loc.type === 'farwest' ? '#7c3aed' :
+                             '#059669';
 
                 L.circleMarker(loc.coords, {
-                    radius: 6,
+                    radius: 7,
                     fillColor: color,
                     color: 'white',
                     weight: 2,
                     opacity: 1,
                     fillOpacity: 0.8
                 }).addTo(map).bindPopup(`
-                    <h4>${loc.name}</h4>
-                    <p><strong>${loc.type === 'scotland' ? 'Origin' : 'Destination'}</strong></p>
-                    <p>${loc.type === 'scotland' ?
-                        'Scottish Presbyterian families departed from here' :
-                        'Ulster settlement area for McCreary families'}</p>
+                    <h4>${loc.icon} ${loc.name}</h4>
+                    <p><strong>${loc.type === 'base' ? 'Appalachian Base' :
+                                 loc.type === 'gateway' ? 'Gateway to the West' :
+                                 loc.type === 'farwest' ? 'Far West Destination' :
+                                 '19th Century Settlement'}</strong></p>
                 `);
             });
         }
@@ -254,7 +289,7 @@
                 color: props.color,
                 weight: 4,
                 opacity: 0.8,
-                snakingSpeed: 400
+                snakingSpeed: 500
             }).addTo(map);
 
             currentRoutes[index] = route;
@@ -328,7 +363,7 @@
                 // Open popup after arrows are added
                 route.openPopup();
 
-            }, 1200);
+            }, 1500);
         }
 
         // Play all routes in sequence
@@ -338,7 +373,7 @@
             routeData.features.forEach((feature, index) => {
                 setTimeout(() => {
                     playRoute(index);
-                }, index * 1500);
+                }, index * 2500);
             });
         }
 
@@ -356,7 +391,7 @@
             currentDecorators = [];
 
             // Reset view
-            map.setView([54.8, -6.5], 7);
+            map.setView([39.0, -95.0], 4);
         }
 
         // Initialize map when page loads

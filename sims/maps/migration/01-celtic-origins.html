@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ulster Plantation Migration (1603-1718) - McCreary Family</title>
+    <title>Celtic Origins & Early Scotland (c. 400 BCE - 843 CE) - McCreary Family</title>
 
     <!-- Leaflet CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
@@ -14,19 +14,20 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>🗺️ Ulster Plantation Migration</h1>
-            <p class="subtitle">Scottish Presbyterian Families Migrate to Ulster, Ireland</p>
-            <p class="period">1603-1718 CE</p>
+            <h1>🗺️ Celtic Origins & Early Scotland</h1>
+            <p class="subtitle">Celtic Migrations and the Birth of Gaelic Scotland</p>
+            <p class="period">c. 400 BCE - 843 CE</p>
         </div>
 
         <div class="controls">
             <h3>Animation Controls</h3>
             <div class="button-group">
                 <button class="btn btn-primary" onclick="playAllAnimations()">▶️ Play All Routes</button>
-                <button class="btn btn-success" onclick="playRoute(0)">Route 1: Ayrshire → Antrim</button>
-                <button class="btn btn-success" onclick="playRoute(1)">Route 2: Galloway → Down</button>
-                <button class="btn btn-success" onclick="playRoute(2)">Route 3: Dumfriesshire → Tyrone</button>
-                <button class="btn btn-success" onclick="playRoute(3)">Route 4: Western Scotland → Donegal</button>
+                <button class="btn btn-success" onclick="playRoute(0)">Route 1: Celts to Ireland</button>
+                <button class="btn btn-success" onclick="playRoute(1)">Route 2: Celts to Scotland</button>
+                <button class="btn btn-success" onclick="playRoute(2)">Route 3: Scots to Dál Riata</button>
+                <button class="btn btn-success" onclick="playRoute(3)">Route 4: St. Columba to Iona</button>
+                <button class="btn btn-success" onclick="playRoute(4)">Route 5: Expansion of Dál Riata</button>
                 <button class="btn btn-warning" onclick="resetMap()">🔄 Reset</button>
             </div>
         </div>
@@ -36,46 +37,56 @@
 
         <div class="map-info-container">
             <div class="info-panel">
-            <h3>About the Ulster Plantation</h3>
+            <h3>About Celtic Origins</h3>
             <p>
-                The Ulster Plantation (1609-1718) was a systematic colonization program that brought thousands of Scottish
-                Presbyterian families, including the McCrearys, from Scotland to Ulster (Northern Ireland). After the
-                <strong>Flight of the Earls</strong> in 1607, when Gaelic Irish lords fled to continental Europe, approximately
-                4 million acres of land became available for settlement.
+                The story of the McCreary family begins with the <strong>Celtic peoples</strong> who migrated to the
+                British Isles from continental Europe between 500-100 BCE. These Iron Age peoples brought their
+                distinctive language (Gaelic), culture, and religious practices with them.
             </p>
             <p>
-                King James I (who was also James VI of Scotland) actively recruited Scottish Lowlanders, particularly
-                Presbyterians, to settle confiscated lands. The short sea crossing—just <strong>13 miles</strong> at the narrowest
-                point between Ayrshire and Antrim—made Ulster more accessible than other colonial destinations.
+                The most significant event for Scottish history was the migration of <strong>Gaelic-speaking Scots</strong>
+                from Ulster (northern Ireland) to Argyll around 500 CE. They established the kingdom of <strong>Dál Riata</strong>,
+                which spanned the North Channel. The name "Scotland" literally means "land of the Scots" - referring to
+                these Irish migrants, not the indigenous Picts.
             </p>
             <p>
-                By 1718, approximately 50,000-100,000 Scottish families had settled in Ulster. However, they faced
-                "double discrimination": resented by Irish Catholics for taking their land, and discriminated against by
-                English Anglicans who controlled the government. This tension, combined with economic hardship, would
-                eventually drive the great emigration to America beginning in 1717.
+                In 563 CE, <strong>St. Columba</strong> sailed from Ireland to establish his monastery on the island of Iona,
+                which became one of the most important centers of Celtic Christianity. From Iona, Christianity spread
+                throughout Scotland and northern England.
+            </p>
+            <p>
+                By 843 CE, the Gaelic Scots had expanded eastward and merged with the Picts under King Kenneth MacAlpin
+                to form the <strong>Kingdom of Alba</strong> (Scotland). The Gaelic language and culture of these Irish
+                migrants would dominate Scottish history for centuries, eventually giving rise to surnames like McCreary
+                (Mac Ruairidh - "son of Ruairidh").
             </p>
 
             <div class="legend">
                 <h4>Migration Routes Legend</h4>
                 <div class="legend-item">
-                    <div class="legend-line" style="background: #1e3a8a;"></div>
-                    <div class="legend-arrow" style="border-left-color: #1e3a8a;"></div>
-                    <span class="legend-text">Ayrshire → Antrim (13 miles, shortest crossing)</span>
+                    <div class="legend-line" style="background: #8b4513;"></div>
+                    <div class="legend-arrow" style="border-left-color: #8b4513;"></div>
+                    <span class="legend-text">Celtic Migration to Ireland (c. 500-100 BCE)</span>
                 </div>
                 <div class="legend-item">
-                    <div class="legend-line" style="background: #1e40af;"></div>
-                    <div class="legend-arrow" style="border-left-color: #1e40af;"></div>
-                    <span class="legend-text">Galloway → Down (25 miles)</span>
+                    <div class="legend-line" style="background: #a0522d;"></div>
+                    <div class="legend-arrow" style="border-left-color: #a0522d;"></div>
+                    <span class="legend-text">Celtic Migration to Scotland (c. 400-100 BCE)</span>
                 </div>
                 <div class="legend-item">
-                    <div class="legend-line" style="background: #2563eb;"></div>
-                    <div class="legend-arrow" style="border-left-color: #2563eb;"></div>
-                    <span class="legend-text">Dumfriesshire → Tyrone (35 miles)</span>
+                    <div class="legend-line" style="background: #059669;"></div>
+                    <div class="legend-arrow" style="border-left-color: #059669;"></div>
+                    <span class="legend-text">Scots to Dál Riata (c. 500 CE, 15 miles)</span>
                 </div>
                 <div class="legend-item">
-                    <div class="legend-line" style="background: #3b82f6;"></div>
-                    <div class="legend-arrow" style="border-left-color: #3b82f6;"></div>
-                    <span class="legend-text">Western Scotland → Donegal (30 miles)</span>
+                    <div class="legend-line" style="background: #7c3aed;"></div>
+                    <div class="legend-arrow" style="border-left-color: #7c3aed;"></div>
+                    <span class="legend-text">St. Columba to Iona (563 CE)</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-line" style="background: #047857;"></div>
+                    <div class="legend-arrow" style="border-left-color: #047857;"></div>
+                    <span class="legend-text">Expansion of Dál Riata (600-843 CE)</span>
                 </div>
             </div>
         </div>
@@ -98,76 +109,23 @@
         let routeData;
         let currentRoutes = [];
         let currentDecorators = [];
-        let ulsterCountiesLayer;
 
         // Initialize the map
         function initMap() {
-            map = L.map('map').setView([54.8, -6.5], 7);
+            map = L.map('map').setView([52.0, -5.0], 5);
 
-            // Add base tile layer (Stamen Terrain for historical look)
+            // Add base tile layer with terrain style
             L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
                 attribution: '© OpenStreetMap contributors',
                 maxZoom: 18,
-                minZoom: 6
+                minZoom: 4
             }).addTo(map);
 
             // Add scale control
             L.control.scale({imperial: true, metric: true}).addTo(map);
 
-            // Load Ulster counties
-            loadUlsterCounties();
-
             // Load migration routes
             loadMigrationRoutes();
-        }
-
-        // Load Ulster counties GeoJSON
-        async function loadUlsterCounties() {
-            try {
-                const response = await fetch('../mccreary-counties.geojson');
-                if (!response.ok) {
-                    console.warn('Ulster counties GeoJSON not found, skipping');
-                    return;
-                }
-
-                const data = await response.json();
-
-                ulsterCountiesLayer = L.geoJSON(data, {
-                    style: {
-                        fillColor: '#d1fae5',
-                        fillOpacity: 0.3,
-                        color: '#059669',
-                        weight: 2,
-                        opacity: 0.6
-                    },
-                    onEachFeature: function(feature, layer) {
-                        const countyName = feature.properties.NAME_TAG ||
-                                         feature.properties.NAME_EN ||
-                                         feature.properties.name ||
-                                         'Ulster County';
-
-                        layer.bindPopup(`
-                            <h4>County ${countyName}</h4>
-                            <p>One of the four primary Ulster counties where McCreary families settled during the Plantation period (1609-1718).</p>
-                        `);
-
-                        // Add permanent labels
-                        const bounds = layer.getBounds();
-                        const center = bounds.getCenter();
-
-                        L.marker(center, {
-                            icon: L.divIcon({
-                                className: 'place-label',
-                                html: countyName,
-                                iconSize: null
-                            })
-                        }).addTo(map);
-                    }
-                }).addTo(map);
-
-            } catch (error) {
-                console.warn('Error loading Ulster counties:', error);
-            }
         }
 
         // Load migration routes
@@ -175,7 +133,7 @@
             try {
                 document.getElementById('loading').style.display = 'block';
 
-                const response = await fetch('data/scotland-ulster-routes.geojson');
+                const response = await fetch('data/celtic-origins-routes.geojson');
                 if (!response.ok) {
                     throw new Error(`Failed to load routes: ${response.status}`);
                 }
@@ -183,7 +141,7 @@
                 routeData = await response.json();
                 document.getElementById('loading').style.display = 'none';
 
-                // Add start and end point markers
+                // Add location markers
                 addLocationMarkers();
 
                 console.log(`Loaded ${routeData.features.length} migration routes`);
@@ -201,34 +159,33 @@
             }
         }
 
-        // Add location markers for Scotland and Ulster
+        // Add location markers
         function addLocationMarkers() {
             const locations = [
-                {name: 'Ayrshire', coords: [55.46, -4.63], type: 'scotland'},
-                {name: 'Galloway', coords: [54.86, -4.24], type: 'scotland'},
-                {name: 'Dumfriesshire', coords: [55.07, -3.61], type: 'scotland'},
-                {name: 'County Antrim', coords: [54.86, -5.93], type: 'ulster'},
-                {name: 'County Down', coords: [54.48, -5.71], type: 'ulster'},
-                {name: 'County Tyrone', coords: [54.60, -7.05], type: 'ulster'},
-                {name: 'County Donegal', coords: [54.99, -7.73], type: 'ulster'}
+                {name: 'Continental Europe', coords: [47.5, -1.5], type: 'origin', icon: '🏛️'},
+                {name: 'Ireland', coords: [53.0, -7.5], type: 'destination', icon: '🇮🇪'},
+                {name: 'Scotland', coords: [56.0, -3.5], type: 'destination', icon: '🏴󠁧󠁢󠁳󠁣󠁴󠁿'},
+                {name: 'Ulster', coords: [55.2, -6.2], type: 'origin', icon: '🏰'},
+                {name: 'Argyll (Dál Riata)', coords: [55.9, -5.5], type: 'destination', icon: '👑'},
+                {name: 'Iona', coords: [56.3, -6.4], type: 'religious', icon: '⛪'}
             ];
 
             locations.forEach(loc => {
-                const color = loc.type === 'scotland' ? '#8b0000' : '#059669';
+                const color = loc.type === 'origin' ? '#8b4513' :
+                             loc.type === 'religious' ? '#7c3aed' : '#059669';
 
                 L.circleMarker(loc.coords, {
-                    radius: 6,
+                    radius: 8,
                     fillColor: color,
                     color: 'white',
                     weight: 2,
                     opacity: 1,
                     fillOpacity: 0.8
                 }).addTo(map).bindPopup(`
-                    <h4>${loc.name}</h4>
-                    <p><strong>${loc.type === 'scotland' ? 'Origin' : 'Destination'}</strong></p>
-                    <p>${loc.type === 'scotland' ?
-                        'Scottish Presbyterian families departed from here' :
-                        'Ulster settlement area for McCreary families'}</p>
+                    <h4>${loc.icon} ${loc.name}</h4>
+                    <p><strong>${loc.type === 'origin' ? 'Origin Point' :
+                                 loc.type === 'religious' ? 'Religious Center' :
+                                 'Destination'}</strong></p>
                 `);
             });
         }
@@ -338,7 +295,7 @@
             routeData.features.forEach((feature, index) => {
                 setTimeout(() => {
                     playRoute(index);
-                }, index * 1500);
+                }, index * 2000);
             });
         }
 
@@ -356,7 +313,7 @@
             currentDecorators = [];
 
             // Reset view
-            map.setView([54.8, -6.5], 7);
+            map.setView([52.0, -5.0], 5);
         }
 
         // Initialize map when page loads
