@@ -1,0 +1,349 @@
+/* Shared styles for McCreary Migration Maps */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #f0f4f8 0%, #e5e7eb 100%);
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+    color: white;
+    padding: 30px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.header h1 {
+    margin: 0 0 10px 0;
+    font-size: 2.2em;
+}
+
+.header .subtitle {
+    margin: 0;
+    font-size: 1.1em;
+    opacity: 0.95;
+}
+
+.header .period {
+    margin: 10px 0 0 0;
+    font-size: 1em;
+    opacity: 0.85;
+    font-style: italic;
+}
+
+#map {
+    height: 700px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    border: 3px solid #1e3a8a;
+    background: #f0f4f8;
+}
+
+.controls {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    margin: 20px 0;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.controls h3 {
+    margin: 0 0 15px 0;
+    color: #1e3a8a;
+    font-size: 1.3em;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background: #2563eb;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4);
+}
+
+.btn:active {
+    transform: translateY(0);
+}
+
+.btn-primary {
+    background: #1e3a8a;
+}
+
+.btn-primary:hover {
+    background: #1e40af;
+}
+
+.btn-success {
+    background: #059669;
+}
+
+.btn-success:hover {
+    background: #047857;
+}
+
+.btn-warning {
+    background: #d97706;
+}
+
+.btn-warning:hover {
+    background: #b45309;
+}
+
+.info-panel {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    margin-top: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.info-panel h3 {
+    margin: 0 0 15px 0;
+    color: #1e3a8a;
+    font-size: 1.5em;
+}
+
+.info-panel p {
+    line-height: 1.6;
+    color: #374151;
+}
+
+.legend {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin-top: 15px;
+}
+
+.legend h4 {
+    margin: 0 0 10px 0;
+    color: #1e3a8a;
+    font-size: 1.1em;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+    gap: 10px;
+}
+
+.legend-line {
+    width: 40px;
+    height: 3px;
+    border-radius: 2px;
+}
+
+.legend-arrow {
+    width: 0;
+    height: 0;
+    border-left: 8px solid;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+}
+
+.legend-text {
+    font-size: 0.95em;
+    color: #374151;
+}
+
+.timeline-control {
+    background: white;
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.timeline-control label {
+    display: block;
+    margin-bottom: 8px;
+    color: #1e3a8a;
+    font-weight: 600;
+}
+
+.timeline-slider {
+    width: 100%;
+    height: 6px;
+    border-radius: 3px;
+    background: #e5e7eb;
+    outline: none;
+    -webkit-appearance: none;
+}
+
+.timeline-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #3b82f6;
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(59, 130, 246, 0.4);
+}
+
+.timeline-slider::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #3b82f6;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 2px 6px rgba(59, 130, 246, 0.4);
+}
+
+.timeline-display {
+    text-align: center;
+    font-size: 1.2em;
+    color: #1e3a8a;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.loading {
+    text-align: center;
+    padding: 40px;
+    color: #1e3a8a;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.loading::after {
+    content: '...';
+    display: inline-block;
+    animation: dots 1.5s steps(4, end) infinite;
+}
+
+@keyframes dots {
+    0%, 20% { content: '.'; }
+    40% { content: '..'; }
+    60%, 100% { content: '...'; }
+}
+
+.error {
+    text-align: center;
+    padding: 20px;
+    color: #dc2626;
+    font-size: 1.1em;
+    background: #fee2e2;
+    border-radius: 8px;
+    margin: 20px 0;
+    border: 2px solid #fca5a5;
+}
+
+/* Leaflet popup customization */
+.leaflet-popup-content-wrapper {
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+}
+
+.leaflet-popup-content {
+    margin: 15px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.leaflet-popup-content h4 {
+    margin: 0 0 10px 0;
+    color: #1e3a8a;
+    font-size: 1.2em;
+}
+
+.leaflet-popup-content strong {
+    color: #1e40af;
+}
+
+/* Custom markers */
+.route-marker {
+    background: #3b82f6;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 0.9em;
+    font-weight: 600;
+    border: 2px solid white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    white-space: nowrap;
+}
+
+.place-label {
+    background: rgba(30, 58, 138, 0.95);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 1em;
+    font-weight: 600;
+    border: 2px solid white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    white-space: nowrap;
+    pointer-events: none;
+}
+
+/* Animation pulse effect */
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 0.7;
+        transform: scale(1.1);
+    }
+}
+
+.pulse {
+    animation: pulse 2s ease-in-out infinite;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .header h1 {
+        font-size: 1.6em;
+    }
+
+    .header .subtitle {
+        font-size: 1em;
+    }
+
+    #map {
+        height: 500px;
+    }
+
+    .button-group {
+        flex-direction: column;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}
