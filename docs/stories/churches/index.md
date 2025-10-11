@@ -1,3 +1,14 @@
+---
+title: From Majestic Cathedrals to Moss Covered Ruins
+description: A story of how the churches of Scotland are crumbling
+image: /stories/churches/cover.png
+og:image: /stories/churches/cover.png
+twitter:image: /stories/churches/cover.png
+social:
+   cards: false
+hide:
+  - toc
+---
 # From Majestic Cathedrals to Moss Covered Ruins
 
 ![](./image-00.png)
