@@ -16,6 +16,22 @@ Much of the content and our interactive applications such as map and timeline vi
 
 Although the McCreary clan is not directly related to the MacQuarrie Clan, I have also created a [intelligent textbook for the Clan MacQuarrie](https://dmccreary.github.io/clan-macquarrie/) for them.  This website also has example prompts and interactive applications that can also be reused if you are building a family history website.
 
+
+## Using This Website
+
+### Search
+
+This site has an high quality search tool in the top header of each page.  Just type the word or phase you are looking for in the search area and press ENTER or click the magnifying glass icon.  Many questions can be quickly resolved by using the search tool.  Note that the glossary of terms is also indexed.  So if you don't understand any term we suggest using the search function first.
+
+### Glossary
+
+We have worked hard to create a detailed [glossary of terms](glossary.md).  Please check this if there
+are terms you don't understand or would like more details on.
+
+### Links
+
+This site has many links from the main content documents directly to the Glossary.  You can click on any term and then use the Back button to return to your reading.
+
 Please contact me on [LinkedIn](https://www.linkedin.com/in/danmccreary/) if you have any questions.
 
 - Dan McCreary, October 2025

@@ -2,7 +2,8 @@
 
 Welcome to the story of the McCreary family—a story that spans centuries and continents, from the rugged highlands of Scotland to the green hills of Ireland, and finally across the Atlantic Ocean to North America. This is more than just a collection of names and dates. It's the story of real people who faced hardships, made difficult choices, and built new lives in unfamiliar lands.
 
-If you're reading this, you might be researching your own family history, completing a school project, or simply curious about how ordinary people lived through extraordinary times. Whatever brought you here, you'll discover that the McCreary family's journey is deeply connected to major historical events that shaped the modern world.
+If you're reading this, you might be researching your own family history, completing a school project, or simply curious about how ordinary people lived through extraordinary times. Whatever brought you here, you'll discover that the McCreary family's journey is deeply connected to major historical events that shaped the modern world.  The only way we can understand why our ancestors made
+the decisions they did is to understand the historical context of the time they lived.
 
 ## Who Were the McCrearys?
 

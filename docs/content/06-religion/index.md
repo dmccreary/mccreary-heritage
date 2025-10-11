@@ -103,17 +103,18 @@ In America, there was no established Anglican hierarchy in most colonies, and Pr
 
 In America, McCreary families encountered many Protestant denominations they hadn't known in Scotland or Ulster:
 
-**Baptists**
+#### Baptists
 [Baptists](../../glossary.md#baptist) believed in adult baptism (waiting until a person is old enough to choose faith for themselves) rather than infant baptism. They also emphasized complete independence of each congregation—even more decentralized than Presbyterian governance. Baptists became numerous on the American frontier alongside Presbyterians.
 
-**Methodists**
+#### Methodists
 [Methodism](../../glossary.md#methodist) began in England in the 1700s as a movement within Anglicanism, emphasizing personal religious experience and emotional worship. Methodists sent traveling preachers to frontier areas, competing with Presbyterian ministers for converts. Methodist services were more emotional and less formal than Presbyterian services.
 
-**Quakers**
+#### Quakers
 The Society of Friends ([Quakers](../../glossary.md#quaker)) believed in direct personal experience of God without ministers, formal services, or established hierarchy. They practiced pacifism and opposed slavery early on. Quakers founded Pennsylvania, where many Scotch-Irish Presbyterians first landed, but the two groups were quite different in religious style.
 
-**Lutherans**
-Note: The original outline mentioned "Other Branches of Lutheranism" but this appears to be an error. Martin Luther founded Lutheranism in Germany in the 1500s as part of the Protestant Reformation, but it's a different tradition from Presbyterianism. Lutherans in America were primarily German or Scandinavian immigrants. McCreary families would have had little interaction with Lutheran communities, as they settled in different regions and spoke different languages.
+#### Lutherans
+Martin Luther founded Lutheranism in Germany in the 1500s as part of the Protestant Reformation, but it's a different tradition from Presbyterianism. Lutherans in America were primarily German or Scandinavian immigrants. McCreary families would have had little interaction with Lutheran communities, as they settled in different regions and spoke different languages.  Over time
+many McCreary families married people from Lutherans communities and the communities started to overlap.
 
 **Religious Diversity in America**
 The important point is that America was far more religiously diverse than Ulster or Scotland. While McCreary families maintained their Presbyterian identity and built Presbyterian churches wherever they settled, they lived alongside people of many faiths. This diversity, combined with America's principle of religious freedom, created a very different religious environment than the Old World's conflicts between Catholics, Anglicans, and Presbyterians.
@@ -194,12 +195,12 @@ However, Ulster was not an easy place for Presbyterians. They faced "double disc
 
 When McCreary families began arriving in America (first documented in 1718, with major waves continuing through the 1700s), their Presbyterian identity remained central:
 
-**Building Churches First**
+#### Building Churches First
 One of the first things Scotch-Irish Presbyterian communities did in America was build a church. Even when living in rough log cabins on the frontier, they would organize a congregation, call a minister, and establish a church. These weren't elaborate buildings—often just simple log structures—but they served as community centers.
 
 In Pennsylvania's Cumberland Valley, Virginia's Shenandoah Valley, and the Carolinas backcountry, Presbyterian churches marked Scotch-Irish settlements. McCreary families were part of these congregations, serving as elders, supporting ministers, and maintaining the faith practices they'd brought from Ulster.
 
-**Education and Schools**
+#### Education and Schools**
 Following Presbyterian tradition, these communities established schools, often run by the Presbyterian church. Ministers often served as teachers. This commitment to education meant that Scotch-Irish communities had relatively high literacy rates, even on the frontier.
 
 **Marriage and Family**
@@ -229,8 +230,47 @@ While not all McCreary descendants remain Presbyterian today—families diversif
 
 ## Conclusion
 
+Today religion does not play the same role that it did when McCreary families migrated from Ireland and Scotland to the US.
+In Scotland today (2025) less than 4% of the population attend a church service every week.
+
 Religion was never just a private matter for the McCreary family. Their Presbyterian faith determined where they could live, what opportunities they had, whom they married, and even which wars they fought. It connected them to a tradition stretching from John Knox's Scotland through Ulster's plantation to America's frontier.
 
 Understanding this religious history helps explain why the McCrearys and other Scotch-Irish families moved across oceans and continents, built churches before they built comfortable homes, and fought passionately for independence. Their faith wasn't separate from their daily lives—it was the lens through which they understood everything else.
 
 The story of the McCreary family is, in many ways, the story of Presbyterianism's journey from Scotland to America, and how this particular form of Christianity shaped not just individuals but entire communities and ultimately American culture itself.
+
+## References
+
+Here are some references for you to learn more about the role of religion in McCreary family history.  We have attempted to find resources that are appropriate for high-school students that are studying family history.
+
+1. [The Presbyterian Heritage](https://www.presbyterianmission.org/what-we-believe/presbyterian-101/) - Presbyterian Mission Agency - An accessible introduction to Presbyterian beliefs, history, and church governance. Explains the democratic structure and Reformed theology that shaped Scotch-Irish communities. Relevant for understanding the religious foundation of McCreary family identity.
+
+2. [Scotland's Reformation](https://www.bbc.co.uk/bitesize/guides/zgcxcqt/revision/1) - BBC Bitesize - Student-friendly overview of the Scottish Reformation of 1560, John Knox, and the establishment of Presbyterianism in Scotland. Includes timelines and key facts. Essential background for understanding why McCreary ancestors were Presbyterian.
+
+3. [The Ulster Plantation](https://www.bbc.co.uk/bitesize/guides/ztkxfcw/revision/1) - BBC Bitesize - Clear explanation of the Ulster Plantation (1609-1620s) and its religious dimensions. Covers why Scottish Presbyterians moved to Ireland and the religious conflicts that resulted. Directly relevant to McCreary family migration from Scotland to Ulster.
+
+4. [Celtic Christianity and St. Columba](https://www.britannica.com/biography/Saint-Columba) - Britannica - Biographical article on St. Columba and his role in Christianizing Scotland through the monastery at Iona. Accessible reading level with historical context about early Christianity in Scotland and Ireland.
+
+5. [St. Patrick: History vs. Legend](https://www.history.com/topics/st-patricks-day/who-was-saint-patrick) - History.com - Separates historical facts from legends about St. Patrick's mission to Ireland. Explains how Christianity came to Ireland peacefully and developed distinctive Irish characteristics. Good background on pre-Presbyterian Christian traditions in Ireland.
+
+6. [The Scotch-Irish in America](https://www.pbs.org/wgbh/roadshow/stories/articles/2016/3/14/scotch-irish-america/) - PBS Antiques Roadshow - Brief, readable article on Scotch-Irish immigration to America, their Presbyterian faith, and role in the American Revolution. Connects religious identity to settlement patterns and political beliefs relevant to McCreary family history.
+
+7. [Religious Freedom in Colonial America](https://www.loc.gov/exhibits/religion/rel01.html) - Library of Congress - Overview of religious diversity and freedom in colonial America, explaining why it attracted persecuted groups like Ulster Presbyterians. Helps students understand the contrast between Old World religious conflict and New World religious tolerance.
+
+8. [Ancient Celtic Religion](https://www.worldhistory.org/Celtic_Religion/) - World History Encyclopedia - Student-friendly article on pre-Christian Celtic polytheism, druids, and sacred sites. Provides context for understanding what existed before Christianity arrived in Scotland and Ireland. Good background for the timeline's earliest events.
+
+9. [Presbyterians and the American Revolution](https://journals.psu.edu/phj/article/view/25588) - Pennsylvania History Journal - Academic but accessible article on why Presbyterians strongly supported American independence. Explains covenant theology's political implications. Relevant to understanding McCreary family participation in the Revolution.
+
+10. [The Kirk: Church of Scotland History](https://www.churchofscotland.org.uk/about-us/our-history) - Church of Scotland - Official history of the Kirk from the Reformation to present, written for general audiences. Explains the role of the Kirk in Scottish community life, education, and record-keeping. Shows the institutional foundation McCreary families brought to Ulster and America.
+
+11. [Scotland's Declining Church Attendance](https://www.bbc.com/news/uk-scotland-56461492) - 2021 - BBC News - Report on the sharp decline in church attendance in Scotland, where less than 4% of the population now attends weekly services. Provides context for understanding how dramatically the role of religion has changed in Scotland since the McCreary family's Presbyterian ancestors made faith central to daily life. Includes statistics and analysis of secularization trends.
+
+### Additional Resources
+
+For students interested in deeper research:
+
+- **Local Presbyterian Church Archives** - Many Presbyterian churches where McCreary families settled maintain historical records, including membership rolls, baptisms, and marriages. Contact churches in Pennsylvania, Virginia, Kentucky, and Tennessee.
+
+- **Family History Centers** - The FamilySearch.org website provides free access to Presbyterian church records, which often provide the best documentation of Scotch-Irish family histories.
+
+- **National Library of Scotland** - Digital collections include materials on the Scottish Reformation, Kirk records, and emigration history relevant to understanding Scottish Presbyterian culture.
