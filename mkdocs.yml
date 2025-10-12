@@ -22,11 +22,11 @@ nav:
     - Stories: content/09-stories/index.md
   - Applications & Tools:
     - List of Applications & Tools: sims/index.md
-    - Migration Simulation: sims/migration/index.md
-    - Timeline Viewer: sims/timeline/index.md
     - Maps: sims/maps/index.md
+    - Timeline Viewer: sims/timeline/index.md
     - Map Generation: sims/maps/map-documentation.md
     - Religion: sims/religion/index.md
+    - Migration Simulation: sims/migration/index.md
   - Stories:
     - List of Stories: stories/index.md
     - From Cathedral to Ruins: stories/churches/index.md
@@ -34,23 +34,24 @@ nav:
   - Quiz: quiz.md
   - Glossary: glossary.md
   - How We Built This Site: how-we-built-this-site.md
-  - Prompts:
+  - Sample GenAI Prompts:
+    - prompts/index.md
+    - prompts/introduction.md
     - Migration v2: prompts/migration-1.md
     - Migration: prompts/migration.md
     - Ulster Plantation Maps: prompts/ulster-plantation-map.md
-  
+    - Timeline Chapter Text: prompts/timeline-chapter-text.md
+    - Chapter Content Generation: prompts/chapter-content.md
+    - Generating FAQs: prompts/faqs.md
+    - Generating Quiz Questions: prompts/quiz.md
+    - Personas: prompts/personas.md
+    - README: prompts/readme.md
+    - Site Layout: prompts/site-layout.md
   - References: references.md
   - Contact: contact.md
   - License: license.md
-  - Prompts:
-    - prompts/index.md
-    - prompts/introduction.md
-    - prompts/timeline-chapter-text.md
-    - prompts/personas.md
-    - prompts/readme.md
-    - prompts/site-layout.md
 
-# CoderDojo Microsite Standards from here down
+# Dan McCreary's Microsite Standards from here down
 
 theme:
   name: material
@@ -89,8 +90,7 @@ extra_css:
    - css/extra.css
 extra_javascript:
    - js/extra.js
-#extra:
-#  analytics:
-#    provider: google
-    # https://analytics.google.com/analytics/web/#/a1420179p349994530/admin/streams/table/4433129821
-#    property: G-XXXX
+extra:
+  analytics:
+    provider: google
+    property: G-5XE2LES1F4
