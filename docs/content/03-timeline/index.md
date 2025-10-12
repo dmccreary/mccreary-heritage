@@ -27,20 +27,20 @@ The most famous moment came in 1314 at the [Battle of Bannockburn](../../glossar
 Around 1400, the surname pattern that would become "McCreary" began to solidify. In [Gaelic](../../glossary.md#gaelic), the name was [Mac Ruaidhrí](../../glossary.md#mac-ruaidhri), meaning "son of [Ruaidhrí](../../glossary.md#ruaidhri)" (or Rory). The name Ruaidhrí itself means "red king" in Gaelic, possibly referring to red hair or fierce temperament.
 
 As surnames became hereditary (passed from parent to child), different branches of the family spelled the name differently. You might see:
-- MacRory or McRory (closer to the Gaelic pronunciation)
-- McCrary or MacCrary (Anglicized versions)
-- McCreary or MacCreary (the most common American spellings)
-- McCririe or Macrorie (less common variations)
 
-All these spellings refer to descendants of someone named Ruaidhrí who lived centuries ago. The name was particularly common in western Scotland and would later become established in [Ulster](../../glossary.md#ulster).
+- `MacRory` or `McRory` (closer to the Gaelic pronunciation)
+- `McCrary` or `MacCrary` (Anglicized versions)
+- `McCreary` or `MacCreary` (the most common American spellings)
+- `McCririe` or `Macrorie` (less common variations)
 
-**Table suggestion**: A table showing the different spelling variations of the McCreary name, their origins, and where each was most common.
+All these spellings refer to descendants of someone named `Ruaidhrí` who lived centuries ago. The name was particularly common in western Scotland and would later become established in [Ulster](../../glossary.md#ulster).
 
 ### Religious Revolution
 
 The year 1560 marked a turning point. Scotland officially became Protestant through the [Scottish Reformation](../../glossary.md#scottish-reformation), led by the fiery preacher [John Knox](../../glossary.md#john-knox). But Scotland didn't just become Protestant—it became [Presbyterian](../../glossary.md#presbyterian), which was different from the [Anglican](../../glossary.md#anglican) Church of England or [Catholic](../../glossary.md#catholic) Church.
 
 Presbyterianism emphasized:
+
 - Democratic church governance (congregations elected their own ministers)
 - Strict moral discipline
 - Universal education (everyone should read the Bible)
@@ -54,13 +54,14 @@ This Presbyterian culture became absolutely central to [Scotch-Irish](../../glos
 
 In 1603, something unexpected happened: [James VI of Scotland](../../glossary.md#james-vi) inherited the English throne, becoming [James I of England](../../glossary.md#james-i). This [Union of the Crowns](../../glossary.md#union-of-the-crowns) meant one person ruled both kingdoms, making it much easier for Scots to move to Ireland.
 
-At the same time, Ireland's Gaelic lords were fighting—and losing—their final battle against English conquest. The [Nine Years' War](../../glossary.md#nine-years-war) ended in 1603, and in 1607 came the [Flight of the Earls](../../glossary.md#flight-of-the-earls). When Ulster's defeated Irish lords fled to continental Europe, they abandoned approximately four million acres of land. The English government saw an opportunity.
+At the same time, Ireland's Gaelic lords were fighting—and losing—their final battle against English conquest. The [Nine Years' War](../../glossary.md#nine-years-war) (1594–1603) ended in defeat for Hugh O’Neill, Earl of Tyrone, and his allies. In 1607 came the [Flight of the Earls](../../glossary.md#flight-of-the-earls) when O’Neill and other Ulster nobles fled to continental Europe. When Ulster's defeated Irish lords fled to continental Europe, they abandoned approximately 500,000 acres of land. The English government saw an opportunity.
 
 ### The Plantation Scheme
 
-In 1609, King James launched the [Ulster Plantation](../../glossary.md#ulster-plantation)—a systematic plan to colonize Ulster with Protestant settlers. The goal was political control: by settling loyal Protestants in Ireland's most rebellious province, the English hoped to pacify the entire island.
+In 1609, King James launched the [Ulster Plantation](../../glossary.md#ulster-plantation).  The plantation was a systematic plan to colonize Ulster with Protestant settlers. The goal was political control: by settling loyal Protestants in Ireland's most rebellious province, the English hoped to pacify the entire island.
 
 Scottish [Lowlanders](../../glossary.md#lowlanders), especially Presbyterians, were actively recruited. The deal was attractive:
+
 - Confiscated land at low rents
 - Religious freedom (relatively speaking)
 - Only 13 miles of sea to cross at the narrowest point

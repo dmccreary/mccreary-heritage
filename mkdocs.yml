@@ -26,6 +26,10 @@ nav:
     - Timeline Viewer: sims/timeline/index.md
     - Maps: sims/maps/index.md
     - Map Generation: sims/maps/map-documentation.md
+    - Religion: sims/religion/index.md
+  - Stories:
+    - List of Stories: stories/index.md
+    - From Cathedral to Ruins: stories/churches/index.md
   - Glossary: glossary.md
   - How We Built This Site: how-we-built-this-site.md
   - Prompts:
@@ -69,7 +73,8 @@ theme:
     - content.action.edit
 plugins:
   - search
-#  - social
+  - social
+  - social_override
 markdown_extensions:
   - admonition
   - md_in_html
