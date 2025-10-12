@@ -29,6 +29,7 @@ nav:
     - Migration Simulation: sims/migration/index.md
   - Stories:
     - List of Stories: stories/index.md
+    - McCreary's Journey: stories/mccrearys-journey/index.md
     - From Cathedral to Ruins: stories/churches/index.md
   - FAQs: faqs.md
   - Quiz: quiz.md
