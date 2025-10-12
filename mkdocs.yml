@@ -30,6 +30,7 @@ nav:
   - Stories:
     - List of Stories: stories/index.md
     - From Cathedral to Ruins: stories/churches/index.md
+  - FAQs: faqs.md
   - Glossary: glossary.md
   - How We Built This Site: how-we-built-this-site.md
   - Prompts:
