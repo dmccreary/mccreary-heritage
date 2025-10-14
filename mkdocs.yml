@@ -27,6 +27,7 @@ nav:
     - Map Generation: sims/maps/map-documentation.md
     - Religion: sims/religion/index.md
     - Migration Simulation: sims/migration/index.md
+    - Book Creation Workflow: sims/book-creation-workflow/index.md
   - Stories:
     - List of Stories: stories/index.md
     - McCreary's Journey: stories/mccrearys-journey/index.md
@@ -34,21 +35,24 @@ nav:
   - FAQs: faqs.md
   - Quiz: quiz.md
   - Glossary: glossary.md
-  - How We Built This Site: how-we-built-this-site.md
-  - Sample GenAI Prompts:
-    - prompts/index.md
-    - prompts/introduction.md
-    - Migration v2: prompts/migration-1.md
-    - Migration: prompts/migration.md
-    - Ulster Plantation Maps: prompts/ulster-plantation-map.md
-    - Timeline Chapter Text: prompts/timeline-chapter-text.md
-    - Chapter Content Generation: prompts/chapter-content.md
-    - Generating FAQs: prompts/faqs.md
-    - Generating Quiz Questions: prompts/quiz.md
-    - Personas: prompts/personas.md
-    - README: prompts/readme.md
-    - Site Layout: prompts/site-layout.md
-    - Graphic Novel Generation: prompts/graphic-novel-generation.md
+  - Building History Websites: 
+    - Introduction: prompts/index.md
+    - Step By Step Guide: prompts/step-by-step-guide.md
+    - How we built this site: prompts/how-we-built-this-site.md
+    - Sample GenAI Prompts:
+      - prompts/index.md
+      - prompts/introduction.md
+      - Migration v2: prompts/migration-1.md
+      - Migration: prompts/migration.md
+      - Ulster Plantation Maps: prompts/ulster-plantation-map.md
+      - Timeline Chapter Text: prompts/timeline-chapter-text.md
+      - Chapter Content Generation: prompts/chapter-content.md
+      - Generating FAQs: prompts/faqs.md
+      - Generating Quiz Questions: prompts/quiz.md
+      - Personas: prompts/personas.md
+      - README: prompts/readme.md
+      - Site Layout: prompts/site-layout.md
+      - Graphic Novel Generation: prompts/graphic-novel-generation.md
   - References: references.md
   - Contact: contact.md
   - License: license.md

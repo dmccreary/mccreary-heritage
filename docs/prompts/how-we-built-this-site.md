@@ -1,6 +1,8 @@
 # How We Built This Site
 
-This page describes the steps we used to create this website and some of 
+This page describes the steps we suggest in using AI to build history
+focused interactive websites for a wide rage of ages.
+We used to create this website and some of 
 the rationale behind why we made various design choices.
 
 ## Technical Choices
