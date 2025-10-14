@@ -69,17 +69,16 @@ D:12 Mar 1848 Conover,Catawba,North Carolina,USA
 
 ## John Bost b1743
 Father of 
-B:1743-08-23 ,Bucks,Pennsylvania,USA
-D:1793 ,Cabarrus,North Carolina,USA
+B:1743-08-23 ,Bucks,Pennsylvania, USA
+D:1793 Cabarrus, North Carolina, USA
 
 Married to
-
 ## Catreena Shuford 
-B:1752 Berks,,Pennsylvania,USA
-D:1797 ,Cabarrus,North Carolina,USA
+B:1752 Berks,,Pennsylvania, USA
+D:1797 Cabarrus, North Carolina, USA
 
 ## Hiram McCreary b1834
-Father of [](#charles)
+Father of [Charles Krauth McCreary](#charles-krauth-mccreary)
 Birth 20 JUN 1834 • Allegheny township, Westmoreland County, PA
 Death 1 AUG 1898 • Vandergrift, Westmoreland, Pennsylvania, United States
 
@@ -149,7 +148,6 @@ Married to
 - Birth ABT. 1768 • Northern Ireland
 - Death ABT. 1859 • Clarion, PA
 
-
 ## John Murphy Doyle
 Father of [Mary Emma Doyle](#mary-emma-doyle)
 - B:about 1815 Dublin, County Wexford, Ireland
@@ -170,3 +168,13 @@ Married to
 ## David Boal
 Father of [David Boal](#david-boal-b1764)
 B: Antrim, Ireland
+
+## Adam Orris
+Father of [Ruey Orris](#ruey-orris)
+- B:1792 Cumberland, Pennsylvania, USA
+- D:1855 Saville, Perry, Pennsylvania, USA
+
+Husband of
+### Martha Metz 
+- B:5 Jul 1768 Saville, Perry, Pennsylvania, USA
+- D:17 September 1854 Allegheny, Armstrong, Pennsylvania, United States
