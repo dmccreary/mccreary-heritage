@@ -1,7 +1,9 @@
 # How We Built This Site
 
-This page describes how we built this website and some of 
+This page describes the steps we used to create this website and some of 
 the rationale behind why we made various design choices.
+
+## Technical Choices
 
 ## Python
 

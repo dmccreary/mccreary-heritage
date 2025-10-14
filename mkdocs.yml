@@ -48,6 +48,7 @@ nav:
     - Personas: prompts/personas.md
     - README: prompts/readme.md
     - Site Layout: prompts/site-layout.md
+    - Graphic Novel Generation: prompts/graphic-novel-generation.md
   - References: references.md
   - Contact: contact.md
   - License: license.md
