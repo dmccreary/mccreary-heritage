@@ -240,6 +240,12 @@ Frontiersmen from settlements west of the Appalachian Mountains (in what is now 
 
 A series of harsh laws enacted in Ireland from 1691-1760 that stripped Catholics of civil rights, land ownership, voting rights, education opportunities, and religious freedom. Catholics could not own land, vote, hold office, carry weapons, practice law, or receive a university education. While primarily targeting Catholics, some provisions also affected Protestant dissenters like Presbyterians. The Penal Laws created a rigid social hierarchy that kept Catholics impoverished and politically powerless for generations.
 
+### Pennsylvania
+
+A state in the Eastern United States were many McCreary families migrated to from Scotland and Ireland.
+
+The large group of McCreary families that settled in Pennsylvania were know as the Pennsylvania Branch of the McCrearys.  However, it is important to note that many of these families with the same McCreary surname do not have a known common ancestor.
+
 ### Philadelphia {#philadelphia}
 
 The major port city in Pennsylvania and the primary entry point for Scotch-Irish immigration to America in the 1700s. Founded by Quakers, Philadelphia offered religious tolerance and served as a gateway to Pennsylvania's interior. Most Scotch-Irish immigrants landed in Philadelphia, then moved west to frontier areas or south along the Great Wagon Road.

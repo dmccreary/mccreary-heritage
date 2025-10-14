@@ -33,7 +33,7 @@ This migration wasn't simply about seeking better farmland. It was part of a lar
 <!--
 **[Suggested Image: Illustration or period map of the Ulster Plantation showing townlands and settlements]**
 -->
-![](./mccreary-counties.png)
+![](./mccreary-counties.jpg)
 
 ### 3. North America: The Great Migration (1700s-1800s)
 

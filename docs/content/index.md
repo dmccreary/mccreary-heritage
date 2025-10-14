@@ -99,8 +99,8 @@ Individual narratives that bring history to life. Features profiles of notable M
 
 - **[Glossary](../glossary.md)** - Definitions of specialized terms
 - **[FAQs](../faqs.md)** - Frequently asked questions
-- **[Interactive Simulations](../sims/)** - Maps, timelines, and visualizations
-- **[Generating Interactive Historical Textbooks](../prompts/)** - How this website was created with AI assistance
+- **[Interactive Simulations](../sims/index.md)** - Maps, timelines, and visualizations
+- **[Generating Interactive Historical Textbooks](../prompts/index.md)** - How this website was created with AI assistance
 
 
 *This website is an ongoing research project. New content, maps, and resources are added regularly. If you have information to contribute or questions to ask, please use the contact form to get in touch.*
