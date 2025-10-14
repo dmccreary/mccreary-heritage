@@ -18,8 +18,9 @@ nav:
     - Education and Critical Thinking: content/05-education/index.md
     - Religion: content/06-religion/index.md
     # - Culture and Traditions: content/07-culture-and-traditions/index.md
-    - Research: content/08-research/index.md
+    - The Pennsylvania Branch: content/08-pennsylvania-branch/index.md
     - Stories: content/09-stories/index.md
+    - Research: content/10-research/index.md
   - Applications & Tools:
     - List of Applications & Tools: sims/index.md
     - Maps: sims/maps/index.md
