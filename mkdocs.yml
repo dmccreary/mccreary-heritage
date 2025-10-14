@@ -17,7 +17,7 @@ nav:
     - Geography: content/04-geography/index.md
     - Education: content/05-education/index.md
     - Religion: content/06-religion/index.md
-    - Culture and Traditions: content/07-culture-and-traditions/index.md
+    # - Culture and Traditions: content/07-culture-and-traditions/index.md
     - Research: content/08-research/index.md
     - Stories: content/09-stories/index.md
   - Applications & Tools:

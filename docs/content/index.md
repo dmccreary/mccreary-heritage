@@ -10,7 +10,6 @@ Begin your journey here. This introduction provides an overview of the McCreary 
 
 **Key Topics**: Who were the McCrearys, the three-part journey (Scotland → Ulster → America), surname variations, using this website
 
----
 
 ### [02 - Family History & Genealogy](02-family-history-and-genealogy/index.md)
 
@@ -23,7 +22,6 @@ The definitive guide for tracing your McCreary ancestry. This comprehensive sect
 - [John McCreary (b. 1710-1777)](02-family-history-and-genealogy/john-mccreary-b1710-1777.md) - Early Pennsylvania settler
 - [John McCreary (b. 1715-1812)](02-family-history-and-genealogy/john-mccreary-b1715-1812.md) - Revolutionary War veteran
 
----
 
 ### [03 - Historical Timeline & Context](03-timeline/index.md)
 
@@ -33,7 +31,6 @@ A chronological journey through McCreary family history set against major histor
 
 **[📊 View Interactive Timeline Visualization](../sims/timeline/index.md)**
 
----
 
 ### [04 - Geography & Settlement Patterns](04-geography/index.md)
 
@@ -43,7 +40,7 @@ Understanding where the McCrearys lived and why they moved. This section feature
 
 **[🗺️ View All Interactive Migration Maps](../sims/maps/migration/index.html)** - Seven animated maps from 400 BCE to present
 
----
+<!-->
 
 ### [05 - Educational Resources](05-education/index.md)
 
@@ -51,7 +48,7 @@ Materials designed specifically for teachers and students. Includes lesson plans
 
 **Key Topics**: Teacher guides, lesson plans, student activities, primary sources, discussion questions, classroom materials
 
----
+-->
 
 ### [06 - Religion & Presbyterian Heritage](06-religion/index.md)
 
@@ -59,7 +56,7 @@ Religion wasn't just Sunday practice for the McCrearys—it shaped where they li
 
 **Key Topics**: What is Presbyterianism, John Knox and the Scottish Reformation, comparison with Catholics and Anglicans, double discrimination in Ulster, covenant theology, religious freedom in America, Presbyterian churches on the frontier
 
----
+<!--
 
 ### [07 - Culture & Traditions](07-culture-and-traditions/index.md)
 
@@ -69,7 +66,7 @@ Explore Scotch-Irish cultural heritage through the McCreary family lens. Covers 
 
 *Note: This section is currently in development and will be expanded with detailed content.*
 
----
+-->
 
 ### [08 - Research & Scholarship](08-research/index.md)
 
