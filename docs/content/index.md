@@ -66,15 +66,14 @@ Explore Scotch-Irish cultural heritage through the McCreary family lens. Covers 
 
 -->
 
-### [Research & Scholarship](08-research/index.md)
+### [The Pennsylvania Branch](./08-pennsylvania-branch/index.md)
 
-Academic resources for serious researchers and scholars. Includes comprehensive bibliographies, primary source locations and archives, methodological notes on genealogical verification, historiographical context, opportunities for collaboration, and invitations to contribute research. Designed to meet the rigorous standards expected by academic researchers and professional historians.
+The Pennsylvania branch represents the foundational American settlement of the McCreary family. Beginning in the early 18th century, McCreary families fled economic hardship and religious discrimination in Ulster, arriving primarily through Philadelphia and settling in Pennsylvania's Cumberland Valley and surrounding frontier regions.
 
-**Key Topics**: Scholarly research methods, primary sources, archives, academic resources, historiographical debates, research opportunities
+These Scotch-Irish Presbyterians established farms, founded churches and schools, and created tight-knit communities that maintained their cultural heritage while adapting to American conditions.
+Strongly supporting American independence during the Revolution, Pennsylvania McCrearys exemplified frontier values of independence, education, and resistance to authority.
 
-*Note: This section is currently in development and will be expanded with detailed content.*
-
----
+By the late 18th century, the Pennsylvania settlements served as a launching point for further westward migration, with families moving south along the Great Wagon Road into Virginia and the Carolinas, west into Kentucky and Tennessee, and eventually throughout the American interior. The Pennsylvania branch thus established the demographic, cultural, and geographic patterns that would define subsequent generations of American McCrearys.
 
 ### [Stories & Biographies](09-stories/index.md)
 
@@ -84,7 +83,17 @@ Individual narratives that bring history to life. Features profiles of notable M
 
 **Key Topics**: Personal narratives, biographical profiles, primary source documents, letters and diaries, oral histories
 
-*Note: This section is currently in development and will be expanded with detailed content.*
+!!! Note
+    This section is currently in development and will be expanded with detailed content.*
+
+### [Research & Scholarship](10-research/index.md)
+
+Academic resources for serious researchers and scholars. Includes comprehensive bibliographies, primary source locations and archives, methodological notes on genealogical verification, historiographical context, opportunities for collaboration, and invitations to contribute research. Designed to meet the rigorous standards expected by academic researchers and professional historians.
+
+**Key Topics**: Scholarly research methods, primary sources, archives, academic resources, historiographical debates, research opportunities
+
+!!! Note
+    This section is currently in development and will be expanded with detailed content.*
 
 ## How to Navigate This Content
 
