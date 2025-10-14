@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive History Website Creation Workflow</title>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.5/lib/p5.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        }
+
+        h1 {
+            color: #1e3a8a;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #6b7280;
+            margin-bottom: 30px;
+            font-size: 1.1em;
+        }
+
+        #canvas-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+
+        .instructions {
+            background: #f3f4f6;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+
+        .instructions h2 {
+            color: #1e3a8a;
+            margin-top: 0;
+        }
+
+        .instructions ul {
+            line-height: 1.8;
+        }
+
+        .step-details {
+            background: #dbeafe;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #3b82f6;
+            margin-bottom: 20px;
+        }
+
+        .step-details h3 {
+            color: #1e40af;
+            margin-top: 0;
+        }
+
+        .step-details p {
+            color: #374151;
+            line-height: 1.6;
+        }
+
+        .deliverable {
+            background: #fef3c7;
+            padding: 10px 15px;
+            border-radius: 6px;
+            margin-top: 10px;
+            border-left: 3px solid #f59e0b;
+        }
+
+        .deliverable strong {
+            color: #92400e;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: #3b82f6;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            transition: background 0.3s;
+        }
+
+        .back-link:hover {
+            background: #2563eb;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📚 Interactive History Website Creation Workflow</h1>
+        <p class="subtitle">From Concept to Publication: A Step-by-Step Visual Guide</p>
+
+        <div class="instructions">
+            <h2>How to Use This Visualization</h2>
+            <ul>
+                <li><strong>Hover</strong> over any step circle to see details</li>
+                <li><strong>Click</strong> on a step to lock the view and read more information</li>
+                <li><strong>Click</strong> again on the same step or elsewhere to unlock</li>
+                <li>The workflow progresses from top to bottom, showing dependencies</li>
+                <li>Arrows indicate the natural flow from one step to the next</li>
+            </ul>
+        </div>
+
+        <div id="canvas-container"></div>
+
+        <div id="step-info" style="display: none;">
+            <!-- Step details will be populated by JavaScript -->
+        </div>
+
+        <a href="./" class="back-link">← Back to Guide</a>
+    </div>
+
+    <script>
+        // Workflow steps data based on the step-by-step guide
+        const steps = [
+            {
+                num: 1,
+                title: "Project Description",
+                shortDesc: "Define scope and goals",
+                fullDesc: "Create a precise description of the project including subject scope, target audience, learning objectives, unique angle, and constraints. This foundational document guides all subsequent decisions.",
+                deliverable: "A 1-2 page project description document",
+                color: "#3b82f6",
+                x: 0.5,
+                y: 0.08
+            },
+            {
+                num: 2,
+                title: "Persona Analysis",
+                shortDesc: "Understand your users",
+                fullDesc: "Generate detailed profiles of user types (personas) who will visit your site. Document their demographics, goals, key questions, usage patterns, and success criteria. Rank personas by expected traffic volume.",
+                deliverable: "5-7 detailed personas with question frequency matrix",
+                color: "#8b5cf6",
+                x: 0.5,
+                y: 0.22
+            },
+            {
+                num: 3,
+                title: "Outline Generation",
+                shortDesc: "Structure your content",
+                fullDesc: "Create a content outline that balances answering high-frequency questions early while maintaining logical learning progression. Map all persona questions to specific sections.",
+                deliverable: "Hierarchical outline with chapter/section titles",
+                color: "#ec4899",
+                x: 0.5,
+                y: 0.36
+            },
+            {
+                num: 4,
+                title: "Technical Setup",
+                shortDesc: "Build the foundation",
+                fullDesc: "Set up MkDocs with Material theme, configure navigation, create directory structure, and initialize git repository. Deploy to GitHub Pages for hosting.",
+                deliverable: "Working MkDocs site that builds successfully",
+                color: "#f59e0b",
+                x: 0.5,
+                y: 0.50
+            },
+            {
+                num: 5,
+                title: "Content Generation",
+                shortDesc: "Write engaging content",
+                fullDesc: "Use AI tools to draft comprehensive content for each section. Add interactive elements (maps, timelines, tables, callouts), maintain appropriate reading level, and ensure mobile-friendly formatting.",
+                deliverable: "Complete draft content with interactive elements",
+                color: "#10b981",
+                x: 0.3,
+                y: 0.64
+            },
+            {
+                num: 6,
+                title: "Glossary Creation",
+                shortDesc: "Define key terms",
+                fullDesc: "Extract specialized vocabulary and create glossary entries with definitions, pronunciations, etymology, and related terms. Create bidirectional links between content and glossary.",
+                deliverable: "Comprehensive glossary with 30-60 terms",
+                color: "#06b6d4",
+                x: 0.5,
+                y: 0.78
+            },
+            {
+                num: 7,
+                title: "FAQ Development",
+                shortDesc: "Answer common questions",
+                fullDesc: "Generate frequently asked questions from persona profiles and content analysis. Organize by category with clear answers and links to detailed content pages.",
+                deliverable: "20-30 questions across 5-8 categories",
+                color: "#6366f1",
+                x: 0.7,
+                y: 0.64
+            },
+            {
+                num: 8,
+                title: "Interactive Quizzes",
+                shortDesc: "Test understanding",
+                fullDesc: "Create multiple-choice quizzes using AI-generated questions. Implement with HTML/JavaScript or external platforms. Include immediate feedback and links back to content.",
+                deliverable: "3-5 quizzes with 5-10 questions each",
+                color: "#8b5cf6",
+                x: 0.5,
+                y: 0.92
+            }
+        ];
+
+        // Connections between steps (showing dependencies)
+        const connections = [
+            [0, 1], [1, 2], [2, 3], [3, 4], [3, 5], [3, 6], [4, 5], [4, 6], [5, 7], [6, 7]
+        ];
+
+        let canvasWidth = 1000;
+        let canvasHeight = 900;
+        let hoveredStep = null;
+        let selectedStep = null;
+
+        function setup() {
+            const canvas = createCanvas(canvasWidth, canvasHeight);
+            canvas.parent('canvas-container');
+            textAlign(CENTER, CENTER);
+        }
+
+        function draw() {
+            background(248, 250, 252);
+
+            // Draw connections first (so they appear behind circles)
+            stroke(200);
+            strokeWeight(2);
+            for (let conn of connections) {
+                let step1 = steps[conn[0]];
+                let step2 = steps[conn[1]];
+                let x1 = step1.x * canvasWidth;
+                let y1 = step1.y * canvasHeight;
+                let x2 = step2.x * canvasWidth;
+                let y2 = step2.y * canvasHeight;
+
+                // Draw line with arrow
+                drawArrow(x1, y1, x2, y2);
+            }
+
+            // Draw steps
+            for (let i = 0; i < steps.length; i++) {
+                let step = steps[i];
+                let x = step.x * canvasWidth;
+                let y = step.y * canvasHeight;
+                let isHovered = hoveredStep === i;
+                let isSelected = selectedStep === i;
+
+                // Determine size based on state
+                let circleSize = 80;
+                if (isSelected) circleSize = 95;
+                else if (isHovered) circleSize = 90;
+
+                // Draw circle
+                if (isSelected) {
+                    fill(255, 255, 0, 100);
+                    noStroke();
+                    circle(x, y, circleSize + 20);
+                }
+
+                fill(step.color);
+                stroke(255);
+                strokeWeight(3);
+                circle(x, y, circleSize);
+
+                // Draw step number
+                fill(255);
+                noStroke();
+                textSize(32);
+                textStyle(BOLD);
+                text(step.num, x, y - 5);
+
+                // Draw step title below circle
+                fill(30);
+                textSize(14);
+                textStyle(NORMAL);
+                text(step.title, x, y + circleSize/2 + 20);
+
+                // Draw short description
+                fill(100);
+                textSize(11);
+                text(step.shortDesc, x, y + circleSize/2 + 38);
+            }
+
+            // Check hover state
+            hoveredStep = null;
+            for (let i = 0; i < steps.length; i++) {
+                let step = steps[i];
+                let x = step.x * canvasWidth;
+                let y = step.y * canvasHeight;
+                let d = dist(mouseX, mouseY, x, y);
+                if (d < 40) {
+                    hoveredStep = i;
+                    cursor(HAND);
+                    break;
+                }
+            }
+
+            if (hoveredStep === null && selectedStep === null) {
+                cursor(ARROW);
+            }
+
+            // Draw hover tooltip
+            if (hoveredStep !== null && selectedStep === null) {
+                drawTooltip(hoveredStep);
+            }
+        }
+
+        function drawArrow(x1, y1, x2, y2) {
+            // Adjust start and end points to not overlap circles
+            let angle = atan2(y2 - y1, x2 - x1);
+            let offset = 45;
+            let startX = x1 + cos(angle) * offset;
+            let startY = y1 + sin(angle) * offset;
+            let endX = x2 - cos(angle) * offset;
+            let endY = y2 - sin(angle) * offset;
+
+            stroke(200);
+            strokeWeight(2);
+            line(startX, startY, endX, endY);
+
+            // Draw arrowhead
+            push();
+            translate(endX, endY);
+            rotate(angle);
+            fill(200);
+            noStroke();
+            triangle(0, 0, -12, -6, -12, 6);
+            pop();
+        }
+
+        function drawTooltip(stepIndex) {
+            let step = steps[stepIndex];
+            let x = step.x * canvasWidth;
+            let y = step.y * canvasHeight;
+
+            // Position tooltip to avoid going off screen
+            let tooltipX = x + 60;
+            let tooltipY = y - 40;
+            let tooltipWidth = 250;
+            let tooltipHeight = 80;
+
+            if (tooltipX + tooltipWidth > canvasWidth) {
+                tooltipX = x - tooltipWidth - 60;
+            }
+
+            // Draw tooltip box
+            fill(255, 255, 255, 250);
+            stroke(step.color);
+            strokeWeight(2);
+            rect(tooltipX, tooltipY, tooltipWidth, tooltipHeight, 8);
+
+            // Draw text
+            fill(30);
+            noStroke();
+            textSize(13);
+            textStyle(BOLD);
+            textAlign(LEFT, TOP);
+            text(step.title, tooltipX + 10, tooltipY + 10);
+
+            textStyle(NORMAL);
+            textSize(11);
+            let words = step.fullDesc.split(' ');
+            let line = '';
+            let yOffset = 30;
+            for (let word of words) {
+                let testLine = line + word + ' ';
+                if (textWidth(testLine) > tooltipWidth - 20) {
+                    text(line, tooltipX + 10, tooltipY + yOffset);
+                    line = word + ' ';
+                    yOffset += 15;
+                    if (yOffset > tooltipHeight - 20) break;
+                } else {
+                    line = testLine;
+                }
+            }
+            if (line.trim() !== '' && yOffset <= tooltipHeight - 20) {
+                text(line, tooltipX + 10, tooltipY + yOffset);
+            }
+
+            textAlign(CENTER, CENTER);
+        }
+
+        function mouseClicked() {
+            for (let i = 0; i < steps.length; i++) {
+                let step = steps[i];
+                let x = step.x * canvasWidth;
+                let y = step.y * canvasHeight;
+                let d = dist(mouseX, mouseY, x, y);
+                if (d < 40) {
+                    if (selectedStep === i) {
+                        selectedStep = null;
+                        document.getElementById('step-info').style.display = 'none';
+                    } else {
+                        selectedStep = i;
+                        showStepDetails(i);
+                    }
+                    return;
+                }
+            }
+
+            // Clicked outside any step
+            if (selectedStep !== null) {
+                selectedStep = null;
+                document.getElementById('step-info').style.display = 'none';
+            }
+        }
+
+        function showStepDetails(stepIndex) {
+            let step = steps[stepIndex];
+            let infoDiv = document.getElementById('step-info');
+
+            infoDiv.innerHTML = `
+                <div class="step-details">
+                    <h3>Step ${step.num}: ${step.title}</h3>
+                    <p>${step.fullDesc}</p>
+                    <div class="deliverable">
+                        <strong>Deliverable:</strong> ${step.deliverable}
+                    </div>
+                </div>
+            `;
+
+            infoDiv.style.display = 'block';
+            infoDiv.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }
+    </script>
+</body>
+</html>
