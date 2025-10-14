@@ -9,8 +9,7 @@ social:
 hide:
   - toc
 ---
-
-# Welcome
+![](./img/site-cover.png)
 
 Welcome to the McCreary family heritage site.  The goal of this site
 is to store resources related to educating people about the McCreary
