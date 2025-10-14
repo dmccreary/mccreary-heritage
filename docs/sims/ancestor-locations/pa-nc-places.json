@@ -1,0 +1,740 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-80.2347, 40.6348]
+      },
+      "properties": {
+        "name": "Baden, Beaver County, Pennsylvania",
+        "state": "Pennsylvania",
+        "events": [
+          {
+            "person": "George Boal McCreary",
+            "eventType": "birth",
+            "date": "1900-03-19",
+            "description": "Birth of George Boal McCreary"
+          },
+          {
+            "person": "Sarah Effie Boal",
+            "eventType": "birth",
+            "date": "1875-11-16",
+            "description": "Birth of Sarah Effie Boal"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-80.3064, 40.3131]
+      },
+      "properties": {
+        "name": "Greensburg, Westmoreland County, Pennsylvania",
+        "state": "Pennsylvania",
+        "events": [
+          {
+            "person": "Charles Krauth McCreary",
+            "eventType": "death",
+            "date": "1935-11-07",
+            "description": "Death of Charles Krauth McCreary"
+          },
+          {
+            "person": "Sarah Effie Boal",
+            "eventType": "death",
+            "date": "1957-01-06",
+            "description": "Death of Sarah Effie Boal"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.6004, 40.6237]
+      },
+      "properties": {
+        "name": "Leechburg, Armstrong/Westmoreland County, Pennsylvania",
+        "state": "Pennsylvania",
+        "events": [
+          {
+            "person": "Charles Krauth McCreary",
+            "eventType": "birth",
+            "date": "1866-01-29",
+            "description": "Birth of Charles Krauth McCreary"
+          },
+          {
+            "person": "Ruey Orris",
+            "eventType": "death",
+            "date": "1920-08-10",
+            "description": "Death of Ruey Orris"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-80.3887, 41.3270]
+      },
+      "properties": {
+        "name": "Greenville, Mercer County, Pennsylvania",
+        "state": "Pennsylvania",
+        "events": [
+          {
+            "person": "Florence Edwina Bost",
+            "eventType": "birth",
+            "date": "1900-12-15",
+            "description": "Birth of Florence Edwina Bost"
+          },
+          {
+            "person": "John Gannon Bost",
+            "eventType": "death",
+            "date": "1957-09-30",
+            "description": "Death of John Gannon Bost"
+          },
+          {
+            "person": "Olivia Ulet Keelen",
+            "eventType": "death",
+            "date": "1917-06-10",
+            "description": "Death of Olivia Ulet Keelen"
+          },
+          {
+            "person": "Elizabeth Jane Henderson",
+            "eventType": "death",
+            "date": "1924-04-06",
+            "description": "Death of Elizabeth Jane Henderson"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-80.1034, 41.0031]
+      },
+      "properties": {
+        "name": "New Castle, Lawrence County, Pennsylvania",
+        "state": "Pennsylvania",
+        "events": [
+          {
+            "person": "Olivia Ulet Keelen",
+            "eventType": "birth",
+            "date": "1870-11-03",
+            "description": "Birth of Olivia Ulet Keelen"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.7197, 39.9001]
+      },
+      "properties": {
+        "name": "Uniontown, Fayette County, Pennsylvania",
+        "state": "Pennsylvania",
+        "events": [
+          {
+            "person": "Elizabeth Jane Henderson",
+            "eventType": "birth",
+            "date": "1839-12-23",
+            "description": "Birth of Elizabeth Jane Henderson"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.6619, 40.5992]
+      },
+      "properties": {
+        "name": "Allegheny Township, Westmoreland County, Pennsylvania",
+        "state": "Pennsylvania",
+        "events": [
+          {
+            "person": "Hiram McCreary",
+            "eventType": "birth",
+            "date": "1834-06-20",
+            "description": "Birth of Hiram McCreary"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.5892, 40.6031]
+      },
+      "properties": {
+        "name": "Vandergrift, Westmoreland County, Pennsylvania",
+        "state": "Pennsylvania",
+        "events": [
+          {
+            "person": "Hiram McCreary",
+            "eventType": "death",
+            "date": "1898-08-01",
+            "description": "Death of Hiram McCreary"
+          },
+          {
+            "person": "George Washington McCreary",
+            "eventType": "death",
+            "date": "1878-06-20",
+            "description": "Death of George Washington McCreary"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.6603, 40.3204]
+      },
+      "properties": {
+        "name": "Westmoreland County, Pennsylvania",
+        "state": "Pennsylvania",
+        "events": [
+          {
+            "person": "George Washington McCreary",
+            "eventType": "birth",
+            "date": "1808-08-08",
+            "description": "Birth of George Washington McCreary"
+          },
+          {
+            "person": "Ruey Orris",
+            "eventType": "birth",
+            "date": "1836-04-29",
+            "description": "Birth of Ruey Orris (Pennsylvania)"
+          },
+          {
+            "person": "Sarah Cline",
+            "eventType": "birth",
+            "date": "1809-09-30",
+            "description": "Birth of Sarah Cline (Pennsylvania)"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-77.0434, 41.2426]
+      },
+      "properties": {
+        "name": "Lycoming, Lycoming County, Pennsylvania",
+        "state": "Pennsylvania",
+        "events": [
+          {
+            "person": "Edward Hugh McCreery",
+            "eventType": "birth",
+            "date": "1771-01-01",
+            "description": "Birth of Edward Hugh McCreery (year only)"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-78.4392, 41.0309]
+      },
+      "properties": {
+        "name": "Clearfield, Clearfield County, Pennsylvania",
+        "state": "Pennsylvania",
+        "events": [
+          {
+            "person": "Edward Hugh McCreery",
+            "eventType": "death",
+            "date": "1840-05-07",
+            "description": "Death of Edward Hugh McCreery"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.3055, 40.0379]
+      },
+      "properties": {
+        "name": "Lancaster County, Pennsylvania",
+        "state": "Pennsylvania",
+        "events": [
+          {
+            "person": "Betsy Lutz (Catherine)",
+            "eventType": "birth",
+            "date": "1769-11-01",
+            "description": "Birth of Betsy Lutz (Catherine)"
+          },
+          {
+            "person": "John McCreary",
+            "eventType": "birth",
+            "date": "1764-09-07",
+            "description": "Birth of John McCreary"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.5019, 40.0417]
+      },
+      "properties": {
+        "name": "Mount Joy, Lancaster County, Pennsylvania",
+        "state": "Pennsylvania",
+        "events": [
+          {
+            "person": "Edward McCreery",
+            "eventType": "death",
+            "date": "1859-04-16",
+            "description": "Death and burial of Edward McCreery at Donegal Presbyterian Church Cemetery"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.6122, 40.5781]
+      },
+      "properties": {
+        "name": "Apollo, Armstrong County, Pennsylvania",
+        "state": "Pennsylvania",
+        "events": [
+          {
+            "person": "John McCreary",
+            "eventType": "death",
+            "date": "1844-07-10",
+            "description": "Death of John McCreary"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.8081, 41.3878]
+      },
+      "properties": {
+        "name": "Venango County, Pennsylvania",
+        "state": "Pennsylvania",
+        "events": [
+          {
+            "person": "George Young Boal",
+            "eventType": "birth",
+            "date": "1840-04-20",
+            "description": "Birth of George Young Boal"
+          },
+          {
+            "person": "George Young Boal",
+            "eventType": "death",
+            "date": "1927-07-22",
+            "description": "Death of George Young Boal"
+          },
+          {
+            "person": "John Boal",
+            "eventType": "death",
+            "date": "1885-03-20",
+            "description": "Death of John Boal"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-80.1867, 40.6701]
+      },
+      "properties": {
+        "name": "Robinson Township, Allegheny County, Pennsylvania",
+        "state": "Pennsylvania",
+        "events": [
+          {
+            "person": "Mary Emma Doyle",
+            "eventType": "birth",
+            "date": "1852-08-02",
+            "description": "Birth of Mary Emma Doyle"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-80.2569, 40.6909]
+      },
+      "properties": {
+        "name": "Freedom, Beaver County, Pennsylvania",
+        "state": "Pennsylvania",
+        "events": [
+          {
+            "person": "Mary Emma Doyle",
+            "eventType": "death",
+            "date": "1922-08-30",
+            "description": "Death of Mary Emma Doyle"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-77.8400, 40.7934]
+      },
+      "properties": {
+        "name": "Centre County, Pennsylvania",
+        "state": "Pennsylvania",
+        "events": [
+          {
+            "person": "John Boal",
+            "eventType": "birth",
+            "date": "1804-05-01",
+            "description": "Birth of John Boal"
+          },
+          {
+            "person": "Isabella Huey",
+            "eventType": "birth",
+            "date": "1806-01-01",
+            "description": "Birth of Isabella Huey (year only)"
+          },
+          {
+            "person": "William Huey",
+            "eventType": "death",
+            "date": "1806-01-01",
+            "description": "Death of William Huey (approximate)"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-77.7947, 40.7759]
+      },
+      "properties": {
+        "name": "Boalsburg, Centre County, Pennsylvania",
+        "state": "Pennsylvania",
+        "events": [
+          {
+            "person": "David Boal",
+            "eventType": "death",
+            "date": "1837-03-14",
+            "description": "Death of David Boal"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.8797, 41.4698]
+      },
+      "properties": {
+        "name": "Cooperstown, Venango County, Pennsylvania",
+        "state": "Pennsylvania",
+        "events": [
+          {
+            "person": "Isabella Huey",
+            "eventType": "death",
+            "date": "1896-12-10",
+            "description": "Death of Isabella Huey"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.3870, 41.1845]
+      },
+      "properties": {
+        "name": "Clarion County, Pennsylvania",
+        "state": "Pennsylvania",
+        "events": [
+          {
+            "person": "Nancy Newell",
+            "eventType": "death",
+            "date": "1859-01-01",
+            "description": "Death of Nancy Newell (approximate)"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.0708, 40.2732]
+      },
+      "properties": {
+        "name": "Berks County, Pennsylvania",
+        "state": "Pennsylvania",
+        "events": [
+          {
+            "person": "Catreena Shuford",
+            "eventType": "birth",
+            "date": "1752-01-01",
+            "description": "Birth of Catreena Shuford (year only)"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.1137, 40.3167]
+      },
+      "properties": {
+        "name": "Bucks County, Pennsylvania",
+        "state": "Pennsylvania",
+        "events": [
+          {
+            "person": "John Bost",
+            "eventType": "birth",
+            "date": "1743-08-23",
+            "description": "Birth of John Bost"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-80.1901, 41.1998]
+      },
+      "properties": {
+        "name": "Sheskleyville, Pennsylvania",
+        "state": "Pennsylvania",
+        "events": [
+          {
+            "person": "Stephen Roland Keelan",
+            "eventType": "birth",
+            "date": "1837-09-20",
+            "description": "Birth of Stephen Roland Keelan"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-80.2689, 40.0379]
+      },
+      "properties": {
+        "name": "Sarah Ann Anderson (Pennsylvania, location unspecified)",
+        "state": "Pennsylvania",
+        "events": [
+          {
+            "person": "Sarah Ann Anderson",
+            "eventType": "birth",
+            "date": "1822-08-03",
+            "description": "Birth of Sarah Ann Anderson"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-77.0444, 35.2087]
+      },
+      "properties": {
+        "name": "New Bern, Craven County, North Carolina",
+        "state": "North Carolina",
+        "events": [
+          {
+            "person": "George Boal McCreary",
+            "eventType": "death",
+            "date": "1985-09-06",
+            "description": "Death of George Boal McCreary"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-80.8873, 35.7826]
+      },
+      "properties": {
+        "name": "Statesville, Iredell County, North Carolina",
+        "state": "North Carolina",
+        "events": [
+          {
+            "person": "John Gannon Bost",
+            "eventType": "birth",
+            "date": "1861-04-11",
+            "description": "Birth of John Gannon Bost"
+          },
+          {
+            "person": "Hiram Allen Alexander Bost",
+            "eventType": "death",
+            "date": "1912-06-18",
+            "description": "Death of Hiram Allen Alexander Bost"
+          },
+          {
+            "person": "Margaret Priscilla Brady",
+            "eventType": "death",
+            "date": "1882-11-27",
+            "description": "Death of Margaret Priscilla Brady"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-80.5450, 35.6870]
+      },
+      "properties": {
+        "name": "Rowan County, North Carolina",
+        "state": "North Carolina",
+        "events": [
+          {
+            "person": "Hiram Allen Alexander Bost",
+            "eventType": "birth",
+            "date": "1828-09-15",
+            "description": "Birth of Hiram Allen Alexander Bost"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-80.8431, 35.2271]
+      },
+      "properties": {
+        "name": "Mecklenburg County, North Carolina",
+        "state": "North Carolina",
+        "events": [
+          {
+            "person": "John Bost (1777)",
+            "eventType": "birth",
+            "date": "1777-11-01",
+            "description": "Birth of John Bost"
+          },
+          {
+            "person": "Rachel Lipe",
+            "eventType": "birth",
+            "date": "1786-01-01",
+            "description": "Birth of Rachel Lipe (year only)"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-80.8873, 35.7826]
+      },
+      "properties": {
+        "name": "Iredell County, North Carolina",
+        "state": "North Carolina",
+        "events": [
+          {
+            "person": "John Bost (1777)",
+            "eventType": "death",
+            "date": "1835-02-01",
+            "description": "Death of John Bost"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-81.2190, 35.7087]
+      },
+      "properties": {
+        "name": "Conover, Catawba County, North Carolina",
+        "state": "North Carolina",
+        "events": [
+          {
+            "person": "Rachel Lipe",
+            "eventType": "death",
+            "date": "1848-03-12",
+            "description": "Death of Rachel Lipe"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-80.4101, 35.3499]
+      },
+      "properties": {
+        "name": "Cabarrus County, North Carolina",
+        "state": "North Carolina",
+        "events": [
+          {
+            "person": "John Bost (b1743)",
+            "eventType": "death",
+            "date": "1793-01-01",
+            "description": "Death of John Bost (year only)"
+          },
+          {
+            "person": "Catreena Shuford",
+            "eventType": "death",
+            "date": "1797-01-01",
+            "description": "Death of Catreena Shuford (year only)"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-80.0000, 35.5000]
+      },
+      "properties": {
+        "name": "North Carolina (location unspecified)",
+        "state": "North Carolina",
+        "events": [
+          {
+            "person": "Margaret Priscilla Brady",
+            "eventType": "birth",
+            "date": "1834-02-26",
+            "description": "Birth of Margaret Priscilla Brady"
+          }
+        ]
+      }
+    }
+  ]
+}
