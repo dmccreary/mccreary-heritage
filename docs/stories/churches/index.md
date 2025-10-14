@@ -1,9 +1,9 @@
 ---
 title: From Majestic Cathedrals to Moss Covered Ruins
 description: A story of how the churches of Scotland are crumbling
-image: /stories/churches/cover.png
-og:image: /stories/churches/cover.png
-twitter:image: /stories/churches/cover.png
+image: /stories/churches/cover.jpg
+og:image: /stories/churches/cover.jpg
+twitter:image: /stories/churches/cover.jpg
 social:
    cards: false
 hide:
@@ -11,7 +11,7 @@ hide:
 ---
 # From Majestic Cathedrals to Moss Covered Ruins
 
-![](./image-00.png)
+![](./image-00.jpg)
 
 As we toured Scotland, many of the castles contained huge paintings that glorified the
 battles of the clans of Scotland.  Although many of the paintings were battles of the clans against 
@@ -24,7 +24,7 @@ were not fighting each other over religion any more.  In fact quite the opposite
 Churches were mostly empty, and many in a state of disrepair.  What was their story?
 
 ## Closed Churches
-![](./image-01.png)
+![](./image-01.jpg)
 <details>
    <summary>Show image description</summary>
    Please generate a wide landscape drawing of this scene using a graphic-novel style drawing.
@@ -36,7 +36,7 @@ Churches were mostly empty, and many in a state of disrepair.  What was their st
 Why are so many of Scotland's beautiful old churches abandoned with warning signs? What happened to these once-vital centers of community life?"
 
 ## Scotland's Sacred Past
-![](./image-02.png)
+![](./image-02.jpg)
 <details>
    <summary>Show image description</summary>
    Please generate a wide landscape drawing of this scene using a graphic-novel style drawing.
@@ -49,7 +49,7 @@ For centuries, Scotland's churches were the heart of every community. Magnificen
 
 ## The Long Decline
 
-![](./image-03.png)
+![](./image-03.jpg)
 <details>
    <summary>Show image description</summary>
    Please generate a wide landscape drawing of this scene using a graphic-novel style drawing.
@@ -62,7 +62,7 @@ For centuries, Scotland's churches were the heart of every community. Magnificen
 But attendance began dropping in the 1960s and never stopped. Each generation attended less than the one before. The pews grew emptier year by year.
 
 ## Before the Pandemic
-![](./image-04.png)
+![](./image-04.jpg)
 <details>
    <summary>Show image description</summary>
    Please generate a wide landscape drawing of this scene using a graphic-novel style drawing.
@@ -74,7 +74,7 @@ But attendance began dropping in the 1960s and never stopped. Each generation at
 By 2020, just before COVID struck, only 9% of Scots attended church regularly. The faithful remnant was mostly elderly - people who had attended all their lives and wouldn't stop now.
 
 ## The Pandemic's Devastating Impact
-![](./image-05.png)
+![](./image-05.jpg)
 <details>
    <summary>Show image description</summary>
    Please generate a wide landscape drawing of this scene using a graphic-novel style drawing.
@@ -88,7 +88,7 @@ After COVID, attendance collapsed to just 4%. Many elderly parishioners never re
 <iframe src="../../sims/religion/main3.html" height=580></iframe>
 
 ## The Budget Crisis
-![](./image-06.png)
+![](./image-06.jpg)
 <details>
    <summary>Show image description</summary>
    Please generate a wide landscape drawing of this scene using a graphic-novel style drawing.
@@ -100,7 +100,7 @@ After COVID, attendance collapsed to just 4%. Many elderly parishioners never re
 Without enough members, church budgets collapsed. The math was brutal: medieval buildings require constant expensive maintenance, but donations now barely cover heating and the minister's salary. There was nothing left for repairs.
 
 ## The Rot Begins
-![](./image-07.png)
+![](./image-07.jpg)
 <details>
    <summary>Show image description</summary>
    Please generate a wide landscape drawing of this scene using a graphic-novel style drawing.
@@ -112,7 +112,7 @@ Without enough members, church budgets collapsed. The math was brutal: medieval 
 Once the money ran out, small leaks went unrepaired. Scottish rain poured through gaps in the roof, soaking the medieval timber frames. The ancient wood, dry for centuries, began to rot with alarming speed.
 
 ## Falling Tiles
-![](./image-08.png)
+![](./image-08.jpg)
 <details>
    <summary>Show image description</summary>
    Please generate a wide landscape drawing of this scene using a graphic-novel style drawing.
@@ -125,7 +125,7 @@ Once the money ran out, small leaks went unrepaired. Scottish rain poured throug
 As the roof timbers weakened, heavy slate tiles began to fall. Each tile weighed several kilograms - deadly projectiles crashing to the ground below. The buildings became dangerous to approach, forcing closure."
 
 ## Collapse and Reclamation
-![](./image-09.png)
+![](./image-09.jpg)
 <details>
    <summary>Show image description</summary>
    Please generate a wide landscape drawing of this scene using a graphic-novel style drawing.
@@ -139,7 +139,7 @@ As the roof timbers weakened, heavy slate tiles began to fall. Each tile weighed
 Without repairs, the inevitable happened. Ceiling sections collapsed inward. Scottish rain and wind now pour freely inside. Moss quickly colonized the damp stonework, covering surfaces that had been dry for 800 years.
 
 ## From Cathedral to Ruin
-![](./image-10.png)
+![](./image-10.jpg)
 <details>
    <summary>Show image description</summary>
    Please generate a wide landscape drawing of this scene using a graphic-novel style drawing.
@@ -160,7 +160,7 @@ Over 300 Church of Scotland buildings are now at risk of closure or demolition.
 The architectural heritage of a nation crumbles not from ancient age, but from modern abandonment.
 Here is an example of a 1,000 year old church and abby you can purchase for [about $50,000](https://www.churchofscotland.org.uk/about-us/departments/property-and-church-buildings/properties-for-sale/properties/churches-and-halls/culross-abbey-kirk-street-culross-ky12-8jd).
 
-![](culross-abby.png)
+![](culross-abby.jpg)
 
 ## References and Further Study
 

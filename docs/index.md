@@ -1,15 +1,15 @@
 ---
 title: McCreary Family Heritage
 description: A website of resources for teaching McCreary family heritage.  The site includes history, interactive timelines and maps and and extensive teaching tools for students of all ages.
-image: /img/site-cover.png
-og:image: /img/site-cover.png
-twitter:image: /img/site-cover.png
+image: /img/site-cover.jpg
+og:image: /img/site-cover.jpg
+twitter:image: /img/site-cover.jpg
 social:
    cards: false
 hide:
   - toc
 ---
-![](./img/site-cover.png)
+![](./img/site-cover.jpg)
 
 Welcome to the McCreary family heritage site.  The goal of this site
 is to store resources related to educating people about the McCreary

@@ -53,6 +53,7 @@ nav:
       - README: prompts/readme.md
       - Site Layout: prompts/site-layout.md
       - Graphic Novel Generation: prompts/graphic-novel-generation.md
+      - Announcement: prompts/announcement.md
   - References: references.md
   - Contact: contact.md
   - License: license.md

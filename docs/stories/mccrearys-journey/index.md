@@ -2,7 +2,7 @@
 ## A 14-Panel Graphic Novel
 
 ## Panel 1: The Wild Green Isle (Ireland, 1600)
-![](./image-01.png)
+![](./image-01.jpg)
 <details>
 <summary>Show image description</summary>
 Please generate a wide landscape drawing of this scene using a graphic-novel style drawing. Use a bright palette of colors. Make sure that each image is consistent with the style of prior images.
@@ -13,7 +13,7 @@ Show the lush, wild Irish countryside of Ulster around 1600. In the foreground, 
 Before the plantations, Ulster was a land of cattle raids, bardic poetry, and Gaelic lords who weren't particularly interested in English ideas about "proper" land ownership. The English controlled some coastal forts and towns, but mostly they just watched nervously from their wooden walls while the Irish did their own thing. Think of it as a very long, very green standoff—except one side had Shakespeare and the other had significantly better cattle.
 
 ## Panel 2: The Flight of the Earls (1607)
-![](./image-02.png)
+![](./image-02.jpg)
 <details>
 <summary>Show image description</summary>
 Please generate a wide landscape drawing of this scene using a graphic-novel style drawing. The width:height ratio is 16:9.  Use a bright palette of colors. Make sure that each image is consistent with the style of prior images.
@@ -24,7 +24,7 @@ Depict a moonlit Irish harbor with a ship preparing to depart. In the foreground
 When Ulster's Gaelic lords—including the mighty Hugh O'Neill—realized they couldn't win against English expansion, they pulled off history's most consequential Irish goodbye. In 1607, they sailed for continental Europe, abandoning four million acres and their people. King James I looked at all that empty land and had what he considered a brilliant idea: "Let's fill it with Scots!" History would prove this decision... complicated.
 
 ## Panel 3: The Plan Takes Shape (1609)
-![](./image-03.png)
+![](./image-03.jpg)
 <details>
 <summary>Show image description</summary>
 Please generate a wide landscape drawing of this scene using a graphic-novel style drawing. The width:height ratio is 16:9.  Use a bright palette of colors. Make sure that each image is consistent with the style of prior images.
@@ -35,7 +35,7 @@ Show an elaborate planning room in London with maps of Ulster spread across a la
 The Ulster Plantation wasn't some spontaneous land grab—it was meticulously planned, right down to the required dimensions of defensible buildings. The scheme promised Scottish and English "undertakers" cheap land, but with conditions: build stone houses, create fortified settlements, and absolutely *do not* rent to the native Irish. It was social engineering on a massive scale, designed to transform Ulster from Gaelic and Catholic to British and Protestant. What could possibly go wrong?
 
 ## Panel 4: The McCrearys Cross the Sea (1610-1620)
-![](./image-04.png)
+![](./image-04.jpg)
 <details>
 <summary>Show image description</summary>
 Panel 4
@@ -47,7 +47,7 @@ Illustrate a small sailing vessel crossing the narrow North Channel between Scot
 For lowland Scots like the McCrearys, Ulster was a tempting opportunity—only 13 miles across the water at the narrowest point, cheaper than that morning's ferry to Belfast. They arrived by the thousands, carrying their Presbyterian faith, their agricultural skills, and their deep suspicion of both Catholic Irish and Anglican English. The McCrearys settled their granted lands, built their stone farmhouses, and promptly discovered that "no Irish tenants" rule was completely unenforceable. Turns out you need workers, and the Irish were already there.
 
 ## Panel 5: Building a New Life (1620s-1630s)
-![](./image-05.png)
+![](./image-05.jpg)
 <details>
 <summary>Show image description</summary>
 Panel 5
@@ -59,7 +59,7 @@ Show a newly constructed stone farmhouse and outbuildings in Ulster. The McCrear
 The McCrearys and their fellow Scots tried to create "New Scotland" in Ulster, complete with Presbyterian churches and stone-built villages. But reality was messier than London's plans: Scots needed Irish laborers, intermarriage happened, and some cultural exchange was inevitable. Still, the communities remained distinct—Presbyterians in their kirk, Catholics at mass, and everyone keeping one eye on their neighbors. It was less a melting pot than an uneasy stew.
 
 ## Panel 6: The Irish Perspective (1630s)
-![](./image-06.png)
+![](./image-06.jpg)
 <details>
 <summary>Show image description</summary>
 Panel 6
@@ -71,7 +71,7 @@ Depict an Irish Catholic family huddled in a small cottage, looking through a wi
 For the native Irish, the plantation was catastrophic. Their lords had fled, their lands were confiscated, and they found themselves reduced to tenants or laborers on their ancestral territories. The English and Scots weren't just taking land—they were importing a completely different social order, language, and religion. Imagine strangers showing up with legal documents saying they now own your farm, and you can work for them if you behave. The Irish Catholics didn't forget. They bided their time.
 
 ## Panel 7: The Rising Begins (October 1641)
-![](./image-07.png)
+![](./image-07.jpg)
 <details>
 <summary>Show image description</summary>
 Panel 7
@@ -83,7 +83,7 @@ Show the dramatic moment of rebellion: Irish Catholic forces attacking a plantat
 In October 1641, after thirty years of simmering resentment, Ulster's Irish Catholics rose in coordinated rebellion. The plantation experiment exploded into violence as rebels attacked settlers, seeking to reclaim their lands and drive out the planters. Thousands of Scots and English were killed, more were stripped of possessions and driven from their farms. The McCrearys, like other Presbyterian families, fled to fortified towns or fought back desperately. What had been an uneasy coexistence became a sectarian bloodbath that would poison Ulster's soil for centuries.
 
 ## Panel 8: Enter Cromwell (1649)
-![](./image-08.png)
+![](./image-08.jpg)
 <details>
 <summary>Show image description</summary>
 Panel 8
@@ -95,7 +95,7 @@ Illustrate Oliver Cromwell landing in Ireland with his New Model Army. Show him 
 Eight years of chaos later, Oliver Cromwell arrived in Ireland with England's professional New Model Army and a divine mission to punish Irish "barbarism." The English Parliament wanted revenge for 1641, wanted Ireland firmly controlled, and wanted to pay their army with confiscated Irish land. Cromwell was happy to oblige—he believed he was doing God's work. The Irish were about to learn that sometimes the cure is worse than the disease.
 
 ## Panel 9: The Siege of Drogheda (September 1649)
-![](./image-09.png)
+![](./image-09.jpg)
 <details>
 <summary>Show image description</summary>
 Panel 9
@@ -107,7 +107,7 @@ Show Cromwell's forces besieging the walled town of Drogheda. Depict the stone w
 When Drogheda's garrison refused to surrender, Cromwell made an example of them that would echo through Irish history. His forces stormed the walls and killed nearly the entire garrison—some 3,500 soldiers and many civilians. "I am persuaded that this is a righteous judgment of God," Cromwell wrote, apparently untroubled by conscience. He repeated the performance at Wexford weeks later. The message was clear: resistance would not be tolerated, and mercy was not on the menu.
 
 ## Panel 10: The Reconquest Complete (1653)
-![](./image-10.png)
+![](./image-10.jpg)
 <details>
 <summary>Show image description</summary>
 Panel 10
@@ -119,7 +119,7 @@ Depict the aftermath of Cromwell's conquest: a map of Ireland being redrawn by E
 By 1653, Cromwell's conquest was complete. Catholic landholding plummeted from 60% to 20% of Ireland. Thousands of Irish were killed, transported to the West Indies, or driven to marginal western lands. Protestant control—including the restored Ulster Plantation—was absolute. The McCrearys and other Presbyterian families returned to their lands, now more secure than ever. They had survived rebellion and reconquest. Surely now they could live in peace? (Narrator: They could not.)
 
 ## Panel 11: New Problems Emerge (1660s-1700s)
-![](./image-11.png)
+![](./image-11.jpg)
 <details>
 <summary>Show image description</summary>
 Panel 11
@@ -131,7 +131,7 @@ Show a Presbyterian church service being interrupted by Anglican officials. The 
 Victory's sweetness was short-lived. The restored monarchy and Anglican establishment viewed Presbyterians as barely better than Catholics. The Test Acts barred them from political office. Their marriages weren't fully recognized. Their schools faced restrictions. And economically, as plantation leases expired, landlords jacked up rents mercilessly. The McCrearys had crossed the sea to escape religious discrimination, fought to defend their farms, and now found themselves squeezed between Catholic resentment below and Anglican condescension above. Ireland was beginning to feel like a bad investment.
 
 ## Panel 12: Why America? (1710s)
-![](./image-12.png)
+![](./image-12.jpg)
 <details>
 <summary>Show image description</summary>
 Panel 12
@@ -143,7 +143,7 @@ Show a Ulster Presbyterian family around their dinner table, with an open letter
 By the 1710s, Ulster Presbyterians were reading letters from America that made Pennsylvania sound like the Promised Land: cheap land, religious freedom, no Anglican bishops, and no memory of 1641's bloodshed. When drought devastated Ulster's harvest in 1717-18, the decision became easy. The McCrearys, like thousands of Scotch-Irish families, decided that after a century of Scotland-to-Ireland, maybe Ireland-to-America would finally work out. Third time's the charm, right?
 
 ## Panel 13: The Atlantic Crossing (1717-1720)
-![](./image-13.png)
+![](./image-13.jpg)
 <details>
 <summary>Show image description</summary>
 Panel 13
@@ -155,7 +155,7 @@ Illustrate a sailing ship crossing the Atlantic, cutting through rough seas. On 
 The Atlantic crossing took eight brutal weeks in cramped, disease-ridden ships. But the McCrearys and their fellow Ulster Scots were tough—they'd survived Scotland's religious persecution, Ireland's rebellion, Cromwell's conquest, and a century of discrimination. What's a little dysentery between friends? They sang Psalms, buried their dead at sea, and kept their eyes on Pennsylvania. They weren't called "Scotch-Irish" yet—that term would come later. But they already carried the fierce independence that would define America's frontier.
 
 ## Panel 14: New Beginnings (1720s Pennsylvania)
-![](./image-14.png)
+![](./image-14.jpg)
 <details>
 <summary>Show image description</summary>
 Panel 14

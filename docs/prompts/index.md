@@ -33,3 +33,7 @@ These are example prompts used with Claude or other AI assistants to generate va
 **[Ulster Plantation Map](./ulster-plantation-map.md)** - Prompt for generating a focused map of Northern Ireland counties using Leaflet JavaScript library. Highlights specific Ulster counties with detailed borders.
 
 **[Graphic Novel Generation](./graphic-novel-generation.md)** - Detailed prompt for creating a 14-panel graphic novel explaining the Ulster Plantation and Scotch-Irish migration. Includes specific panel descriptions, image generation instructions, and narrative text format.
+
+### Announcement
+
+[Announcement](./announcement.md)
