@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>McCreary Settlements — Cumberland Valley (Leaflet)</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  <!-- Leaflet core -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""
+  />
+  <script
+    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""
+  ></script>
+
+  <!-- PolylineDecorator (correct package + path) -->
+  <script src="https://unpkg.com/leaflet-polylinedecorator@1.7.0/dist/leaflet.polylineDecorator.min.js"></script>
+
+  <!-- Silence favicon 404 in dev -->
+  <link rel="icon" href="data:,">
+
+  <style>
+    html, body { height: 100%; margin: 0; }
+    #map { height: 100vh; width: 100%; }
+    .legend {
+      background: white; padding: .6rem .8rem; border-radius: .5rem;
+      box-shadow: 0 1px 4px rgba(0,0,0,.2); line-height: 1.2; font: 14px/1.3 system-ui, sans-serif;
+    }
+    .legend .swatch{display:inline-block;width:14px;height:14px;margin-right:6px;border-radius:3px;vertical-align:middle}
+  </style>
+</head>
+<body>
+<div id="map" role="region" aria-label="Map of McCreary settlements in Pennsylvania's Cumberland Valley"></div>
+
+<script>
+/* ===========
+   Debug helpers
+   =========== */
+(function setupGlobalDebug(){
+  const start = performance.now();
+  console.log('%c[Init] McCreary Cumberland Valley map starting…','color:#1f6feb');
+  window.onerror = function(message, source, lineno, colno, error){
+    console.groupCollapsed('%c[Global Error]','color:#d62828');
+    console.error('message:', message);
+    console.error('source:', source);
+    console.error('line:col', lineno + ':' + colno);
+    console.error('error object:', error);
+    console.groupEnd();
+  };
+  window.addEventListener('load', () => {
+    console.log('%c[Perf] window.onload in %d ms','color:#8f6f00', Math.round(performance.now()-start));
+  });
+})();
+
+/* Utility for consistent log groups */
+function logGroup(title, color, fn){
+  console.groupCollapsed(`%c${title}`, `color:${color}`);
+  try { fn(); } finally { console.groupEnd(); }
+}
+
+/* Tiny helper to describe a layer for logs */
+function layerSignature(layer){
+  if (!layer) return '⛔️ undefined/null';
+  const ctor = (layer.constructor && layer.constructor.name) || typeof layer;
+  const has = {
+    getLatLng: typeof layer.getLatLng === 'function',
+    getLatLngs: typeof layer.getLatLngs === 'function',
+    getBounds: typeof layer.getBounds === 'function',
+    getLayers: typeof layer.getLayers === 'function'
+  };
+  return `${ctor} ${JSON.stringify(has)}`;
+}
+
+/* ===========
+   Map setup
+   =========== */
+let map;
+logGroup('[Leaflet] Map Init', '#2a9d8f', () => {
+  map = L.map('map', { scrollWheelZoom: true });
+  console.log('Map created:', !!map);
+
+  const tile = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 18,
+    attribution: '© OpenStreetMap contributors'
+  }).addTo(map);
+  tile.on('load', () => console.log('[Tiles] OSM tiles loaded OK.'));
+  tile.on('tileerror', (e) => console.warn('[Tiles] tileerror:', e));
+});
+
+/* ===========
+   Data layers
+   =========== */
+let towns, townLayer, cumberlandValley, blueMountain, southMountain, corridor, swArrowPath, ridgeFill;
+
+logGroup('[Data] Towns & Corridor', '#1f6feb', () => {
+  towns = [
+    { name: 'Harrisburg',   coords: [40.2732, -76.8867] },
+    { name: 'Carlisle',     coords: [40.2010, -77.2003] },
+    { name: 'Chambersburg', coords: [39.9376, -77.6611] }
+  ];
+  console.table(towns);
+
+  townLayer = L.layerGroup(
+    towns.map(t =>
+      L.circleMarker(t.coords, {
+        radius: 6, weight: 2, color: '#1f6feb', fillColor: '#8ec5ff', fillOpacity: 0.9
+      }).bindTooltip(`<b>${t.name}</b>`, {permanent:false, direction:'top'})
+    )
+  ).addTo(map);
+  console.log('Town layer added:', layerSignature(townLayer));
+
+  corridor = L.polyline(
+    towns.map(t => t.coords),
+    { color:'#d62828', weight:5, opacity:0.9 }
+  ).bindPopup(
+    "<b>Valley Settlement Corridor</b><br/>Harrisburg → Carlisle → Chambersburg (18th-century Scotch-Irish settlement pattern)."
+  ).addTo(map);
+  console.log('Settlement corridor added:', layerSignature(corridor));
+});
+
+logGroup('[Data] Valley Highlight', '#7cb342', () => {
+  cumberlandValley = L.polygon([
+    [40.35, -77.60],
+    [40.35, -76.75],
+    [39.85, -76.75],
+    [39.85, -77.60]
+  ], {
+    fillColor: '#ffd166', color: '#e09f3e', weight: 2, fillOpacity: 0.25
+  }).bindPopup(
+    "<b>Cumberland Valley</b><br/>A fertile corridor running SW from Harrisburg through Carlisle to Chambersburg."
+  ).addTo(map);
+  console.log('Valley polygon added:', layerSignature(cumberlandValley));
+});
+
+logGroup('[Data] Ridge Lines', '#444', () => {
+  blueMountain = L.polyline([
+    [40.45, -77.70],
+    [40.43, -77.55],
+    [40.41, -77.40],
+    [40.39, -77.25],
+    [40.37, -77.10],
+    [40.35, -76.95],
+    [40.33, -76.80]
+  ], { color:'#666', weight:3, opacity:0.8, dashArray:'6,6' })
+  .bindTooltip('Blue Mountain', {direction:'top'})
+  .addTo(map);
+
+  southMountain = L.polyline([
+    [40.25, -77.70],
+    [40.18, -77.55],
+    [40.10, -77.44],
+    [40.04, -77.36],
+    [39.99, -77.30],
+    [39.93, -77.22],
+    [39.86, -77.12]
+  ], { color:'#444', weight:3, opacity:0.8, dashArray:'6,6' })
+  .bindTooltip('South Mountain', {direction:'top'})
+  .addTo(map);
+
+  console.log('Ridge lines added:', layerSignature(blueMountain), layerSignature(southMountain));
+});
+
+logGroup('[Data] Ridge Shading', '#658d2f', () => {
+  ridgeFill = L.polygon([
+    [40.40, -77.65], [40.38, -77.50], [40.36, -77.35], [40.34, -77.20], [40.32, -77.05],
+    [40.20, -77.05], [40.15, -77.15], [40.08, -77.28], [40.02, -77.38], [39.95, -77.48],
+    [39.90, -77.60], [39.88, -77.70], [40.00, -77.70], [40.10, -77.70], [40.20, -77.70], [40.30, -77.68]
+  ], {
+    fillColor: '#7cb342', color:'#658d2f', weight:1, fillOpacity:0.15, dashArray: '2,6'
+  }).bindTooltip('Appalachian Ridges & Gaps (schematic)', {direction:'center'})
+  .addTo(map);
+  console.log('Ridge shading added:', layerSignature(ridgeFill));
+});
+
+/* ===========
+   Migration arrow (with safe-guard)
+   =========== */
+logGroup('[Decorator] Southwest Migration Arrow', '#2a9d8f', () => {
+  swArrowPath = L.polyline([
+    [40.32, -77.05], // near Harrisburg/Blue Mountain gap
+    [40.20, -77.22], // Carlisle
+    [39.94, -77.66], // Chambersburg
+    [39.62, -77.73], // toward MD line / Hagerstown approach
+    [39.34, -77.77]  // pushing SW toward the Shenandoah gateway
+  ], {
+    color:'#2a9d8f', weight:6, opacity:0.85
+  }).bindPopup(
+    "<b>Southwest Migration Corridor</b><br/>A natural passage along the Appalachians that funneled settlers south; this corridor fed into what became the <i>Great Wagon Road</i> through the backcountry."
+  ).addTo(map);
+  console.log('Base SW arrow path added:', layerSignature(swArrowPath));
+
+  const decoratorAvailable =
+    typeof L !== 'undefined' &&
+    L.polylineDecorator &&
+    L.Symbol &&
+    typeof L.Symbol.arrowHead === 'function';
+
+  console.log('Decorator available?', decoratorAvailable);
+
+  if (decoratorAvailable) {
+    try {
+      const decorator = L.polylineDecorator(swArrowPath, {
+        patterns: [{
+          offset: 25, repeat: 120,
+          symbol: L.Symbol.arrowHead({
+            pixelSize: 14, polygon: true,
+            pathOptions: { color:'#2a9d8f', weight: 0, fillOpacity: 0.95 }
+          })
+        }]
+      }).addTo(map);
+      console.log('Arrowheads added via leaflet-polylinedecorator.', layerSignature(decorator));
+    } catch (e) {
+      console.warn('Decorator call threw an exception; skipping arrowheads.', e);
+    }
+  } else {
+    console.warn('leaflet-polylinedecorator not loaded or missing L.Symbol.arrowHead; skipping arrowheads.');
+  }
+});
+
+/* ===========
+   Controls & legend
+   =========== */
+logGroup('[UI] Layers & Legend', '#8e44ad', () => {
+  const overlayMaps = {
+    "Towns": townLayer,
+    "Cumberland Valley (approx.)": cumberlandValley,
+    "Blue Mountain": blueMountain,
+    "South Mountain": southMountain,
+    "Settlement Corridor": corridor,
+    "SW Migration Arrow": swArrowPath,
+    "Ridge Shading": ridgeFill
+  };
+  L.control.layers(null, overlayMaps, {collapsed:true}).addTo(map);
+  console.log('Layer control added.');
+
+  const legend = L.control({ position: 'bottomleft' });
+  legend.onAdd = function () {
+    const div = L.DomUtil.create('div', 'legend');
+    div.innerHTML = `
+      <div><span class="swatch" style="background:#ffd166"></span> Cumberland Valley highlight</div>
+      <div><span class="swatch" style="background:#d62828"></span> Harrisburg→Carlisle→Chambersburg corridor</div>
+      <div><span class="swatch" style="background:#2a9d8f"></span> Southwest migration arrow (toward Great Wagon Road)</div>
+      <div><span class="swatch" style="background:#666"></span> Blue Mountain (ridge)</div>
+      <div><span class="swatch" style="background:#444"></span> South Mountain (ridge)</div>
+    `;
+    return div;
+  };
+  legend.addTo(map);
+  console.log('Legend added.');
+});
+
+/* ===========
+   Robust Fit View (defensive)
+   =========== */
+logGroup('[View] Fit Bounds (defensive)', '#e67e22', () => {
+  const candidates = [
+    ['townLayer', townLayer],
+    ['cumberlandValley', cumberlandValley],
+    ['blueMountain', blueMountain],
+    ['southMountain', southMountain],
+    ['corridor', corridor],
+    ['swArrowPath', swArrowPath],
+    // add ridgeFill if you want it to influence initial view:
+    // ['ridgeFill', ridgeFill],
+  ];
+
+  // Log signatures for all candidates
+  candidates.forEach(([name, layer]) => {
+    console.log(`Candidate ${name}:`, layerSignature(layer), layer);
+  });
+
+  // Only keep layers that can contribute to bounds
+  const usable = candidates.filter(([_, layer]) =>
+    layer &&
+    (typeof layer.getBounds === 'function' ||
+     typeof layer.getLatLng === 'function' ||
+     typeof layer.getLatLngs === 'function')
+  );
+
+  console.log('Usable layers for bounds:', usable.map(([n]) => n));
+
+  // Accumulate bounds defensively
+  let bounds = L.latLngBounds([]);
+  usable.forEach(([name, layer]) => {
+    try {
+      if (typeof layer.getBounds === 'function') {
+        const b = layer.getBounds();
+        bounds.extend(b);
+        console.log(`Extended by ${name} via getBounds():`, b.toBBoxString());
+      } else if (typeof layer.getLatLng === 'function') {
+        const ll = layer.getLatLng();
+        bounds.extend(ll);
+        console.log(`Extended by ${name} via getLatLng():`, ll);
+      } else if (typeof layer.getLatLngs === 'function') {
+        const ll = layer.getLatLngs();
+        const temp = L.polygon(ll).getBounds();
+        bounds.extend(temp);
+        console.log(`Extended by ${name} via getLatLngs()->temp polygon bounds:`, temp.toBBoxString());
+      } else {
+        console.warn(`Skipped ${name}: no bounds/latlng getters.`);
+      }
+    } catch (e) {
+      console.warn(`Skipping ${name} due to exception while computing bounds:`, e);
+    }
+  });
+
+  if (bounds.isValid && bounds.isValid()) {
+    const padded = bounds.pad(0.12);
+    map.fitBounds(padded);
+    console.log('fitBounds applied:', padded.toBBoxString());
+  } else {
+    console.warn('Computed bounds were not valid; falling back to a reasonable view over Cumberland Valley.');
+    map.setView([40.15, -77.30], 10);
+  }
+});
+</script>
+</body>
+</html>

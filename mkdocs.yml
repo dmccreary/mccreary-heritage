@@ -1,5 +1,5 @@
 site_name: 'McCreary Family Heritage'
-site_description: 'McCreary family heritage website and educational resources for teaching Scottish, Irish and immigration history and genealogy.'
+site_description: 'McCreary family heritage website and educational resources for teaching Scottish, Irish and immigration history.  Focus on building critical thinking skills.'
 site_author: 'Dan McCreary'
 repo_name: 'GitHub Repo'
 site_url: 'https://dmccreary.github.io/mccreary-heritage/'
@@ -29,6 +29,7 @@ nav:
     - Religion: sims/religion/index.md
     - Migration Simulation: sims/migration/index.md
     - Book Creation Workflow: sims/book-creation-workflow/index.md
+    - Cumberland Valley Map: sims/cumberland-valley/index.md
   - Stories:
     - List of Stories: stories/index.md
     - McCreary's Journey: stories/mccrearys-journey/index.md

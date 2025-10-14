@@ -92,6 +92,8 @@ Philadelphia in the early 18th century was the largest city in the colonies, but
 
 ### The Cumberland Valley
 
+![](./cumberland-valley.png)
+
 The Cumberland Valley, stretching southwest from Harrisburg through Carlisle to Chambersburg and beyond, became the first major concentration of McCreary settlement in Pennsylvania. This fertile valley, bounded by the Appalachian ridges, offered excellent agricultural land at affordable prices. The valley's orientation southwest along the Appalachian chain created a natural corridor that would eventually become the famous Great Wagon Road, channeling migration from Pennsylvania into the southern backcountry.
 
 McCreary families established farms in the Cumberland Valley beginning in the 1720s and continuing through the mid-18th century. They created dispersed settlement patterns rather than nucleated villages, with families claiming land, clearing forests, and establishing individual farmsteads connected by rough roads and paths. The typical farm ranged from 100 to 300 acres, though some families acquired larger holdings over time.
