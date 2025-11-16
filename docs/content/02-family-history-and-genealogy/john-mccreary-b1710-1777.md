@@ -6,6 +6,12 @@ What the sources say about *John McCreary (1710--1777)* and his descendants
 
 -   There is a FamilySearch catalog entry for a work titled *John McCreary clan / by Marjorie MacCreary*, which describes **John McCreary (1710--1777) of Lancaster County, Pennsylvania** as father of **three sons and four daughters**. [FamilySearch](https://www.familysearch.org/en/search/catalog/153718?utm_source=chatgpt.com)
 
+The Father is listed as [John McCreary b1661](https://www.familysearch.org/en/tree/person/details/PM1L-C6G)
+
+
+## John McCreary b1710
+[John McCreary b1710](https://www.familysearch.org/en/tree/person/details/KGS9-JPB)
+
 -   The sons are listed: Joseph (b. 1732), John (b. 1733), Samuel (b. 1739). [FamilySearch+1](https://www.familysearch.org/library/books/records/print?page=1&perpage=10&search=MCCREARY&sort=_score&utm_source=chatgpt.com)
 
 -   The compilation claims that descendants of his sons moved into Pennsylvania, Ohio, Indiana, Michigan, etc. [FamilySearch+1](https://www.familysearch.org/library/books/records/print?page=1&perpage=10&search=MCCREARY&sort=_score&utm_source=chatgpt.com)
@@ -32,10 +38,8 @@ These local references help place him spatially in the Lancaster / Pequea region
 
 These variant-name and family tradition sources are weaker evidence, but they show that genealogists believe a Scottish → Ulster → America route is plausible for the McCreary / McCreery line.
 
-* * * *
 
 Gaps, uncertainties, and challenges
------------------------------------
 
 While the tradition is strong, I did **not** find:
 
@@ -49,7 +53,6 @@ So far, the evidence is **genealogical reconstruction** and **local histories**,
 
 I checked a number of digitized catalogues, parish register indexes, and surname-occurrence tools, but found **no definitive primary record** of a *John McCreary* (or exact variant) born ~1710 in County Antrim. Below is a summary of what **is** found (or not found) and what that tells us.
 
----
 
 ## What *is* found / relevant data points
 
@@ -76,7 +79,6 @@ I checked a number of digitized catalogues, parish register indexes, and surname
 5. **RootsIreland Antrim records index**
    The site shows what *online* Antrim records are currently indexed (baptism, marriage, burial) for various parishes, but many are later or partial (18th/19th). ([rootsireland.ie][4])
 
----
 
 ## Interpretation & constraints
 
@@ -84,7 +86,6 @@ I checked a number of digitized catalogues, parish register indexes, and surname
 * The presence of *McCreery / McCreary* in Ulster (e.g. in the 1631 muster roll) increases the surname’s plausibility in that region but does not tie it directly to your John.
 * The fact that Church of Ireland registers for Antrim (via digital portals) begin mostly in the **19th century** suggests a dearth of early digitized records. ([registers.nli.ie][3])
 
----
 
 If you like, the next step I can attempt would be:
 
