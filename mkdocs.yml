@@ -35,7 +35,7 @@ nav:
     - List of Stories: stories/index.md
     - McCreary's Journey: stories/mccrearys-journey/index.md
     - From Cathedral to Ruins: stories/churches/index.md
-  - FAQs: faqs.md
+  - FAQ: faq.md
   - Quiz: quiz.md
   - Glossary: glossary.md
   - Building History Websites: 
@@ -50,7 +50,7 @@ nav:
       - Ulster Plantation Maps: prompts/ulster-plantation-map.md
       - Timeline Chapter Text: prompts/timeline-chapter-text.md
       - Chapter Content Generation: prompts/chapter-content.md
-      - Generating FAQs: prompts/faqs.md
+      - Generating FAQ: prompts/faq.md
       - Generating Quiz Questions: prompts/quiz.md
       - Personas: prompts/personas.md
       - README: prompts/readme.md
