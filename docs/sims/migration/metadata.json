@@ -1,0 +1,42 @@
+{
+  "title": "McCreary Clan Migrations",
+  "description": "[Run the Migration Simulation With Zoom](./main2.html)",
+  "subject": "Mathematics",
+  "topic": "McCreary Clan Migrations",
+  "gradeLevel": "6-12",
+  "bloomsTaxonomy": [
+    "Understand",
+    "Apply"
+  ],
+  "author": "Dan McCreary",
+  "dateCreated": "2026-01-23",
+  "dateModified": "2026-01-23",
+  "version": "1.0.0",
+  "license": "MIT",
+  "language": "en",
+  "format": "text/html",
+  "type": "Interactive Simulation",
+  "framework": "leaflet",
+  "url": "https://dmccreary.github.io/mccreary-heritage/sims/migration/",
+  "identifier": "https://dmccreary.github.io/mccreary-heritage/sims/migration/",
+  "_source": {
+    "repo": "mccreary-heritage",
+    "sim": "migration",
+    "github_url": "https://github.com/dmccreary/mccreary-heritage/tree/main/docs/sims/migration",
+    "auto_generated": true,
+    "generation_date": "2026-01-23"
+  },
+  "subjects": [
+    "Mathematics",
+    "Computer Science",
+    "Chemistry",
+    "Engineering"
+  ],
+  "visualizationType": [
+    "animation",
+    "simulation",
+    "interactive-demo",
+    "timeline",
+    "map"
+  ]
+}
