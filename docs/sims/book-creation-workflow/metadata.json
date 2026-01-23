@@ -38,5 +38,11 @@
     "network",
     "timeline",
     "map"
+  ],
+  "learningObjectives": [
+    "Understand the mathematical concept of book creation workflow visualization",
+    "Apply book creation workflow visualization to solve problems",
+    "Visualize and interpret book creation workflow visualization relationships",
+    "Experiment with parameters to observe their effects on book creation workflow visualization"
   ]
 }
