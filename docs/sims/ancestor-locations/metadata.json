@@ -38,5 +38,35 @@
     "interactive-demo",
     "timeline",
     "map"
-  ]
+  ],
+  "learningObjectives": [
+    "Understand the mathematical concept of ancestor locations interactive map",
+    "Apply ancestor locations interactive map to solve problems",
+    "Visualize and interpret ancestor locations interactive map relationships",
+    "Experiment with parameters to observe their effects on ancestor locations interactive map"
+  ],
+  "pedagogical": {
+    "pattern": "demonstration",
+    "bloomAlignment": [
+      "understand",
+      "apply"
+    ],
+    "bloomVerbs": [
+      "classify",
+      "summarize",
+      "apply",
+      "illustrate",
+      "implement"
+    ],
+    "pacing": "self-paced",
+    "supportsPrediction": false,
+    "dataVisibility": "medium",
+    "feedbackType": [
+      "immediate",
+      "delayed",
+      "corrective",
+      "explanatory"
+    ],
+    "interactionStyle": "observe"
+  }
 }
