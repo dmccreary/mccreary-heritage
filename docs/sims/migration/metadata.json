@@ -44,5 +44,23 @@
     "Apply mccreary clan migrations to solve problems",
     "Visualize and interpret mccreary clan migrations relationships",
     "Experiment with parameters to observe their effects on mccreary clan migrations"
-  ]
+  ],
+  "pedagogical": {
+    "pattern": "demonstration",
+    "bloomAlignment": [
+      "understand",
+      "apply"
+    ],
+    "bloomVerbs": [
+      "explain",
+      "use"
+    ],
+    "pacing": "self-paced",
+    "supportsPrediction": false,
+    "dataVisibility": "medium",
+    "feedbackType": [
+      "none"
+    ],
+    "interactionStyle": "observe"
+  }
 }

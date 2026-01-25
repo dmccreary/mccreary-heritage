@@ -40,5 +40,28 @@
     "Apply a title under 60 characters. to solve problems",
     "Visualize and interpret a title under 60 characters. relationships",
     "Experiment with parameters to observe their effects on a title under 60 characters."
-  ]
+  ],
+  "pedagogical": {
+    "pattern": "exploration",
+    "bloomAlignment": [
+      "remember",
+      "understand",
+      "apply"
+    ],
+    "bloomVerbs": [
+      "list",
+      "recognize",
+      "describe",
+      "apply",
+      "calculate"
+    ],
+    "pacing": "self-paced",
+    "supportsPrediction": false,
+    "dataVisibility": "medium",
+    "feedbackType": [
+      "immediate",
+      "corrective"
+    ],
+    "interactionStyle": "manipulate"
+  }
 }
