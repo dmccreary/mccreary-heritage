@@ -1,0 +1,67 @@
+{
+  "title": "A title under 60 characters.",
+  "description": "A description under 110 characters.",
+  "subject": "Mathematics",
+  "topic": "A title under 60 characters.",
+  "gradeLevel": "6-12",
+  "bloomsTaxonomy": [
+    "Understand",
+    "Apply"
+  ],
+  "author": "Dan McCreary",
+  "dateCreated": "2026-01-23",
+  "dateModified": "2026-01-23",
+  "version": "1.0.0",
+  "license": "MIT",
+  "language": "en",
+  "format": "text/html",
+  "type": "Interactive Simulation",
+  "framework": "p5.js",
+  "url": "https://dmccreary.github.io/mccreary-heritage/sims/template/",
+  "identifier": "https://dmccreary.github.io/mccreary-heritage/sims/template/",
+  "_source": {
+    "repo": "mccreary-heritage",
+    "sim": "template",
+    "github_url": "https://github.com/dmccreary/mccreary-heritage/tree/main/docs/sims/template",
+    "auto_generated": true,
+    "generation_date": "2026-01-23"
+  },
+  "subjects": [
+    "Mathematics",
+    "Physics",
+    "Chemistry",
+    "Engineering"
+  ],
+  "visualizationType": [
+    "interactive-demo"
+  ],
+  "learningObjectives": [
+    "Understand the mathematical concept of a title under 60 characters.",
+    "Apply a title under 60 characters. to solve problems",
+    "Visualize and interpret a title under 60 characters. relationships",
+    "Experiment with parameters to observe their effects on a title under 60 characters."
+  ],
+  "pedagogical": {
+    "pattern": "exploration",
+    "bloomAlignment": [
+      "remember",
+      "understand",
+      "apply"
+    ],
+    "bloomVerbs": [
+      "list",
+      "recognize",
+      "describe",
+      "apply",
+      "calculate"
+    ],
+    "pacing": "self-paced",
+    "supportsPrediction": false,
+    "dataVisibility": "medium",
+    "feedbackType": [
+      "immediate",
+      "corrective"
+    ],
+    "interactionStyle": "manipulate"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "title": "Ancestor Locations Interactive Map",
+  "description": "This interactive map visualization shows the birth and death locations of George Boal McCreary's ancestors across Pennsylvania and North Carolina.",
+  "subject": "Mathematics",
+  "topic": "Ancestor Locations Interactive Map",
+  "gradeLevel": "6-12",
+  "bloomsTaxonomy": [
+    "Understand",
+    "Apply"
+  ],
+  "author": "Dan McCreary",
+  "dateCreated": "2026-01-23",
+  "dateModified": "2026-01-23",
+  "version": "1.0.0",
+  "license": "MIT",
+  "language": "en",
+  "format": "text/html",
+  "type": "Interactive Simulation",
+  "framework": "leaflet",
+  "url": "https://dmccreary.github.io/mccreary-heritage/sims/ancestor-locations/",
+  "identifier": "https://dmccreary.github.io/mccreary-heritage/sims/ancestor-locations/",
+  "_source": {
+    "repo": "mccreary-heritage",
+    "sim": "ancestor-locations",
+    "github_url": "https://github.com/dmccreary/mccreary-heritage/tree/main/docs/sims/ancestor-locations",
+    "auto_generated": true,
+    "generation_date": "2026-01-23"
+  },
+  "subjects": [
+    "Mathematics",
+    "Computer Science",
+    "Chemistry",
+    "Statistics"
+  ],
+  "visualizationType": [
+    "chart",
+    "graph",
+    "interactive-demo",
+    "timeline",
+    "map"
+  ],
+  "learningObjectives": [
+    "Understand the mathematical concept of ancestor locations interactive map",
+    "Apply ancestor locations interactive map to solve problems",
+    "Visualize and interpret ancestor locations interactive map relationships",
+    "Experiment with parameters to observe their effects on ancestor locations interactive map"
+  ],
+  "pedagogical": {
+    "pattern": "demonstration",
+    "bloomAlignment": [
+      "understand",
+      "apply"
+    ],
+    "bloomVerbs": [
+      "classify",
+      "summarize",
+      "apply",
+      "illustrate",
+      "implement"
+    ],
+    "pacing": "self-paced",
+    "supportsPrediction": false,
+    "dataVisibility": "medium",
+    "feedbackType": [
+      "immediate",
+      "delayed",
+      "corrective",
+      "explanatory"
+    ],
+    "interactionStyle": "observe"
+  }
+}
